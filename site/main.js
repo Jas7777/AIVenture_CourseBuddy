@@ -55,7 +55,7 @@ for(const course of COURSES) {
         // append and close dialog
         course.trayEntry = trayEntry;
         document.getElementById("tray" + curTray).append(trayEntry);
-        // modalLayer.style.display = "none"; removed such that the user can add multiple courses without having to constantly click the add button
+        // modalLayer.style.display = "none"; prevent dialog from closing after adding course, allowing user to select multiple in one modal instance
         updateStats();
         refreshFilters();
 
@@ -131,12 +131,42 @@ const add = tray => {
     modalLayer.style.display = "";
 };
 
+let engCredits = 0;
+let mathCredits = 0;
+let sciCredits = 0;
+let socCredits = 0;
+let PEcredits = 0;
+let healthCredits = 0;
+let CTEWLVPAcredits = 0;
 const updateStats = () => {
 
     // calculate credit requirements for graduation
-
+    //calculate the credits in each tray
+    for(const tray of trays) {
+        for(const course of tray) {
+            if(course.subject == "ENG") engCredits += Number(course.credits);
+            if(course.subject == "MATH") mathCredits += Number(course.credits);
+            if(course.subject == "SCI") sciCredits += Number(course.credits);
+            if(course.subject == "SOC") socCredits += Number(course.credits);
+            if(course.subject == "PE") PEcredits += Number(course.credits);
+            if(course.subject == "HEALTH") healthCredits += Number(course.credits);
+            if(course.subject == "CTE") CTEWLVPAcredits += Number(course.credits);
+        }
+        }
+        document.getElementById("engCreditsEarned").innerHTML = engCredits
+        document.getElementById("mathCreditsEarned").innerHTML = mathCredits
+        document.getElementById("sciCreditsEarned").innerHTML = sciCredits
+        document.getElementById("socCreditsEarned").innerHTML = socCredits
+        document.getElementById("PEcreditsEarned").innerHTML = PEcredits
+        document.getElementById("healthCreditsEarned").innerHTML = healthCredits
+        document.getElementById("CTEWLVPAcreditsEarned").innerHTML = CTEWLVPAcredits
+        document.getElementById("totalCreditsEarned").innerHTML = engCredits + mathCredits + sciCredits + socCredits + PEcredits + healthCredits + CTEWLVPAcredits;
 };
+
+//display the credits in the credits earned section 
+
 
 // init code
 updateStats();
 refreshFilters();
+
