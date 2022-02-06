@@ -55,7 +55,7 @@ for(const course of COURSES) {
         // append and close dialog
         course.trayEntry = trayEntry;
         document.getElementById("tray" + curTray).append(trayEntry);
-        modalLayer.style.display = "none";
+        // modalLayer.style.display = "none"; removed such that the user can add multiple courses without having to constantly click the add button
         updateStats();
         refreshFilters();
 
