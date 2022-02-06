@@ -10,7 +10,6 @@ h1, h2 {
     max-width: 80em;
     margin: auto;
     padding: 1.0em;
-    margin-top: 4.0em;
 }
 
 #course-trays {
@@ -158,11 +157,6 @@ fieldset {
 
 @media (max-width: 50em) {
 
-    /* remove global margin */
-    #column {
-        margin-top: 0;
-    }
-    
     /* make course trays follow each other vertically */
     #course-trays {
         flex-direction: column;
