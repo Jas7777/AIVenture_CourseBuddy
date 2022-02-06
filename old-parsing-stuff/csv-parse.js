@@ -18,7 +18,7 @@ module.exports = csv => {
         }
 
         // when newline is encountered, start new row
-        if(char === '\n') {
+        if(!quote && char === '\n') {
             if(cur.length > 0) {
                 row.push(cur);
             }
