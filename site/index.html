@@ -91,25 +91,31 @@
                 <p><b>Courses (0)</b></p>
                 <div id="courses-list">
                     <div style="position: absolute; width: 100%; height: 100%;">
-                        <div style="height: 100%; overflow: auto;">
+                        <div id="courses-list-internal">
+                            <!--
                             <div class="course-list-entry course-english">
                                 <h3 style="margin-bottom: 0">English 10 Honors</h3>
                                 <p style="margin-top: 0">10 credits/year &bull; Fulfills UC/CSU B requirement</p>
                                 <p>Students will focus on analyzing literature as they study dramatic works, poetry, short stories, and novels. Composition skills will be further developed through compare/contrast and persuasive essays and speeches. Career Path preparation continues with exploration of career paths, personal skills surveys, and appropriate technology. An additional focus will be college preparatory vocabulary. Student outcomes include work with reading, writing, literature, speaking, listening, personal responsibility, developing the capacity to reflect on their values, and social/cooperative skills.</p>
                                 <p><b>Prerequisites:</b> GATE identified or District Honors policy</p>
                             </div>
-                            <div class="course-list-entry course-science">
-                                <h3 style="margin-bottom: 0">AP Biology</h3>
-                                <p style="margin-top: 0">10 credits/year &bull; Fulfills UC/CSU D requirement</p>
-                                <p>AP Biology is a one-year course of college-level biology. It combines the study of biochemistry, molecular biology, anatomy and physiology, developmental biology, evolution and ecology. Instruction emphasizes the molecular approach to the study of major problems in biology. Advanced Placement (AP) classes are college level classes.</p>
-                                <p><b>Prerequisites:</b> B or higher in both semesters of Living Earth or Living Earth Honors (College Board recommends successful completion of Living Earth and Chemistry in the Earth Systems).</p>
-                            </div>
+                            -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         
+        <!-- course entry in course selector dialog -->
+        <template id="course-list-entry">
+            <div class="course-list-entry">
+                <h3></h3>
+                <p class="course-stats"></p>
+                <p class="course-description"></p>
+                <p><b>Prerequisites:</b> <span class="course-prereqs"></span></p>
+            </div>
+        </template>
+
         <script src="data.js"></script>
         <script src="main.js"></script>
 

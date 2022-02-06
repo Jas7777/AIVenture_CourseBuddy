@@ -126,13 +126,19 @@ legend {
 }
 
 #courses-list-internal {
-    position: absolute;
-    width: 100%;
     height: 100%;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .course-list-entry {
     margin: 1.0em;
     padding: 1.0em;
+}
+
+.course-title {
+    margin-bottom: 0;
+}
+
+.course-stats {
+    margin-top: 0;
 }
