@@ -103,7 +103,16 @@ h1, h2 {
 
 #select-course-dialog {
     margin: auto;
-    padding: 1.0em;
+    padding: 1.5em;
     background: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#select-course-dialog fieldset:not(:last-child) {
+    margin-right: 1.0em;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 13pt;
 }

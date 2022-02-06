@@ -1,4 +1,4 @@
-const COURSES = [{
+[{
     "description": "AVID (Advancement Via Individual Determination) is offered as an elective course that prepares students for entrance into four-year colleges. There is an emphasis on analytical writing, preparation for college entrance and placement exams, study skills and test taking, note-taking, and research. In AVID, students participate in activities that incorporate strategies focused on writing, inquiry, collaboration, and reading to support their academic growth. AVID students learn skills such as time management, note-taking, textbook reading, library research, and maintaining the AVID binder. Students are expected to maintain an organized binder including an assignment calendar, class and textbook notes, assignments, and homework, which is graded regularly.",
     "credits": "10 credits/year",
     "schools": ["KHS", "WHS"],
@@ -350,17 +350,6 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "76162"
-}, {
-    "description": "This course prepares students for the transition from classroom to a demanding work environment, as well as the challenges of independent living while maintaining full time employment. Students will have the opportunity to set career goals, learn to create presentations, understand the importance of professional dress, practice interviewing skills, and compile a personal portfolio to aid them in their job search.",
-    "credits": "5 credits/semester",
-    "schools": ["RHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "n/a",
-    "title": "Business & Professional Development",
-    "prereqs": "None",
-    "footnotes": "MVROP class taught at the school site.",
-    "courseCode": "74100"
 }, {
     "description": "This course introduces students to the fundamentals of computer hardware and software fundamentals, scripting basics, using remote access technologies, IoT device configuration and communication types, disaster prevention and recovery methods, including virtualization, cloud computing, and security. Students are also prepared for the A+ certification exam. Second-year students are introduced to the Linux operating system and network servers, and network security.",
     "credits": "10 credits/year",
@@ -779,17 +768,6 @@ const COURSES = [{
     "prereqs": "B or better in Publications 1 and completion of application process.",
     "footnotes": "May be repeated for credit. Attendance at numerous extracurricular events is mandatory.",
     "courseCode": "13021"
-}, {
-    "description": "This course is an introduction to myths from around the world. Students will study the similarities and differences between various  mythologies, analyze how past cultures have used mythology to explain the world and human nature, and explore why myths are  relevant to humans today. This class requires frequent reading of assigned myths, regular writing assignments, and occasional essays,  presentations, and projects. \n",
-    "credits": "5 credits/semester",
-    "schools": ["Vista"],
-    "subject": "English",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "g",
-    "title": "Mythology and Folklore",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "85192"
 }, {
     "description": "This is a performance class where skills in tone production, intonation, technique, music reading and musical expression will be studied. Attendance at evening concerts, parades, football games, community events and rehearsals will be required as scheduled. ",
     "credits": "10 credits/year",
@@ -1861,7 +1839,7 @@ const COURSES = [{
     "description": "The Physical Education 9 course will provide an opportunity for students to participate in a variety of sports and games designed to teach teamwork, movement skills and to increase fitness levels. Emphasis is placed on development, enjoyment, and appreciation of physical activity, leading to lifelong fitness and personal well-being. This course is required of ninth-grade students. The California Physical and Health-Related Fitness Test is given as a required measurement of fitness.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "Vista", "WHS"],
-    "subject": "Physical Education ",
+    "subject": "Physical Education",
     "gradesAvailable": [9],
     "ucCategory": "n/a",
     "title": "Physical Education 9",
@@ -1879,17 +1857,6 @@ const COURSES = [{
     "prereqs": "Physical Education 9. 10th grade status recommended.",
     "footnotes": "Repeatable for credit.",
     "courseCode": "72100"
-}, {
-    "description": "This Physical Education course is for 11th and 12th graders similar to P.E. 10 with the addition of some dual sports. Goal is to allow upper classmen to make up P.E. credits and to provide an elective opportunity.",
-    "credits": "10 credits/year",
-    "schools": ["RHS", "Vista"],
-    "subject": "Physical Education",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "n/a",
-    "title": "Physical Education 11-12",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "72110"
 }, {
     "description": "This course is designed as an elective class for students seriously interested in daily resistance training. Weight machines, free weights and plyometrics will be utilized.",
     "credits": "10 credits/year",
@@ -2232,50 +2199,6 @@ const COURSES = [{
     "footnotes": "This course is offered at the MVROP site. Transportation from the high schools to MVROP is available.",
     "courseCode": "74217"
 }, {
-    "description": "This course will cover basic knowledge about nutrition and wellness such as basic concepts of nutrition, the digestive and metabolic processes, nutrient requirements, dietary guidelines, importance of physical fitness, community health issues, food managements, and careers in the field of nutrition and wellness.",
-    "credits": "5 credits/semester",
-    "schools": ["Vista"],
-    "subject": "Science",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "n/a",
-    "title": "Nutrition",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "75701"
-}, {
-    "description": "Biology will begin with the roles of and differences between plant and animal cells, the functions of different organ systems, also cover cell division and the role of DNA and chromosomes in passing traits from parents to offspring.The first unit focuses on the classification, characteristics and biological processes of living organisms. Studnets will aslo study evolutionary mechanisms and the impact of environmental factors on species over time, the conservation of energy as it relates to living things and different ecosystems, andhow different ecosystems are interdependent.",
-    "credits": "10 credits/year",
-    "schools": ["Vista"],
-    "subject": "Science",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "d",
-    "title": "Biology",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "85142"
-}, {
-    "description": "Prerequisite: Successful completion of Algebra 1 with at least a grade of C or higher and Living Earth with a grade of C or higher. This course is aligned to the California Science Framework using the Next Generation Science Standards, which will prepare students to successfully pass the state science assessment and is eligible for UC/CSU credit. This course is a college preparatory lab course, which focuses on the study of inorganic chemistry: composition and structure, chemical reactions, and quantitative analysis. Trough collaborative lab activities, the course will also focus on: material science, the formation of the first elements, Earth’s atmosphere, and movement of energy through Earth’s systems and ways humans may control these movements. Students will also address the crosscutting concepts and engage in the science and engineering practices of NGSS.",
-    "credits": "10 credits/year",
-    "schools": ["Vista"],
-    "subject": "Science",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "d",
-    "title": "Chemistry",
-    "prereqs": "C or higher in Living Earth and Algebra 1.",
-    "footnotes": "",
-    "courseCode": "31110"
-}, {
-    "description": "Students will learn about the importance of environmental science as an interdisciplinary field. They will learn the importance of biodiversity for the survival of organisms, the importance of the food chain and the food web in the ecosystem, ecological interactions and succession. Students will explore the effects of climate change and different types of adaptation. Further, they will learn the steps of the water cycle, and how carbon, oxygen, nitrogen, and phosphorous cycle in the global environment.will learn about the factors that affect populations. Students will also lean about human population growth and its implications, the factors that lead to unequal distribution of natural resources on Earth, and waste management. Additionally, they will explore different forms of pollution, ways to control pollution, various nonrenewable/renewable energy sources, and the benefits of environmental policies and identify factors that affect sustainable development.",
-    "credits": "10 credits/year",
-    "schools": ["Vista"],
-    "subject": "Science",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "g",
-    "title": "Environmental Science",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "85145"
-}, {
     "description": "Big History is an interdisciplinary course that explores the history of the universe from the beginning of time, starting with the Big Bang to current human events. This course uses other disciplines, like Biology, Chemistry, Archaeology, Anthropology, among others, to explore and differentiate our universe’s history.",
     "credits": "10 credits/year",
     "schools": ["KHS"],
@@ -2386,31 +2309,9 @@ const COURSES = [{
     "footnotes": "",
     "courseCode": "41300"
 }, {
-    "description": "Economics is an introduction to macroeconomics and microeconomics, consumerism and comparative economic systems. Graphing skills as well as the ability to read charts and statistical information are used to complete assignments. Assessment of student work in Government and Economics is heavily dependent on cooperative learning skills, as many units of study require completion of group projects and service learning. ",
-    "credits": "10 credits/year",
-    "schools": ["OCC"],
-    "subject": "Social Science",
-    "gradesAvailable": [12],
-    "ucCategory": "g",
-    "title": "Economics",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "41300"
-}, {
     "description": "Government is a study of the structure of the United States government, the role of the citizen in a democratic republic, the significance of political parties and lobby groups, and the differences between the national government and the state’s and the state and local governments’ powers. Students are required to complete text reading including the Federalist Papers 10, 51 and 78 (as per the California Framework).",
     "credits": "5 credits/semester",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "RHS", "Vista", "WHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [12],
-    "ucCategory": "a",
-    "title": "American Government",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "41200"
-}, {
-    "description": "Government is a study of the structure of the United States government, the role of the citizen in a democratic republic, the significance of political parties and lobby groups, and the differences between the national government and the state’s and the state and local governments’ powers. Students are required to complete text reading including the Federalist Papers 10, 51 and 78 (as per the California Framework).",
-    "credits": "10 credits/year",
-    "schools": ["OCC"],
     "subject": "Social Science",
     "gradesAvailable": [12],
     "ucCategory": "a",
@@ -2672,17 +2573,6 @@ const COURSES = [{
     "footnotes": "JFKHS: Dual enrollment with Ohlone College",
     "courseCode": "76163"
 }, {
-    "description": "The class will help students see women’s past and current role in the country and in the world with a deeper understanding of their significance. Units include an overview of women’s coalitions, violence against women, international women’s issues, women and the media, body image, and a research project on a subject of personal choice. Through these topics students will be empowered with tools of political activism and self-advocacy as they question existing social and political structures. All students will have the opportunity to enhance their understanding of themselves and the world by studying inspirational examples of powerful women.",
-    "credits": "5 credits/semester",
-    "schools": ["Vista"],
-    "subject": "Social Science",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "",
-    "title": "Women's Studies",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "85193"
-}, {
     "description": "Ganas (Gaining Attitude and Accountability Necessary for Academic Success) is a course designed to help a willing student learn how to implement 7 highly effective habits into their daily life in order to become a successful individual. This is achieved through a variety of classroom methods including: meditation, growth mindset, affirmations, the 7 habits of highly effective teens, grade checks, physical workouts, and team building activities. The course motto is: \"Together We Rise\" which is symbolized by the Phoenix!",
     "credits": "10 credits/year",
     "schools": ["KHS"],
@@ -2693,17 +2583,6 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "75045"
-}, {
-    "description": "This course is an interdisciplinary college prep class designed to promote the values and beliefs needed to build and sustain a free and democratic society. Students will study the historical development and lessons surrounding collective violence and racism, making the connection between history and moral choices confronted in their own lives. Units of study center on literature, art and film. ",
-    "credits": "10 credits/year",
-    "schools": ["OCC"],
-    "subject": "Elective",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "g",
-    "title": "Literature, Justice and Society",
-    "prereqs": "Completion of English with a C or better.",
-    "footnotes": "",
-    "courseCode": "11260"
 }, {
     "description": "This course is designed to assist students in grade 9 with an Individual Education Plan (IEP) to support both academic and transition goals based on a student’s Individual Education Plan (IEP). Student will work on building academic and study skills necessary for success in their classes. Student may receive support with additional services as stated in their IEPs. This course is repeatable for elective credit. CORE support is available to students who receive special education services and enrollment is determined by an IEP team recommendation.",
     "credits": "10 credits/year",
