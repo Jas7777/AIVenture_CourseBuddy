@@ -7,37 +7,72 @@ h1, h2 {
 }
 
 #column {
-    max-width: 50em;
+    max-width: 80em;
     margin: auto;
+    padding: 1.0em;
     margin-top: 4.0em;
 }
 
 #course-trays {
     display: flex;
-    height: 30em;
     flex-direction: row;
     justify-content: center;
-    margin-top: 2.0em;
-}
-
-/* if the display is too narrow, make course trays vertical */
-@media (max-width: 50em) {
-    #course-trays {
-        flex-direction: column;
-        height: initial;
-    }
 }
 
 .tray {
+    font-weight: 500;
+    font-size: 14pt;
     flex-basis: 100%;
+    margin-right: 3.0em;
+    margin-top: 2.0em;
 }
 
 .tray-inner {
     height: 30em;
     border: 1px solid #aaa;
     border-radius: 5px;
+    padding: 1.0em;
+    display: flex;
+    flex-direction: column;
 }
 
-.tray:not(:last-child) {
-    margin-right: 1.0em;
+.tray:last-child {
+    margin-right: 0;
+}
+
+.add {
+    color: #57cbff;
+    text-decoration: none;
+    cursor: pointer;
+    float: right;
+}
+
+.add:hover {
+    text-decoration: underline;
+}
+
+.course {
+    background-color: #a1eeff;
+    padding: 0.5em;
+    font-size: 12pt;
+    font-weight: initial;
+}
+
+.course b:first-child { 
+    font-size: 13pt;
+}
+
+/* if the display is too narrow, make course trays vertical */
+@media (max-width: 50em) {
+    #course-trays {
+        flex-direction: column;
+    }
+
+    .tray-inner {
+        height: 10em;
+    }
+
+    .tray {
+        margin-right: 0;
+    }
 }
