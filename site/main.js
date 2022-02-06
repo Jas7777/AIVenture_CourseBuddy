@@ -48,6 +48,7 @@ for(const course of COURSES) {
         trayEntry.querySelector(".close-button").addEventListener("click", () => {
             trayEntry.remove();
             course.trayEntry = null;
+            updateStats();
             refreshFilters();
         });
 
@@ -55,6 +56,7 @@ for(const course of COURSES) {
         course.trayEntry = trayEntry;
         document.getElementById("tray" + curTray).append(trayEntry);
         modalLayer.style.display = "none";
+        updateStats();
         refreshFilters();
 
     });
@@ -106,7 +108,6 @@ schoolFilter.querySelectorAll("input").forEach(node => node.addEventListener("in
 gradeLevelFilter.querySelectorAll("input").forEach(node => node.addEventListener("input", refreshFilters));
 subjectAreaFilter.querySelectorAll("input").forEach(node => node.addEventListener("input", refreshFilters));
 ucReqsFilter.querySelectorAll("input").forEach(node => node.addEventListener("input", refreshFilters));
-refreshFilters();
 
 // select course modal close logic
 const modalLayer = document.getElementById("modal-layer");
@@ -120,3 +121,11 @@ const add = tray => {
     curTray = tray;
     modalLayer.style.display = "";
 };
+
+const updateStats = () => {
+    // TODO
+};
+
+// init code
+updateStats();
+refreshFilters();
