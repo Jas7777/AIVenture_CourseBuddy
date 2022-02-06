@@ -68,6 +68,8 @@ const refreshFilters = () => {
         course.element.style.display = courses.includes(course) ? "" : "none";
     }
 
+    document.getElementById("courses-count").textContent = `Courses (${courses.length})`;
+
 };
 
 // attach event listeners for filters
@@ -75,3 +77,4 @@ schoolFilter.querySelectorAll("input").forEach(node => node.addEventListener("in
 gradeLevelFilter.querySelectorAll("input").forEach(node => node.addEventListener("input", refreshFilters));
 subjectAreaFilter.querySelectorAll("input").forEach(node => node.addEventListener("input", refreshFilters));
 ucReqsFilter.querySelectorAll("input").forEach(node => node.addEventListener("input", refreshFilters));
+refreshFilters();

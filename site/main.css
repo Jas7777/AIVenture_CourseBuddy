@@ -84,6 +84,7 @@ h1, h2 {
 
 #select-course-dialog {
     margin: auto;
+    margin-top: 2.0em;
     padding: 1.5em;
     background: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
