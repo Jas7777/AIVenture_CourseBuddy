@@ -144,13 +144,14 @@ const updateStats = () => {
     //calculate the credits in each tray
     for(const tray of trays) {
         for(const course of tray) {
-            if(course.subject == "ENG") engCredits += Number(course.credits);
-            if(course.subject == "MATH") mathCredits += Number(course.credits);
-            if(course.subject == "SCI") sciCredits += Number(course.credits);
-            if(course.subject == "SOC") socCredits += Number(course.credits);
-            if(course.subject == "PE") PEcredits += Number(course.credits);
-            if(course.subject == "HEALTH") healthCredits += Number(course.credits);
-            if(course.subject == "CTE") CTEWLVPAcredits += Number(course.credits);
+            console.log(course.credits.substring(0, 2));
+            if(course.subject == "English") engCredits += Number(course.credits.substring(0, 2));
+            if(course.subject == "Math") mathCredits += Number(course.credits.substring(0, 2));
+            if(course.subject == "Science") sciCredits += Number(course.credits.substring(0, 2));
+            if(course.subject == "Social Science") socCredits += Number(course.credits.substring(0, 2));
+            if(course.subject == "PE") PEcredits += Number(course.credits.substring(0, 2));
+            if(course.subject == "Health Education") healthCredits += Number(course.credits.substring(0, 2));
+            if(course.subject == "Arts" || course.subject=="World Language") CTEWLVPAcredits += Number(course.credits.substring(0, 2));
         }
         }
         document.getElementById("engCreditsEarned").innerHTML = engCredits
