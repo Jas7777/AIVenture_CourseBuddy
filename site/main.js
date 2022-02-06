@@ -71,7 +71,8 @@ for(const course of COURSES) {
 const schoolFilter = document.getElementById("filter-school"),
       gradeLevelFilter = document.getElementById("filter-grade-level"),
       subjectAreaFilter = document.getElementById("filter-subject-area"),
-      ucReqsFilter = document.getElementById("filter-uc-req");
+      ucReqsFilter = document.getElementById("filter-uc-req"),
+      searchbar = document.getElementById("search");
 
 const refreshFilters = () => {
     
@@ -93,6 +94,13 @@ const refreshFilters = () => {
         }
     });
 
+    // apply search filters
+    const search = searchbar.value.trim().replace(/\s+/, " ");
+    if(search.length >= 3) {
+        const regex = new RegExp(search, "i")
+        courses = courses.filter(course => course.title.match(regex));
+    }
+
     // update element visibility
     for(const course of COURSES) {
         course.entry.style.display = courses.includes(course) ? "" : "none";
@@ -108,6 +116,7 @@ schoolFilter.querySelectorAll("input").forEach(node => node.addEventListener("in
 gradeLevelFilter.querySelectorAll("input").forEach(node => node.addEventListener("input", refreshFilters));
 subjectAreaFilter.querySelectorAll("input").forEach(node => node.addEventListener("input", refreshFilters));
 ucReqsFilter.querySelectorAll("input").forEach(node => node.addEventListener("input", refreshFilters));
+searchbar.addEventListener("input", refreshFilters);
 
 // select course modal close logic
 const modalLayer = document.getElementById("modal-layer");
@@ -123,7 +132,9 @@ const add = tray => {
 };
 
 const updateStats = () => {
-    // TODO
+
+    // calculate credit requirements for graduation
+
 };
 
 // init code

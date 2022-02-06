@@ -12,7 +12,17 @@
 
         <div id="column">
             <div>
-                <h1>CourseBuddy</h1>
+                <table>
+                    <tr><th>Subject</th><th>Credits Earned</th><th>Credits Required</th></tr>
+                    <tr><td>English</td><td></td><td>40</td></tr>
+                    <tr><td>Science</td><td></td><td>20</td></tr>
+                    <tr><td>Social Science</td><td></td><td>30</td></tr>
+                    <tr><td>Math</td><td></td><td>30</td></tr>
+                    <tr><td>PE</td><td></td><td>20</td></tr>
+                    <tr><td>World Language</td><td></td><td>10</td></tr>
+                    <tr><td>Health</td><td></td><td>5</td></tr>
+                    <tr><td>Total</td><td></td><td>230</td></tr>
+                </table>
             </div>
             <div id="course-trays">
                 <div class="tray">
@@ -51,6 +61,7 @@
                 <button class="close-button" id="modal-close">&times;</button>
                 <h2>Select Course</h2>
                 <p>Use the checkboxes to narrow down which courses you are interested in taking.</p>
+                <input type="text" id="search" placeholder="Course name or code...">
                 <form>
                     <fieldset id="filter-school">
                         <legend>School</legend>

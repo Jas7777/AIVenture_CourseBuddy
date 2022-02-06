@@ -146,6 +146,16 @@ fieldset {
     flex-direction: row;
 }
 
+/* stylize searchbar in course selection dialog */
+#search {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12pt;
+    padding: 0.5em;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
 @media (max-width: 50em) {
 
     /* remove global margin */
@@ -196,3 +206,25 @@ fieldset {
     right: 5px;
 }
 
+/* table styles */
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.5em;
+}
+
+th {
+    padding: 1.0em;
+    padding-bottom: 0.5em;
+    font-weight: 500;
+}
+
+tr:not(:last-child) td {
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    border-bottom: 1px solid #000000;
+}
