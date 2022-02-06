@@ -43,63 +43,57 @@
 
         <div id="modal-layer">
             <div id="select-course-dialog">
+                <span class="close-button-for-modal">&times;</span>
                 <h2>Select Course</h2>
+                <p>Use the checkboxes to narrow down which courses you are interested in taking.</p>
                 <form>
-                    <fieldset style="width: 100%; box-sizing: border-box;">
+                    <fieldset id="filter-school">
                         <legend>School</legend>
-                        <input type="radio" id="school-AHS" name="school"><label for="school-AHS">AHS</label>
-                        <input type="radio" id="school-IHS" name="school"><label for="school-IHS">IHS</label>
-                        <input type="radio" id="school-WHS" name="school"><label for="school-WHS">WHS</label>
-                        <input type="radio" id="school-KHS" name="school"><label for="school-KHS">KHS</label>
-                        <input type="radio" id="school-MSJHS" name="school"><label for="school-MSJHS">MSJHS</label>
-                        <input type="radio" id="school-MVROP" name="school"><label for="school-MVROP">MVROP</label>
+                        <input type="radio" id="school-AHS" name="school" value="AHS"><label for="school-AHS">AHS</label>
+                        <input type="radio" id="school-IHS" name="school" value="IHS"><label for="school-IHS">IHS</label>
+                        <input type="radio" id="school-WHS" name="school" value="WHS"><label for="school-WHS">WHS</label>
+                        <input type="radio" id="school-KHS" name="school" value="KHS"><label for="school-KHS">KHS</label>
+                        <input type="radio" id="school-MSJHS" name="school" value="MSJHS" checked><label for="school-MSJHS">MSJHS</label>
+                        <input type="radio" id="school-MVROP" name="school" value="MVROP"><label for="school-MVROP">MVROP</label>
                     </fieldset>
-                    <div style="display: flex; flex-direction: row;">
-                        <fieldset>
+                    <div id="filters">
+                        <fieldset id="filter-grade-level">
                             <legend>Grades</legend>
-                            <input type="checkbox" id="grade-9"> <label for="grade-9">9th Grade</label><br>
-                            <input type="checkbox" id="grade-10"> <label for="grade-9">10th Grade</label><br>
-                            <input type="checkbox" id="grade-11"> <label for="grade-9">11th Grade</label><br>
-                            <input type="checkbox" id="grade-12"> <label for="grade-9">12th Grade</label>
+                            <input type="checkbox" id="grade-9" value="9"> <label for="grade-9">9th Grade</label><br>
+                            <input type="checkbox" id="grade-10" value="10"> <label for="grade-9">10th Grade</label><br>
+                            <input type="checkbox" id="grade-11" value="11"> <label for="grade-9">11th Grade</label><br>
+                            <input type="checkbox" id="grade-12" value="12"> <label for="grade-9">12th Grade</label>
                         </fieldset>
-                        <fieldset>
+                        <fieldset id="filter-subject-area">
                             <legend>Subject Areas</legend>
-                            <input type="checkbox" id="subject-Math"> <label for="subject-Math">Math</label><br>
-                            <input type="checkbox" id="subject-Science"> <label for="subject-Science">Science</label><br>
-                            <input type="checkbox" id="subject-English"> <label for="subject-English">English</label><br>
-                            <input type="checkbox" id="subject-Social Science"> <label for="subject-Social Science">Social Science</label><br>
-                            <input type="checkbox" id="subject-World Language"> <label for="subject-World Language">World Language</label><br>
-                            <input type="checkbox" id="subject-Elective"> <label for="subject-Elective">Elective</label><br>
-                            <input type="checkbox" id="subject-Arts"> <label for="subject-Arts">Arts</label><br>
-                            <input type="checkbox" id="subject-Physical Education"> <label for="subject-Physical Education">Physical Education</label><br>
-                            <input type="checkbox" id="subject-Health Education"> <label for="subject-Health Education">Health Education</label><br>
-                            <input type="checkbox" id="subject-Career Technical Education"> <label for="subject-Career Technical Education">Career Technical Education</label><br>
-                            <input type="checkbox" id="subject-AVID"> <label for="subject-AVID">AVID</label><br>
+                            <input type="checkbox" id="subject-Math" value="Math"> <label for="subject-Math">Math</label><br>
+                            <input type="checkbox" id="subject-Science" value="Science"> <label for="subject-Science">Science</label><br>
+                            <input type="checkbox" id="subject-English" value="English"> <label for="subject-English">English</label><br>
+                            <input type="checkbox" id="subject-Social Science" value="Social Science"> <label for="subject-Social Science">Social Science</label><br>
+                            <input type="checkbox" id="subject-World Language" value="World Language"> <label for="subject-World Language">World Language</label><br>
+                            <input type="checkbox" id="subject-Elective" value="Elective"> <label for="subject-Elective">Elective</label><br>
+                            <input type="checkbox" id="subject-Arts" value="Arts"> <label for="subject-Arts">Arts</label><br>
+                            <input type="checkbox" id="subject-Physical Education" value="Physical Education"> <label for="subject-Physical Education">Physical Education</label><br>
+                            <input type="checkbox" id="subject-Health Education" value="Health Education"> <label for="subject-Health Education">Health Education</label><br>
+                            <input type="checkbox" id="subject-Career Technical Education" value="Career Technical Education"> <label for="subject-Career Technical Education">Career Technical Education</label><br>
+                            <input type="checkbox" id="subject-AVID" value="AVID"> <label for="subject-AVID">AVID</label><br>
                         </fieldset>
-                        <fieldset>
+                        <fieldset id="filter-uc-req">
                             <legend>UC Course Requirement</legend>
-                            <input type="checkbox" id="uc-A"> <label for="uc-A">A (Social Science)</label><br>
-                            <input type="checkbox" id="uc-B"> <label for="uc-B">B (English)</label><br>
-                            <input type="checkbox" id="uc-C"> <label for="uc-C">C (Mathematics)</label><br>
-                            <input type="checkbox" id="uc-D"> <label for="uc-D">D (Science)</label><br>
-                            <input type="checkbox" id="uc-E"> <label for="uc-E">E (World Language)</label><br>
-                            <input type="checkbox" id="uc-F"> <label for="uc-F">F (Arts)</label><br>
-                            <input type="checkbox" id="uc-G"> <label for="uc-G">G (Elective)</label><br>
+                            <input type="checkbox" id="uc-A" value="a"> <label for="uc-A">A (Social Science)</label><br>
+                            <input type="checkbox" id="uc-B" value="b"> <label for="uc-B">B (English)</label><br>
+                            <input type="checkbox" id="uc-C" value="c"> <label for="uc-C">C (Mathematics)</label><br>
+                            <input type="checkbox" id="uc-D" value="d"> <label for="uc-D">D (Science)</label><br>
+                            <input type="checkbox" id="uc-E" value="e"> <label for="uc-E">E (World Language)</label><br>
+                            <input type="checkbox" id="uc-F" value="f"> <label for="uc-F">F (Arts)</label><br>
+                            <input type="checkbox" id="uc-G" value="g"> <label for="uc-G">G (Elective)</label><br>
                         </fieldset>
                     </div>
                 </form>
-                <p><b>Courses (0)</b></p>
+                <p><b id="courses-count"></b></p>
                 <div id="courses-list">
                     <div style="position: absolute; width: 100%; height: 100%;">
                         <div id="courses-list-internal">
-                            <!--
-                            <div class="course-list-entry course-english">
-                                <h3 style="margin-bottom: 0">English 10 Honors</h3>
-                                <p style="margin-top: 0">10 credits/year &bull; Fulfills UC/CSU B requirement</p>
-                                <p>Students will focus on analyzing literature as they study dramatic works, poetry, short stories, and novels. Composition skills will be further developed through compare/contrast and persuasive essays and speeches. Career Path preparation continues with exploration of career paths, personal skills surveys, and appropriate technology. An additional focus will be college preparatory vocabulary. Student outcomes include work with reading, writing, literature, speaking, listening, personal responsibility, developing the capacity to reflect on their values, and social/cooperative skills.</p>
-                                <p><b>Prerequisites:</b> GATE identified or District Honors policy</p>
-                            </div>
-                            -->
                         </div>
                     </div>
                 </div>
@@ -113,7 +107,7 @@
                 <p class="course-stats"></p>
                 <p class="course-description"></p>
                 <p><b>Prerequisites:</b> <span class="course-prereqs"></span></p>
-                <a href="#">Add...</a>
+                <a href="#">Select..</a>
             </div>
         </template>
 
