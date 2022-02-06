@@ -72,27 +72,6 @@ h1, h2 {
 .course-arts { background-color: #a1c3ff; }
 .course-PE, .course-health, .course-CTE, .course-AVID { background-color: #cbcbcb; }
 
-/* if the display is too narrow, make course trays vertical */
-@media (max-width: 50em) {
-
-    #column {
-        margin-top: 0;
-    }
-    
-    #course-trays {
-        flex-direction: column;
-    }
-
-    .tray-inner {
-        height: 10em;
-    }
-
-    .tray {
-        margin-right: 0;
-    }
-
-}
-
 #modal-layer {
     position: fixed;
     top: 0;
@@ -100,6 +79,7 @@ h1, h2 {
     width: 100vw;
     height: 100vh;
     display: flex;
+    overflow: auto;
 }
 
 #select-course-dialog {
@@ -146,4 +126,49 @@ legend {
 
 fieldset {
     margin: 0;
+}
+
+#filter-school {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#filters {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 50em) {
+
+    /* remove global margin */
+    #column {
+        margin-top: 0;
+    }
+    
+    /* make course trays follow each other vertically */
+    #course-trays {
+        flex-direction: column;
+    }
+
+    /* reduce tray height */
+    .tray-inner {
+        height: 10em;
+    }
+
+    /* remove tray margin since they're now stacked*/ 
+    .tray {
+        margin-right: 0;
+    }
+
+    /* stack the filters, too */
+    #filters {
+        flex-direction: column;
+    }
+
+    #filter-school, #filters fieldset {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
 }
