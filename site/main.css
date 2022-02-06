@@ -125,6 +125,14 @@ legend {
     position: relative;
 }
 
-.course-list-entry {
+#courses-list-internal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
 
+.course-list-entry {
+    margin: 1.0em;
+    padding: 1.0em;
 }
