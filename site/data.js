@@ -1572,17 +1572,6 @@ const COURSES = [{
     "footnotes": "",
     "courseCode": "13022"
 }, {
-    "description": "",
-    "credits": "",
-    "schools": [""],
-    "subject": "",
-    "gradesAvailable": [0],
-    "ucCategory": "",
-    "title": "",
-    "prereqs": "",
-    "footnotes": "",
-    "courseCode": "13020"
-}, {
     "description": "Health is a one-semester course designed to complete the health and safety requirements for graduation. This course is required for ninth-grade students. The Board of Education approved a semester Health course for your child with the goal of promoting wholesome attitudes toward his/her own health, both physical and mental, and that the information received by the student will help him/her make intelligent decisions about life long health habits. Our one semester 9th grade Health course requirement includes the following four units: 1. Mental and Emotional Health 2. Use and Misuse of Chemical Substances 3. Nutrition, Fitness and Personal Health 4. Family, Life, and Sexual Health (Including Human reproduction, sexually transmitted diseases and HIV/AIDS Prevention Education) Refer to the course outline handout of the board adopted health curriculum. Imbedded in these courses of study are lessons on First Aid/Emergency Care/CPR, Disease & Disorders, scaffolded with an overarching framework of team building focus on wellness, balance and equity. FUSD uses the Holt Lifetime Health textbook and materials from the Rights, Respect, Responsibility (3Rs) curriculum within a Project Based Learning model which addresses CA State Standards. This program complies with Education Code. The Board of Education recognizes that Education Code 51240 states that “if any part of a school’s instruction in health conf licts with the religious training and beliefs of a parent or guardian of a pupil, the pupil, upon written request of the parent or guardian, shall be excused from the part of the instruction that conflicts with the religious training and beliefs.” Also, Education Code 51938 states “a parent or guardian of a pupil has the right to excuse their child from all or part of comprehensive sexual health education, HIV/AIDS prevention education, and assessments related to that education.",
     "credits": "5 credits/semester",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "RHS", "Vista", "WHS"],
