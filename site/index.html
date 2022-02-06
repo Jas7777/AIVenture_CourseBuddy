@@ -15,34 +15,39 @@
                 <h1>CourseBuddy</h1>
             </div>
             <div id="course-trays">
-                <div class="tray" id="g9-tray">
+                <div class="tray">
                     <span>Freshman</span>
-                    <span><a class="add">+ Add</a></span>
-                    <div class="tray-inner">
-                        <div class="course course-english"><b>English 9 Honors</b><br>English &bull; 10 credits/year</div>
-                        <div class="course course-science"><b>Living Earth</b><br>Science &bull; 10 credits/year</div>
-                    </div>
+                    <span><a class="add" onclick="add(0)">+ Add</a></span>
+                    <div class="tray-inner" id="tray0"></div>
                 </div>
-                <div class="tray" id="g10-tray">
+                <div class="tray">
                     <span>Sophmore</span>
-                    <span><a class="add">+ Add</a></span>
-                    <div class="tray-inner"></div>
+                    <span><a class="add" onclick="add(1)">+ Add</a></span>
+                    <div class="tray-inner" id="tray1"></div>
                 </div>
-                <div class="tray" id="g11-tray">
+                <div class="tray">
                     <span>Junior</span>
-                    <span><a class="add">+ Add</a></span>
-                    <div class="tray-inner"></div>
+                    <span><a class="add" onclick="add(2)">+ Add</a></span>
+                    <div class="tray-inner" id="tray2"></div>
                 </div>
-                <div class="tray" id="g12-tray">
+                <div class="tray">
                     <span>Senior</span>
-                    <span><a class="add">+ Add</a></span>
-                    <div class="tray-inner"></div>
+                    <span><a class="add" onclick="add(3)">+ Add</a></span>
+                    <div class="tray-inner" id="tray3"></div>
                 </div>
             </div>
         </div>
 
-        <div id="modal-layer">
-            <div id="select-course-dialog" style="position: relative;">
+        <template id="course-tray-template">
+            <div class="course">
+                <b><span class="course-title"></span></b><br>
+                <span class="course-subject"></span> &bull; <span class="course-credits"></span>
+                <button class="close-button">&times;</button>
+            </div>
+        </template>
+
+        <div id="modal-layer" style="display: none">
+            <div id="select-course-dialog" style="position: relative">
                 <button class="close-button" id="modal-close">&times;</button>
                 <h2>Select Course</h2>
                 <p>Use the checkboxes to narrow down which courses you are interested in taking.</p>

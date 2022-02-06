@@ -1,6 +1,7 @@
 // add courses to selector
 const courseList = document.getElementById("courses-list-internal");
 const courseListEntryTemplate = document.getElementById("course-list-entry");
+const courseTrayTemplate = document.getElementById("course-tray-template");
 
 const SUBJECT_COLOR_CLASSES = {
     "Math": "course-math",
@@ -16,6 +17,7 @@ const SUBJECT_COLOR_CLASSES = {
     "AVID": "course-AVID"
 };
 
+// set up the course list in the couse selection dialog
 for(const course of COURSES) {
 
     // fill in fields
@@ -31,10 +33,34 @@ for(const course of COURSES) {
     // add link
     entry.querySelector("a").addEventListener("click", () => {
 
+        // add class to the correct tray (declared later in the script)
+        trays[curTray].push(course);
+
+        // create element
+        const template = courseTrayTemplate.content.cloneNode(true);
+        const trayEntry = template.querySelector(".course");
+        trayEntry.querySelector(".course-title").textContent = course.title;
+        trayEntry.querySelector(".course-subject").textContent = course.subject;
+        trayEntry.querySelector(".course-credits").textContent = course.credits;
+        trayEntry.classList.add(SUBJECT_COLOR_CLASSES[course.subject]);
+
+        // add logic for close button
+        trayEntry.querySelector(".close-button").addEventListener("click", () => {
+            trayEntry.remove();
+            course.trayEntry = null;
+            refreshFilters();
+        });
+
+        // append and close dialog
+        course.trayEntry = trayEntry;
+        document.getElementById("tray" + curTray).append(trayEntry);
+        modalLayer.style.display = "none";
+        refreshFilters();
+
     });
 
-    // add
-    course.element = entry.querySelector(".course-list-entry");
+    // add the entry
+    course.entry = entry.querySelector(".course-list-entry");
     courseList.append(entry);
 
 }
@@ -47,27 +73,30 @@ const schoolFilter = document.getElementById("filter-school"),
 
 const refreshFilters = () => {
     
+    // grab filter values from the DOM
     const school = schoolFilter.querySelector(":checked").value;
     const grades = [...gradeLevelFilter.querySelectorAll(":checked")].map(node => node.value);
     const subjects = [...subjectAreaFilter.querySelectorAll(":checked")].map(node => node.value);
     const ucReqs = [...ucReqsFilter.querySelectorAll(":checked")].map(node => node.value);
 
-    let courses = COURSES.filter(course => course.schools.includes(school));
-    
+    // only apply filter if at least one member of the group was selected
+    // eg if the user doesn't specify *any* UC reqs to filter by, ignore them
+    // (also, filter out already added courses)
+    let courses = COURSES.filter(course => !course.trayEntry && course.schools.includes(school));
+    if(subjects.length > 0) courses = courses.filter(course => subjects.includes(course.subject));
+    if(ucReqs.length > 0) courses = courses.filter(course => ucReqs.includes(course.ucCategory));
     if(grades.length > 0) courses = courses.filter(course => {
         for(const grade of grades) {
             if(course.gradesAvailable.includes(Number(grade))) return true;
         }
     });
 
-    console.log(subjects);
-    if(subjects.length > 0) courses = courses.filter(course => subjects.includes(course.subject));
-    if(ucReqs.length > 0) courses = courses.filter(course => ucReqs.includes(course.ucCategory));
-
+    // update element visibility
     for(const course of COURSES) {
-        course.element.style.display = courses.includes(course) ? "" : "none";
+        course.entry.style.display = courses.includes(course) ? "" : "none";
     }
 
+    // update courses count text
     document.getElementById("courses-count").textContent = `Courses (${courses.length})`;
 
 };
@@ -79,5 +108,15 @@ subjectAreaFilter.querySelectorAll("input").forEach(node => node.addEventListene
 ucReqsFilter.querySelectorAll("input").forEach(node => node.addEventListener("input", refreshFilters));
 refreshFilters();
 
+// select course modal close logic
 const modalLayer = document.getElementById("modal-layer");
 document.getElementById("modal-close").addEventListener("click", () => modalLayer.style.display = "none");
+
+// course-adding logic
+let curTray = 0; // which tray to add classes to
+const trays = [[], [], [], []];
+
+const add = tray => {
+    curTray = tray;
+    modalLayer.style.display = "";
+};

@@ -52,6 +52,7 @@ h1, h2 {
 }
 
 .course {
+    position: relative;
     padding: 0.5em;
     font-size: 12pt;
     font-weight: initial;
@@ -73,19 +74,24 @@ h1, h2 {
 .course-PE, .course-health, .course-CTE, .course-AVID { background-color: #cbcbcb; }
 
 #modal-layer {
+
+    /* occupy full screen */
     position: fixed;
-    background-color: rgba(0, 0, 0, 50%);
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
+
+    /* allow scrolling, the class selection modal often overflows */
     display: flex;
     overflow: auto;
+    
+    background-color: rgba(0, 0, 0, 50%);
+
 }
 
 #select-course-dialog {
     margin: auto;
-    margin-top: 2.0em;
     padding: 1.5em;
     background: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
