@@ -52,18 +52,32 @@ h1, h2 {
 }
 
 .course {
-    background-color: #a1eeff;
     padding: 0.5em;
     font-size: 12pt;
     font-weight: initial;
+    margin-bottom: 1.0em;
 }
 
 .course b:first-child { 
     font-size: 13pt;
 }
 
+/* course colors */
+.course-english {
+    background-color: #a1eeff;
+}
+
+.course-science {
+    background-color: #a1ffa1;
+}
+
 /* if the display is too narrow, make course trays vertical */
 @media (max-width: 50em) {
+
+    #column {
+        margin-top: 0;
+    }
+    
     #course-trays {
         flex-direction: column;
     }
@@ -75,4 +89,21 @@ h1, h2 {
     .tray {
         margin-right: 0;
     }
+
+}
+
+#modal-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#select-course-dialog {
+    margin: auto;
+    padding: 1.0em;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

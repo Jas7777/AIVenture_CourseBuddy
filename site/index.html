@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
+
         <div id="column">
             <div>
                 <h1>CourseBuddy</h1>
@@ -18,7 +19,8 @@
                     <span>Freshman</span>
                     <span><a class="add">+ Add</a></span>
                     <div class="tray-inner">
-                        <div class="course"><b>English 9 Honors</b><br>English &bull; 10 credits/year</div>
+                        <div class="course course-english"><b>English 9 Honors</b><br>English &bull; 10 credits/year</div>
+                        <div class="course course-science"><b>Living Earth</b><br>Science &bull; 10 credits/year</div>
                     </div>
                 </div>
                 <div class="tray" id="g10-tray">
@@ -38,7 +40,15 @@
                 </div>
             </div>
         </div>
+
+        <div id="modal-layer">
+            <div id="select-course-dialog">
+                <h2>Select Course</h2>
+            </div>
+        </div>
+        
         <script src="data.js"></script>
         <script src="main.js"></script>
+
     </body>
 </html>
