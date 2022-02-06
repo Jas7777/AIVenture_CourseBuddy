@@ -174,3 +174,14 @@ fieldset {
 
 
 }
+
+.close-button {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2.0em;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+

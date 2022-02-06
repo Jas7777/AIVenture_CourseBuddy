@@ -78,3 +78,6 @@ gradeLevelFilter.querySelectorAll("input").forEach(node => node.addEventListener
 subjectAreaFilter.querySelectorAll("input").forEach(node => node.addEventListener("input", refreshFilters));
 ucReqsFilter.querySelectorAll("input").forEach(node => node.addEventListener("input", refreshFilters));
 refreshFilters();
+
+const modalLayer = document.getElementById("modal-layer");
+document.getElementById("modal-close").addEventListener("click", () => modalLayer.style.display = "none");
