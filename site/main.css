@@ -63,13 +63,14 @@ h1, h2 {
 }
 
 /* course colors */
-.course-english {
-    background-color: #a1eeff;
-}
-
-.course-science {
-    background-color: #a1ffa1;
-}
+.course-english { background-color: #a1eeff; }
+.course-science { background-color: #a1ffa1; }
+.course-math { background-color: #ffa1a1; }
+.course-social-science { background-color: #a1a1ff; }
+.course-world-language { background-color: #ffa1ff; }
+.course-elective { background-color: #ffdda1; }
+.course-arts { background-color: #a1c3ff; }
+.course-PE, .course-health, .course-CTE, .course-AVID { background-color: #cbcbcb; }
 
 /* if the display is too narrow, make course trays vertical */
 @media (max-width: 50em) {
@@ -135,7 +136,7 @@ legend {
     padding: 1.0em;
 }
 
-.course-title {
+.course-list-entry h3 {
     margin-bottom: 0;
 }
 
