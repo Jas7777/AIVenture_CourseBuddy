@@ -27,6 +27,11 @@ for(const course of COURSES) {
 
     // assign a color
     entry.firstElementChild.classList.add(SUBJECT_COLOR_CLASSES[course.subject]);
+    
+    // add link
+    entry.querySelector("a").addEventListener("click", () => {
+
+    });
 
     // add
     courseList.append(entry);

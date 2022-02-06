@@ -45,16 +45,16 @@
             <div id="select-course-dialog">
                 <h2>Select Course</h2>
                 <form>
+                    <fieldset style="width: 100%; box-sizing: border-box;">
+                        <legend>School</legend>
+                        <input type="radio" id="school-AHS" name="school"><label for="school-AHS">AHS</label>
+                        <input type="radio" id="school-IHS" name="school"><label for="school-IHS">IHS</label>
+                        <input type="radio" id="school-WHS" name="school"><label for="school-WHS">WHS</label>
+                        <input type="radio" id="school-KHS" name="school"><label for="school-KHS">KHS</label>
+                        <input type="radio" id="school-MSJHS" name="school"><label for="school-MSJHS">MSJHS</label>
+                        <input type="radio" id="school-MVROP" name="school"><label for="school-MVROP">MVROP</label>
+                    </fieldset>
                     <div style="display: flex; flex-direction: row;">
-                        <fieldset>
-                            <legend>School</legend>
-                            <input type="radio" id="school-AHS" name="school"><label for="school-AHS">AHS</label><br>
-                            <input type="radio" id="school-IHS" name="school"><label for="school-IHS">IHS</label><br>
-                            <input type="radio" id="school-WHS" name="school"><label for="school-WHS">WHS</label><br>
-                            <input type="radio" id="school-KHS" name="school"><label for="school-KHS">KHS</label><br>
-                            <input type="radio" id="school-MSJHS" name="school"><label for="school-MSJHS">MSJHS</label><br>
-                            <input type="radio" id="school-MVROP" name="school"><label for="school-MVROP">MVROP</label>
-                        </fieldset>
                         <fieldset>
                             <legend>Grades</legend>
                             <input type="checkbox" id="grade-9"> <label for="grade-9">9th Grade</label><br>
@@ -113,6 +113,7 @@
                 <p class="course-stats"></p>
                 <p class="course-description"></p>
                 <p><b>Prerequisites:</b> <span class="course-prereqs"></span></p>
+                <a href="#">Add...</a>
             </div>
         </template>
 
