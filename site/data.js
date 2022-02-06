@@ -1,3 +1,4 @@
+const COURSES =
 [
     {
         "description": "AVID (Advancement Via Individual Determination) is offered as an elective course that prepares students for entrance into four-year colleges. There is an emphasis on analytical writing, preparation for college entrance and placement exams, study skills and test taking, note-taking, and research. In AVID, students participate in activities that incorporate strategies focused on writing, inquiry, collaboration, and reading to support their academic growth. AVID students learn skills such as time management, note-taking, textbook reading, library research, and maintaining the AVID binder. Students are expected to maintain an organized binder including an assignment calendar, class and textbook notes, assignments, and homework, which is graded regularly.",
