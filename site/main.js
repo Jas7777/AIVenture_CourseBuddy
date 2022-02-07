@@ -177,6 +177,7 @@ for(const category in credits) {
     const subject = document.createElement("td"); subject.textContent = category; row.append(subject);
     const earned = document.createElement("td"); credits[category].cell = earned; row.append(earned);
     const required = document.createElement("td"); required.textContent = credits[category].required; row.append(required);
+    earned.style.fontWeight = "bold";
     creditsTable.append(row);
 }
 
@@ -203,7 +204,11 @@ const updateStats = () => {
     credits["Total"].earned = Object.values(credits).reduce((a,c) => a + c.earned, 0);
 
     // update cells
-    for(const category in credits) credits[category].cell.textContent = credits[category].earned;
+    for(const category in credits) {
+        const credit = credits[category];
+        credit.cell.textContent = credit.earned;
+        credit.cell.style.color = credit.earned < credit.required ? "#ff0000" : "#4ed44e";
+    }
 
 }; 
 
