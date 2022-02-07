@@ -149,7 +149,7 @@ const credits = {
     "Social Science": {earned: 0, required: 30},
     "Math": {earned: 0, required: 30},
     "Physical Education": {earned: 0, required: 20},
-    "CTE/Fine Arts/World Language": {earned: 0, required: 10},
+    "Fine Arts/World Language": {earned: 0, required: 10},
     "Elective": {earned: 0},
     "Health": {earned: 0, required: 5},
     "Total": {earned: 0, required: 230}
@@ -161,17 +161,17 @@ const subjectToCreditCategory = {
     "Science": "Science",
     "English": "English",
     "Social Science": "Social Science",
-    "World Language": "CTE/Fine Arts/World Language",
+    "World Language": "Fine Arts/World Language",
     "Elective": "Elective",
-    "Arts": "CTE/Fine Arts/World Language",
+    "Arts": "Fine Arts/World Language",
     "Physical Education": "Physical Education",
     "Health Education": "Health",
-    "Career Technical Education": "CTE/Fine Arts/World Language"
+    "Career Technical Education": "Fine Arts/World Language"
     // ignore AVID since I don't know what type of credits it awards
 };
 
 // create table rows
-const creditsTable = document.getElementById("credits-table");
+const creditsTable = document.getElementById("credits-table-rows");
 for(const category in credits) {
     const row = document.createElement("tr");
     const subject = document.createElement("td"); subject.textContent = category; row.append(subject);
@@ -192,7 +192,7 @@ const AGRequirements = {
 };
 
 // create table rows
-const agTable = document.getElementById("ag-table");
+const agTable = document.getElementById("ag-table-rows");
 for(const category in AGRequirements) {
     const row = document.createElement("tr");
     const requirement = AGRequirements[category];
@@ -255,7 +255,7 @@ const updateAG = () => {
             cell.textContent = `No (have ${requirement.earned}, need ${requirement.required})`;
         } else if(requirement.earned < requirement.recommended) {
             cell.style.color = "#ffaa00";
-            cell.textContent = `Yes, but ${requirement.recommended} are recommended (have ${requirement.earned})`;
+            cell.textContent = `Yes, but ${requirement.recommended} recommended (have ${requirement.earned})`;
         } else {
             cell.style.color = "#4ed44e";
             cell.textContent = "Yes";
@@ -286,6 +286,7 @@ if(storedData) {
             }
         } 
     } catch(err) {
+        console.error(err);
         console.log("The stored course data was invalid, ignoring...");
     }
 }
