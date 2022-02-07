@@ -17,6 +17,38 @@ const SUBJECT_COLOR_CLASSES = {
     "AVID": "course-AVID"
 };
 
+const addCourse = (course, tray) => {
+
+    // add class to the correct tray (declared later in the script)
+    trays[tray].add(course);
+    saveSelection();
+
+    // create element
+    const template = courseTrayTemplate.content.cloneNode(true);
+    const trayEntry = template.querySelector(".course");
+    trayEntry.querySelector(".course-title").textContent = course.title + ` (${course.ucCategory})`;
+    trayEntry.querySelector(".course-subject").textContent = course.subject;
+    trayEntry.querySelector(".course-credits").textContent = course.credits;
+    trayEntry.classList.add(SUBJECT_COLOR_CLASSES[course.subject]);
+
+    // add logic for close button
+    trayEntry.querySelector(".close-button").addEventListener("click", () => {
+        trayEntry.remove();
+        trays[tray].delete(course);
+        course.trayEntry = null;
+        saveSelection();
+        refreshFilters();
+        updateStats();
+    });
+
+    // append and close dialog
+    course.trayEntry = trayEntry;
+    document.getElementById("tray" + tray).append(trayEntry);
+    updateStats();
+    refreshFilters();
+
+};
+
 // set up the course list in the couse selection dialog
 for(const course of COURSES) {
 
@@ -25,41 +57,14 @@ for(const course of COURSES) {
     entry.querySelector("h3").append(course.title);
     entry.querySelector(".course-stats").append(course.credits, " \u2022 ", course.ucCategory != "n/a" ? `Fulfills UC/CSU ${course.ucCategory.toUpperCase()} requirement` : "Does not fulfill any UC/CSU requirements");
     entry.querySelector(".course-description").append(course.description);
+    entry.querySelector(".course-footnote").append(course.footnotes);
     entry.querySelector(".course-prereqs").append(course.prereqs);
 
     // assign a color
     entry.firstElementChild.classList.add(SUBJECT_COLOR_CLASSES[course.subject]);
     
     // add link
-    entry.querySelector("a").addEventListener("click", () => {
-
-        // add class to the correct tray (declared later in the script)
-        trays[curTray].push(course);
-
-        // create element
-        const template = courseTrayTemplate.content.cloneNode(true);
-        const trayEntry = template.querySelector(".course");
-        trayEntry.querySelector(".course-title").textContent = course.title;
-        trayEntry.querySelector(".course-subject").textContent = course.subject;
-        trayEntry.querySelector(".course-credits").textContent = course.credits;
-        trayEntry.classList.add(SUBJECT_COLOR_CLASSES[course.subject]);
-
-        // add logic for close button
-        trayEntry.querySelector(".close-button").addEventListener("click", () => {
-            trayEntry.remove();
-            course.trayEntry = null;
-            updateStats();
-            refreshFilters();
-        });
-
-        // append and close dialog
-        course.trayEntry = trayEntry;
-        document.getElementById("tray" + curTray).append(trayEntry);
-        // modalLayer.style.display = "none"; prevent dialog from closing after adding course, allowing user to select multiple in one modal instance
-        updateStats();
-        refreshFilters();
-
-    });
+    entry.querySelector("a").addEventListener("click", () => addCourse(course, curTray));
 
     // add the entry
     course.entry = entry.querySelector(".course-list-entry");
@@ -122,52 +127,90 @@ searchbar.addEventListener("input", refreshFilters);
 const modalLayer = document.getElementById("modal-layer");
 document.getElementById("modal-close").addEventListener("click", () => modalLayer.style.display = "none");
 
+window.addEventListener("keydown", (event) => {
+    if(event.key == "Escape") {
+        modalLayer.style.display = "none";
+    }
+});
+
 // course-adding logic
 let curTray = 0; // which tray to add classes to
-const trays = [[], [], [], []];
+const trays = [new Set(), new Set(), new Set(), new Set()];
 
 const add = tray => {
     curTray = tray;
     modalLayer.style.display = "";
 };
 
-let engCredits = 0;
-let mathCredits = 0;
-let sciCredits = 0;
-let socCredits = 0;
-let PEcredits = 0;
-let healthCredits = 0;
-let CTEWLVPAcredits = 0;
-const updateStats = () => {
-
-    // calculate credit requirements for graduation
-    //calculate the credits in each tray
-    for(const tray of trays) {
-        for(const course of tray) {
-            console.log(course.credits.substring(0, 2));
-            if(course.subject == "English") engCredits += Number(course.credits.substring(0, 2));
-            if(course.subject == "Math") mathCredits += Number(course.credits.substring(0, 2));
-            if(course.subject == "Science") sciCredits += Number(course.credits.substring(0, 2));
-            if(course.subject == "Social Science") socCredits += Number(course.credits.substring(0, 2));
-            if(course.subject == "PE") PEcredits += Number(course.credits.substring(0, 2));
-            if(course.subject == "Health Education") healthCredits += Number(course.credits.substring(0, 2));
-            if(course.subject == "Arts" || course.subject=="World Language") CTEWLVPAcredits += Number(course.credits.substring(0, 2));
-        }
-        }
-        document.getElementById("engCreditsEarned").innerHTML = engCredits
-        document.getElementById("mathCreditsEarned").innerHTML = mathCredits
-        document.getElementById("sciCreditsEarned").innerHTML = sciCredits
-        document.getElementById("socCreditsEarned").innerHTML = socCredits
-        document.getElementById("PEcreditsEarned").innerHTML = PEcredits
-        document.getElementById("healthCreditsEarned").innerHTML = healthCredits
-        document.getElementById("CTEWLVPAcreditsEarned").innerHTML = CTEWLVPAcredits
-        document.getElementById("totalCreditsEarned").innerHTML = engCredits + mathCredits + sciCredits + socCredits + PEcredits + healthCredits + CTEWLVPAcredits;
+// credits
+const credits = {
+    "English": {earned: 0, required: 40},
+    "Science": {earned: 0, required: 20},
+    "Social Science": {earned: 0, required: 30},
+    "Math": {earned: 0, required: 30},
+    "PE": {earned: 0, required: 20},
+    "CTE/Fine Arts/World Language": {earned: 0, required: 10},
+    "Elective": {earned: 0},
+    "Health": {earned: 0, required: 5}
 };
 
-//display the credits in the credits earned section 
+// map course subject -> credit
+const subjectToCreditCategory = {
+    "Math": "Math",
+    "Science": "Science",
+    "English": "English",
+    "Social Science": "Social Science",
+    "World Language": "CTE/Fine Arts/World Language",
+    "Elective": "Elective",
+    "Arts": "Fine Arts/World Language",
+    "Physical Education": "PE",
+    "Health Education": "Health",
+    "Career Technical Education": "CTE/Fine Arts/World Language"
+    // ignore AVID since I don't know what type of credits it awards
+};
 
+const updateStats = () => {
+
+    // reset credits
+    for(const category in credits) credits[category].earned = 0;
+
+    // sum up credits
+    for(const tray of trays) {
+        for(const course of tray) {
+
+            // parse how many credits the course offers
+            const creditsEarned = Number(course.credits.split(" ")[0]);
+
+            // figure out which section the credits should go to
+            // this is a rather inexact process; there's limited information on how credits are calculated, and a lot of things are deduced
+            //credits[subjectToCreditCategory[course.subject]].earned += creditsEarned;
+        
+        }
+    }
+
+}; 
+
+// save selected classes
+const saveSelection = () => {
+    localStorage.setItem("courses", JSON.stringify(trays.map(tray => [...tray].map(course => course.courseCode))));
+};
+
+// try to restore selection
+const storedData = localStorage.getItem("courses");
+if(storedData) {
+    try {
+        const storedCourses = JSON.parse(storedData);
+        for(let i = 0; i < storedCourses.length; i++) {
+            for(const courseCode of storedCourses[i]) {
+                const course = COURSES.find(course => course.courseCode === courseCode);
+                addCourse(course, i);
+            }
+        } 
+    } catch(err) {
+        console.log("The stored course data was invalid, ignoring...");
+    }
+}
 
 // init code
 updateStats();
 refreshFilters();
-

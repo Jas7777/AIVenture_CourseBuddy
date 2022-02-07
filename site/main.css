@@ -222,3 +222,12 @@ tr:not(:last-child) td {
 th {
     border-bottom: 1px solid #000000;
 }
+
+/* only show remove button for classes on hover */
+.course .close-button {
+    display: none;
+}
+
+.course:hover .close-button {
+    display: initial;
+}
