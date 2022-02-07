@@ -131,18 +131,19 @@ const add = tray => {
     modalLayer.style.display = "";
 };
 
-let engCredits = 0;
-let mathCredits = 0;
-let sciCredits = 0;
-let socCredits = 0;
-let PEcredits = 0;
-let healthCredits = 0;
-let artCredits = 0;
-let electiveCredits = 0;
 const updateStats = () => {
 
     // calculate credit requirements for graduation
     //calculate the credits in each tray
+    //reset to zero every call to stop the accumulation bug
+    let engCredits = 0;
+    let mathCredits = 0;
+    let sciCredits = 0;
+    let socCredits = 0;
+    let PEcredits = 0;
+    let healthCredits = 0;
+    let artCredits = 0;
+    let electiveCredits = 0;
     for(const tray of trays) {
         for(const course of tray) {
             //add credits to the appropriate category
