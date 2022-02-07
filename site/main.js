@@ -100,10 +100,9 @@ const refreshFilters = () => {
     });
 
     // apply search filters
-    const search = searchbar.value.trim().replace(/\s+/, " ");
+    const search = searchbar.value.trim().replace(/\s+/, " ").toLowerCase();
     if(search.length >= 3) {
-        const regex = new RegExp(search, "i")
-        courses = courses.filter(course => course.title.match(regex));
+        courses = courses.filter(course => course.title.toLowerCase().includes(search) || course.courseCode.includes(search));
     }
 
     // update element visibility
