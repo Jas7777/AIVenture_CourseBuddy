@@ -163,7 +163,7 @@ const subjectToCreditCategory = {
     "Social Science": "Social Science",
     "World Language": "CTE/Fine Arts/World Language",
     "Elective": "Elective",
-    "Arts": "Fine Arts/World Language",
+    "Arts": "CTE/Fine Arts/World Language",
     "Physical Education": "Physical Education",
     "Health Education": "Health",
     "Career Technical Education": "CTE/Fine Arts/World Language"
@@ -181,8 +181,29 @@ for(const category in credits) {
     creditsTable.append(row);
 }
 
-const updateStats = () => {
+const AGRequirements = {
+    "A": {earned: 0, required: 2, desc: "History"},
+    "B": {earned: 0, required: 4, desc: "English"},
+    "C": {earned: 0, required: 3, desc: "Math"},
+    "D": {earned: 0, required: 2, recommended: 3, desc: "Science"},
+    "E": {earned: 0, required: 2, recommended: 3, desc: "World Language"},
+    "F": {earned: 0, required: 1, desc: "Art"},
+    "G": {earned: 0, required: 1, desc: "Elective"}
+};
 
+// create table rows
+const agTable = document.getElementById("ag-table");
+for(const category in AGRequirements) {
+    const row = document.createElement("tr");
+    const requirement = AGRequirements[category];
+    const desc = document.createElement("td");
+    desc.textContent = `${requirement.required} ${requirement.required != 1 ? "years" : "year"} of ${requirement.desc} (${category})`;
+    row.append(desc);
+    agTable.append(row);
+}
+
+const updateCredits = () => {
+    
     // reset credits
     for(const category in credits) credits[category].earned = 0;
 
@@ -195,6 +216,7 @@ const updateStats = () => {
 
             // figure out which section the credits should go to
             // this is a rather inexact process; there's limited information on how credits are calculated, and a lot of things are deduced
+            console.log(course.subject, subjectToCreditCategory[course.subject]);
             credits[subjectToCreditCategory[course.subject]].earned += creditsEarned;
 
         }
@@ -210,6 +232,17 @@ const updateStats = () => {
         credit.cell.style.color = credit.earned < credit.required ? "#ff0000" : "#4ed44e";
     }
 
+};
+
+const updateAG = () => {
+
+
+
+};
+
+const updateStats = () => {
+    updateCredits();
+    updateAG();
 }; 
 
 // save selected classes

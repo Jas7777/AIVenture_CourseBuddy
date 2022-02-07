@@ -10,6 +10,9 @@ h1, h2 {
     max-width: 80em;
     margin: auto;
     padding: 1.0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #course-trays {
@@ -171,6 +174,12 @@ fieldset {
     right: 5px;
 }
 
+#properties {
+    margin-top: 2.0em;
+    display: flex;
+    justify-content: center;
+}
+
 /* table styles */
 table {
     border-collapse: collapse;
@@ -178,6 +187,15 @@ table {
 
 td {
     padding: 0.5em;
+}
+
+/* center credits columns */
+#credits-table td:first-child {
+    text-align: right;
+}
+
+#credits-table td:not(:first-child) {
+    text-align: center;
 }
 
 th {
