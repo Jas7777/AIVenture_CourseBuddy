@@ -144,14 +144,14 @@ const add = tray => {
 
 // credits
 const credits = {
-    "English": {earned: 0, required: 40},
-    "Science": {earned: 0, required: 20},
-    "Social Science": {earned: 0, required: 30},
-    "Math": {earned: 0, required: 30},
-    "Physical Education": {earned: 0, required: 20},
-    "CTE/Fine Arts/World Language": {earned: 0, required: 10},
-    "Elective": {earned: 0},
-    "Health": {earned: 0, required: 5},
+    "English": {earned: 0, required: 40, missing: 40},
+    "Science": {earned: 0, required: 20, missing: 20},
+    "Social Science": {earned: 0, required: 30, missing: 30},
+    "Math": {earned: 0, required: 30,  missing: 30},
+    "Physical Education": {earned: 0, required: 20, missing: 20},
+    "CTE/Fine Arts/World Language": {earned: 0, required: 10, missing: 10},
+    "Elective": {earned: 0, required: 75, missing: 75},
+    "Health": {earned: 0, required: 5, missing: 5},
     "Total": {earned: 0, required: 230}
 };
 
@@ -177,6 +177,7 @@ for(const category in credits) {
     const subject = document.createElement("td"); subject.textContent = category; row.append(subject);
     const earned = document.createElement("td"); credits[category].cell = earned; row.append(earned);
     const required = document.createElement("td"); required.textContent = credits[category].required; row.append(required);
+    // const missing = document.createElement("td"); credits[category].cell = missing; row.append(missing);
     earned.style.fontWeight = "bold";
     creditsTable.append(row);
 }
@@ -196,6 +197,8 @@ const updateStats = () => {
             // figure out which section the credits should go to
             // this is a rather inexact process; there's limited information on how credits are calculated, and a lot of things are deduced
             credits[subjectToCreditCategory[course.subject]].earned += creditsEarned;
+            //add missing credits to the missing credits section
+            credits[subjectToCreditCategory[course.subject]].missing -= creditsEarned;
 
         }
     }
