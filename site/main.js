@@ -137,31 +137,36 @@ let sciCredits = 0;
 let socCredits = 0;
 let PEcredits = 0;
 let healthCredits = 0;
-let CTEWLVPAcredits = 0;
+let artCredits = 0;
+let electiveCredits = 0;
 const updateStats = () => {
 
     // calculate credit requirements for graduation
     //calculate the credits in each tray
     for(const tray of trays) {
         for(const course of tray) {
+            //add credits to the appropriate category
             console.log(course.credits.substring(0, 2));
             if(course.subject == "English") engCredits += Number(course.credits.substring(0, 2));
-            if(course.subject == "Math") mathCredits += Number(course.credits.substring(0, 2));
-            if(course.subject == "Science") sciCredits += Number(course.credits.substring(0, 2));
-            if(course.subject == "Social Science") socCredits += Number(course.credits.substring(0, 2));
-            if(course.subject == "PE") PEcredits += Number(course.credits.substring(0, 2));
-            if(course.subject == "Health Education") healthCredits += Number(course.credits.substring(0, 2));
-            if(course.subject == "Arts" || course.subject=="World Language") CTEWLVPAcredits += Number(course.credits.substring(0, 2));
+            else if(course.subject == "Math") mathCredits += Number(course.credits.substring(0, 2));
+            else if(course.subject == "Science") sciCredits += Number(course.credits.substring(0, 2));
+            else if(course.subject == "Social Science") socCredits += Number(course.credits.substring(0, 2));
+            else if(course.subject == "PE") PEcredits += Number(course.credits.substring(0, 2));
+            else if(course.subject == "Health Education") healthCredits += Number(course.credits.substring(0, 2));
+            else if(course.subject == "Arts" || course.subject=="World Language") artCredits += Number(course.credits.substring(0, 2));
+            else electiveCredits += Number(course.credits.substring(0, 2));
         }
         }
+        //render those credits, added the appropriate HTML elements before
         document.getElementById("engCreditsEarned").innerHTML = engCredits
         document.getElementById("mathCreditsEarned").innerHTML = mathCredits
         document.getElementById("sciCreditsEarned").innerHTML = sciCredits
         document.getElementById("socCreditsEarned").innerHTML = socCredits
         document.getElementById("PEcreditsEarned").innerHTML = PEcredits
         document.getElementById("healthCreditsEarned").innerHTML = healthCredits
-        document.getElementById("CTEWLVPAcreditsEarned").innerHTML = CTEWLVPAcredits
-        document.getElementById("totalCreditsEarned").innerHTML = engCredits + mathCredits + sciCredits + socCredits + PEcredits + healthCredits + CTEWLVPAcredits;
+        document.getElementById("artCreditsEarned").innerHTML = artCredits
+        document.getElementById("electiveCreditsEarned").innerHTML = electiveCredits
+        document.getElementById("totalCreditsEarned").innerHTML = (engCredits + mathCredits + sciCredits + socCredits + PEcredits + healthCredits + CTEWLVPAcredits);
 };
 
 //display the credits in the credits earned section 

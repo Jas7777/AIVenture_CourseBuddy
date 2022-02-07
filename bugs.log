@@ -1,0 +1,2 @@
+1. Weird bugs happen when you add two courses in one modal instance. They are both added to the category of the first course. EG adding club fitness then
+multivariable calculus gives you 15 PE credits
