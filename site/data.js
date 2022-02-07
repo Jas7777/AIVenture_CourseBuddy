@@ -2608,17 +2608,6 @@ const COURSES = [{
 }, {
     "description": "This course prepares students to be financially literate. Students will experience the “financial game of life”. Course includes understanding gross versus net pay, standard deductions, taxation, account balancing, purchasing items using loans (house, car), renting, leasing, credit (revolving and installment), tax preparation, budgeting and retirement planning.",
     "credits": "10 credits/year",
-    "schools": ["AHS", "WHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "g",
-    "title": "Personal Finance",
-    "prereqs": "None",
-    "footnotes": "This is a DECA approved class at WHS.",
-    "courseCode": "20903"
-}, {
-    "description": "This course prepares students to be financially literate. Students will experience the “financial game of life”. Course includes understanding gross versus net pay, standard deductions, taxation, account balancing, purchasing items using loans (house, car), renting, leasing, credit (revolving and installment), tax preparation, budgeting and retirement planning.",
-    "credits": "10 credits/year",
     "schools": ["AHS", "KHS", "Vista", "WHS"],
     "subject": "Math",
     "gradesAvailable": [11, 12],

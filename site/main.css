@@ -33,6 +33,7 @@ h1, h2 {
     padding: 1.0em;
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 
 .tray:last-child {
@@ -155,36 +156,6 @@ fieldset {
     border-radius: 5px;
 }
 
-@media (max-width: 50em) {
-
-    /* make course trays follow each other vertically */
-    #course-trays {
-        flex-direction: column;
-    }
-
-    /* reduce tray height */
-    .tray-inner {
-        height: 10em;
-    }
-
-    /* remove tray margin since they're now stacked*/ 
-    .tray {
-        margin-right: 0;
-    }
-
-    /* stack the filters, too */
-    #filters {
-        flex-direction: column;
-    }
-
-    #filter-school, #filters fieldset {
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-
-}
-
 .close-button {
 
     /* basic styles */
@@ -230,4 +201,33 @@ th {
 
 .course:hover .close-button {
     display: initial;
+}
+
+@media (max-width: 50em) {
+
+    /* make course trays follow each other vertically */
+    #course-trays {
+        flex-direction: column;
+    }
+
+    /* reduce tray height */
+    .tray-inner {
+        height: 10em;
+    }
+
+    /* remove tray margin since they're now stacked*/ 
+    .tray {
+        margin-right: 0;
+    }
+
+    /* stack the filters, too */
+    #filters {
+        flex-direction: column;
+    }
+
+    #filter-school, #filters fieldset {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
 }

@@ -148,10 +148,11 @@ const credits = {
     "Science": {earned: 0, required: 20},
     "Social Science": {earned: 0, required: 30},
     "Math": {earned: 0, required: 30},
-    "PE": {earned: 0, required: 20},
+    "Physical Education": {earned: 0, required: 20},
     "CTE/Fine Arts/World Language": {earned: 0, required: 10},
     "Elective": {earned: 0},
-    "Health": {earned: 0, required: 5}
+    "Health": {earned: 0, required: 5},
+    "Total": {earned: 0, required: 230}
 };
 
 // map course subject -> credit
@@ -163,11 +164,21 @@ const subjectToCreditCategory = {
     "World Language": "CTE/Fine Arts/World Language",
     "Elective": "Elective",
     "Arts": "Fine Arts/World Language",
-    "Physical Education": "PE",
+    "Physical Education": "Physical Education",
     "Health Education": "Health",
     "Career Technical Education": "CTE/Fine Arts/World Language"
     // ignore AVID since I don't know what type of credits it awards
 };
+
+// create table rows
+const creditsTable = document.getElementById("credits-table");
+for(const category in credits) {
+    const row = document.createElement("tr");
+    const subject = document.createElement("td"); subject.textContent = category; row.append(subject);
+    const earned = document.createElement("td"); credits[category].cell = earned; row.append(earned);
+    const required = document.createElement("td"); required.textContent = credits[category].required; row.append(required);
+    creditsTable.append(row);
+}
 
 const updateStats = () => {
 
@@ -183,10 +194,16 @@ const updateStats = () => {
 
             // figure out which section the credits should go to
             // this is a rather inexact process; there's limited information on how credits are calculated, and a lot of things are deduced
-            //credits[subjectToCreditCategory[course.subject]].earned += creditsEarned;
-        
+            credits[subjectToCreditCategory[course.subject]].earned += creditsEarned;
+
         }
     }
+
+    // total
+    credits["Total"].earned = Object.values(credits).reduce((a,c) => a + c.earned, 0);
+
+    // update cells
+    for(const category in credits) credits[category].cell.textContent = credits[category].earned;
 
 }; 
 
