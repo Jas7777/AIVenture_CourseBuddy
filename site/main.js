@@ -199,6 +199,7 @@ for(const category in AGRequirements) {
     const desc = document.createElement("td");
     desc.textContent = `${requirement.required} ${requirement.required != 1 ? "years" : "year"} of ${requirement.desc} (${category})`;
     row.append(desc);
+    row.append(requirement.cell = document.createElement("td"));
     agTable.append(row);
 }
 
@@ -216,7 +217,6 @@ const updateCredits = () => {
 
             // figure out which section the credits should go to
             // this is a rather inexact process; there's limited information on how credits are calculated, and a lot of things are deduced
-            console.log(course.subject, subjectToCreditCategory[course.subject]);
             credits[subjectToCreditCategory[course.subject]].earned += creditsEarned;
 
         }
@@ -236,7 +236,31 @@ const updateCredits = () => {
 
 const updateAG = () => {
 
+    for(const category in AGRequirements) AGRequirements[category].earned = 0;
 
+    for(const tray of trays) {
+        for(const course of tray) {
+            const requirement = AGRequirements[course.ucCategory.toUpperCase()];
+            if(requirement) {
+                requirement.earned += course.credits.includes("year") ? 1 : 0.5;
+            }
+        }
+    }
+
+    for(const category in AGRequirements) {
+        const requirement = AGRequirements[category];
+        const cell = requirement.cell;
+        if(requirement.earned < requirement.required) {
+            cell.style.color = "#ff0000";
+            cell.textContent = `No (have ${requirement.earned}, need ${requirement.required})`;
+        } else if(requirement.earned < requirement.recommended) {
+            cell.style.color = "#ffaa00";
+            cell.textContent = `Yes, but ${requirement.recommended} are recommended (have ${requirement.earned})`;
+        } else {
+            cell.style.color = "#4ed44e";
+            cell.textContent = "Yes";
+        }
+    }
 
 };
 
