@@ -193,7 +193,7 @@ td, th {
 
 /* center credits columns */
 table td:first-child {
-    text-align: right;
+    text-align: left;
 }
 
 #credits-table td:not(:first-child) {
@@ -201,7 +201,7 @@ table td:first-child {
 }
 
 #credits-table {
-    margin-right: 5.0em;
+    margin-right: 15.0em;
 }
 
 #ag-table td:last-child {
