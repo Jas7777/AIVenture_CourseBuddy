@@ -63,11 +63,9 @@ for(const course of COURSES) {
     // assign a color
     entry.firstElementChild.classList.add(SUBJECT_COLOR_CLASSES[course.subject]);
     
-    // add link
-    entry.querySelector("a").addEventListener("click", () => addCourse(course, curTray));
-
     // add the entry
     course.entry = entry.querySelector(".course-list-entry");
+    course.entry.addEventListener("click", () => addCourse(course, curTray));
     courseList.append(entry);
 
 }
@@ -149,7 +147,6 @@ const credits = {
     "Math": {earned: 0, required: 30},
     "Physical Education": {earned: 0, required: 20},
     "Fine Arts/World Language": {earned: 0, required: 10},
-    "Elective": {earned: 0, required: 75},
     "Health": {earned: 0, required: 5},
     "Total": {earned: 0, required: 230}
 };
@@ -215,11 +212,8 @@ const updateCredits = () => {
             const creditsEarned = Number(course.credits.split(" ")[0]);
 
             // figure out which section the credits should go to
-            // this is a rather inexact process; there's limited information on how credits are calculated, and a lot of things are deduced
-            if(credits[subjectToCreditCategory[course.subject]].earned>= credits[subjectToCreditCategory[course.subject]].required) 
-                credits["Elective"].earned += creditsEarned;
-            else
-                credits[subjectToCreditCategory[course.subject]].earned += creditsEarned;
+            // this is a rather inexact process because there's limited information on how credits are calculated
+            credits[subjectToCreditCategory[course.subject]].earned += creditsEarned;
 
         }
     }

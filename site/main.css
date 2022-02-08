@@ -125,6 +125,7 @@ legend {
 .course-list-entry {
     margin: 1.0em;
     padding: 1.0em;
+    cursor: pointer;
 }
 
 .course-list-entry h3 {
