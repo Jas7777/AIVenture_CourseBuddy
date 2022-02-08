@@ -149,7 +149,7 @@ const credits = {
     "Math": {earned: 0, required: 30},
     "Physical Education": {earned: 0, required: 20},
     "Fine Arts/World Language": {earned: 0, required: 10},
-    "Elective": {earned: 0},
+    "Elective": {earned: 0, required: 75},
     "Health": {earned: 0, required: 5},
     "Total": {earned: 0, required: 230}
 };
@@ -216,7 +216,10 @@ const updateCredits = () => {
 
             // figure out which section the credits should go to
             // this is a rather inexact process; there's limited information on how credits are calculated, and a lot of things are deduced
-            credits[subjectToCreditCategory[course.subject]].earned += creditsEarned;
+            if(credits[subjectToCreditCategory[course.subject]].earned>= credits[subjectToCreditCategory[course.subject]].required) 
+                credits["Elective"].earned += creditsEarned;
+            else
+                credits[subjectToCreditCategory[course.subject]].earned += creditsEarned;
 
         }
     }
