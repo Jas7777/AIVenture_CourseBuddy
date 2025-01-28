@@ -1,1 +1,123 @@
+[
+  {
+    "description": "AVID (Advancement Via Individual Determination) is offered as an elective course that prepares students for entrance into four-year colleges. There is an emphasis on analytical writing, preparation for college entrance and placement exams, study skills and test taking, note-taking, and research. In AVID, students participate in activities that incorporate strategies focused on writing, inquiry, collaboration, and reading to support their academic growth. AVID students learn skills such as time management, note-taking, textbook reading, library research, and maintaining the AVID binder. Students are expected to maintain an organized binder including an assignment calendar, class and textbook notes, assignments, and homework, which is graded regularly.",
+    "credits": "10 credits/year",
+    "schools": ["KHS", "WHS"],
+    "subject": "AVID",
+    "gradesAvailable": [9],
+    "ucCategory": "g",
+    "title": "AVID 9",
+    "prereqs": "None",
+    "footnotes": "Students who enroll in the course will be required to commit to the program for four years.",
+    "courseCode": "75013"
+  },
+  {
+    "description": "AVID (Advancement Via Individual Determination) is offered as an elective course that prepares students for entrance into four-year colleges. There is an emphasis on analytical writing, preparation for college entrance and placement exams, study skills and test taking, note-taking, and research. In AVID, students participate in activities that incorporate strategies focused on writing, inquiry, collaboration, and reading to support their academic growth. AVID students learn skills such as time management, note-taking, textbook reading, library research, and maintaining the AVID binder. Students are expected to maintain an organized binder including an assignment calendar, class and textbook notes, assignments, and homework, which is graded regularly.",
+    "credits": "10 credits/year",
+    "schools": ["KHS", "WHS"],
+    "subject": "AVID",
+    "gradesAvailable": [10],
+    "ucCategory": "g",
+    "title": "AVID 10",
+    "prereqs": "None",
+    "footnotes": "Students who enroll in the course will be required to commit to the program throughout high school.",
+    "courseCode": "75014"
+  },
+  {
+    "description": "AVID (Advancement Via Individual Determination) is offered as an elective course that prepares students for entrance into four-year colleges. There is an emphasis on analytical writing, preparation for college entrance and placement exams, study skills and test taking, note-taking, and research. In AVID, students participate in activities that incorporate strategies focused on writing, inquiry, collaboration, and reading to support their academic growth. AVID students learn skills such as time management, note-taking, textbook reading, library research, and maintaining the AVID binder. Students are expected to maintain an organized binder including an assignment calendar, class and textbook notes, assignments, and homework, which is graded regularly.",
+    "credits": "10 credits/year",
+    "schools": ["KHS", "WHS"],
+    "subject": "AVID",
+    "gradesAvailable": [11],
+    "ucCategory": "g",
+    "title": "AVID 11",
+    "prereqs": "None",
+    "footnotes": "Students who enroll in the course will be required to commit to the program throughout high school.",
+    "courseCode": "75015"
+  },
+  {
+    "description": "AVID (Advancement Via Individual Determination) is offered as an elective course that prepares students for entrance into four-year colleges. There is an emphasis on analytical writing, preparation for college entrance and placement exams, study skills and test taking, note-taking, and research. In AVID, students participate in activities that incorporate strategies focused on writing, inquiry, collaboration, and reading to support their academic growth. AVID students learn skills such as time management, note-taking, textbook reading, library research, and maintaining the AVID binder. Students are expected to maintain an organized binder including an assignment calendar, class and textbook notes, assignments, and homework, which is graded regularly.",
+    "credits": "10 credits/year",
+    "schools": ["KHS", "WHS"],
+    "subject": "AVID",
+    "gradesAvailable": [12],
+    "ucCategory": "g",
+    "title": "AVID Senior Seminar",
+    "prereqs": "AVID 10 and 11",
+    "footnotes": "",
+    "courseCode": "75017"
+  },
+  {
+    "description": "AVID tutor is a one year elective course for students wishing to be tutors in the AVID elective program. Students will tutor 5-7 AVID students twice a week during the tutorial portion of the AVID elective class, and assist the teacher in providing academic and organizational skills to students. The tutors are expected to be able to help in at least three academic subjects in which they have been successful, either in Honors or Advanced Placement levels. These could include, but are not limited to: World Languages, Language Arts, Mathematics, Sciences, and Social Sciences. Tutors will receive instruction and training using the inquiry method that encourages higher level thinking by students. Repeatable for credit.",
+    "credits": "10 credits/year",
+    "schools": ["KHS", "WHS"],
+    "subject": "AVID",
+    "gradesAvailable": [10, 11, 12],
+    "ucCategory": "n/a",
+    "title": "AVID Tutor",
+    "prereqs": "None",
+    "footnotes": "",
+    "courseCode": "75018"
+  },
+  {
+    "description": "This is a one semester course that teaches the basic operations of word processing, spreadsheets, presentation software, desktop publishing, file management, and typing by touch using Microsoft Office and Google Drive (Docs, Sheets, Slides).",
+    "credits": "5 credits/semester",
+    "schools": ["KHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [9],
+    "ucCategory": "n/a",
+    "title": "Computer Operations",
+    "prereqs": "None",
+    "footnotes": "",
+    "courseCode": "73002"
+  },
+  {
+    "description": "This survey course of engineering exposes students to major concepts they’ll encounter in postsecondary engineering courses of study. Students will employ engineering and scientific concepts in the solution of engineering design problems.",
+    "credits": "10 credits/year",
+    "schools": ["AHS", "IHS", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [10, 11, 12],
+    "ucCategory": "d",
+    "title": "Principles of Engineering",
+    "prereqs": "None",
+    "footnotes": "",
+    "courseCode": "73004"
+  },
+  {
+    "description": "This survey course of engineering exposes students to major concepts they’ll encounter in postsecondary engineering courses of study. Students employ engineering and scientific concepts in the solution of engineering design problems. They develop problem-solving skills and apply their knowledge of research and design to create solutions to various challenges, documenting their work and communicating solutions to peers and members of the professional community.",
+    "credits": "10 credits/year",
+    "schools": ["IHS", "KHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [10, 11, 12],
+    "ucCategory": "d",
+    "title": "Principles of Engineering (PLTW)",
+    "prereqs": "None",
+    "footnotes": "MVROP class taught at the school site. Las Positas College credit awarded.",
+    "courseCode": "74213"
+  },
+  {
+    "description": "This survey course of engineering exposes students to major concepts they’ll encounter in postsecondary engineering courses of study. Students will employ engineering and scientific concepts in the solution of engineering design problems. The honors curriculum will stress the math components that correspond with the curriculum and has increased performance expectations regarding communication of findings.",
+    "credits": "10 credits/year",
+    "schools": ["AHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [10, 11, 12],
+    "ucCategory": "d",
+    "title": "Principles of Engineering Honors",
+    "prereqs": "None",
+    "footnotes": "",
+    "courseCode": "73000"
+  },
+  {
+    "description": "This course is an introductory course, which develops students’ problem-solving skills, with emphasis placed upon the concept of developing 3-D models or solid rendering of an object. Engineering careers and educational preparation will be researched. This course is the first in a sequence of three engineering courses.",
+    "credits": "10 credits/year",
+    "schools": ["WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [9, 10, 11, 12],
+    "ucCategory": "f",
+    "title": "Introduction to Design",
+    "prereqs": "None",
+    "footnotes": "",
+    "courseCode": "73007"
+  }
+]
 
