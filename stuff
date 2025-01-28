@@ -119,5 +119,211 @@
     "footnotes": "",
     "courseCode": "73007"
   }
-]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "title": "Entrepreneurship",
+        "subject": "Career Technical Education",
+        "schools": ["AHS", "IHS", "MSJHS"],
+        "gradeLevels": [9, 10, 11, 12],
+        "ucCategory": "g",
+        "credits": "10 credits/year",
+        "description": "Students will learn what it takes to be an entrepreneur, including recognizing and evaluating a business opportunity. Students will expand their critical thinking, problem-solving, communication, and business skills through practice. Team and individual projects incorporate accounting, finance, marketing, operations, management, and understanding legal and economic environments. Students will develop and present a comprehensive business plan, the capital required, the return on investment desired, and the potential for profit. The curriculum is designed to help students explore entrepreneurship as a career pathway and provide a realistic framework for starting a new business.",
+        "prereqs": "None",
+        "footnotes": "This is a DECA approved class. MVROP class taught at the school site. Mission College Credit awarded.",
+        "courseCode": "74281"
+    },
+    {
+        "title": "Entrepreneurship",
+        "subject": "Career Technical Education",
+        "schools": ["MSJHS"],
+        "gradeLevels": [9, 10, 11, 12],
+        "ucCategory": "g",
+        "credits": "10 credits/year",
+        "description": "Students will learn what it takes to be an entrepreneur, including recognizing and evaluating a business opportunity. Students will expand their critical thinking, problem-solving, communication, and business skills through practice. Team and individual projects incorporate accounting, finance, marketing, operations, management, and understanding legal and economic environments. Students will develop and present a comprehensive business plan, the capital required, the return on investment desired, and the potential for profit. The curriculum is designed to help students explore entrepreneurship as a career pathway and provide a realistic framework for starting a new business.",
+        "prereqs": "None",
+        "footnotes": "This is a DECA approved class. MVROP class taught at the school site.",
+        "courseCode": "73017"
+    },
+    {
+        "title": "Event Planning and Catering",
+        "subject": "Career Technical Education",
+        "schools": ["AHS", "KHS"],
+        "gradeLevels": [11, 12],
+        "ucCategory": "n/a",
+        "credits": "10 credits/year",
+        "description": "Students learn the principles and practices of public relations, planning and organizing events, and preparation for employment opportunities with a variety of profit and non-profit organizations and corporations.",
+        "prereqs": "Completion of Culinary Arts 1 and 2",
+        "footnotes": "MVROP class taught at the school site. B or higher to be eligible for internships.",
+        "courseCode": "74280"
+    },
+    {
+        "title": "Entrepreneurial Marketing",
+        "subject": "Career Technical Education",
+        "schools": ["AHS", "IHS", "MSJHS"],
+        "gradeLevels": [10, 11, 12],
+        "ucCategory": "g",
+        "credits": "10 credits/year",
+        "description": "Students will understand the fundamentals of marketing and its importance to small businesses. This class focuses on essential ideas including identifying markets, the 4P’s (product, price, place & promotion), ethical practices, and the development of a marketing plan. The class will include career exploration and concepts of retail sales, business presentations, business management, and political influences. Students will need to follow oral and written directions, work well in groups and demonstrate good work habits to be successful in the course.",
+        "prereqs": "None",
+        "footnotes": "This is a DECA approved class. MVROP class taught at the school site. Mission College credit awarded.",
+        "courseCode": "74282"
+    },
+    {
+        "title": "Entrepreneurial Marketing",
+        "subject": "Career Technical Education",
+        "schools": ["MSJHS"],
+        "gradeLevels": [10, 11, 12],
+        "ucCategory": "g",
+        "credits": "10 credits/year",
+        "description": "Students will understand the fundamentals of marketing and its importance to small businesses. This class focuses on essential ideas including identifying markets, the 4P’s (product, price, place & promotion), ethical practices, and the development of a marketing plan. The class will include career exploration and concepts of retail sales, business presentations, business management, and political influences. Students will need to follow oral and written directions, work well in groups and demonstrate good work habits to be successful in the course.",
+        "prereqs": "None",
+        "footnotes": "This is a DECA approved class. MVROP class taught at the school site. Mission College credit awarded.",
+        "courseCode": "73018"
+    },
+    {
+        "title": "Business Ownership and Management",
+        "subject": "Career Technical Education",
+        "schools": ["WHS"],
+        "gradeLevels": [9, 10, 11, 12],
+        "ucCategory": "g",
+        "credits": "10 credits/year",
+        "description": "Basic principles in owning, running, or managing a small business; create a business plan, use business math and accounting principles; understand business systems/functions, advertising, marketing, merchandising and technology. Internships may qualify for up to 20 additional credits.",
+        "prereqs": "None",
+        "footnotes": "This is a DECA approved class. Dual credit with Mission and Chabot College.",
+        "courseCode": "73201"
+    },
+    {
+        "title": "Marketing 1",
+        "subject": "Career Technical Education",
+        "schools": ["WHS"],
+        "gradeLevels": [9, 10, 11, 12],
+        "ucCategory": "g",
+        "credits": "10 credits/year",
+        "description": "Students will learn the basics of advertising, marketing, merchandising, and technology in preparation for entry-level marketing positions and college-level study. They will understand elementary business systems, functions; and practices, and business math.",
+        "prereqs": "None",
+        "footnotes": "This is a DECA approved class.",
+        "courseCode": "73202"
+    },
+    {
+        "title": "Web Design",
+        "subject": "Career Technical Education",
+        "schools": ["WHS"],
+        "gradeLevels": [10, 11, 12],
+        "ucCategory": "f",
+        "credits": "10 credits/year",
+        "description": "Students will learn design principles to create Web sites of their choice using the latest software applications. Students will also learn to analyze Web sites created in a wide range of fields and various cultures. Topics include CSS, typography, color, copyright issues, accessibility, contracts, digital imaging optimization, and techniques to display sound, animation, and video.",
+        "prereqs": "None",
+        "footnotes": "This is a DECA approved class.",
+        "courseCode": "73205"
+    },
+    {
+        "title": "Anatomy and Physiology for Medical Careers",
+        "subject": "Career Technical Education",
+        "schools": ["KHS"],
+        "gradeLevels": [10, 11, 12],
+        "ucCategory": "g",
+        "credits": "10 credits/year",
+        "description": "An introductory course with a focus on learning about the human body or exploring a medical career. The course covers the eleven systems of the body with lectures, computer applications, written assignments, and tests.",
+        "prereqs": "C- or higher in Living Earth or Living Earth Honors and Chemistry (or taken concurrently with Chemistry).",
+        "footnotes": "MVROP class taught at the school site. Ohlone College credit awarded.",
+        "courseCode": "74008"
+    },
+    {
+        "title": "Basic Car Care",
+        "subject": "Career Technical Education",
+        "schools": ["WHS"],
+        "gradeLevels": [9, 10],
+        "ucCategory": "n/a",
+        "credits": "10 credits/year",
+        "description": "This course provides pre-entry level training in automotive service/maintenance and is designed to be the first course for students entering transportation technology career pathways. Instruction covers the following areas: engine systems, electrical systems, tires and brakes, lubrication service, cooling systems, ignition, and emission device service.",
+        "prereqs": "None",
+        "footnotes": "MVROP class taught at the school site.",
+        "courseCode": "74010"
+    },
+    {
+        "title": "Automotive Technology 1",
+        "subject": "Career Technical Education",
+        "schools": ["WHS"],
+        "gradeLevels": [10, 11, 12],
+        "ucCategory": "n/a",
+        "credits": "10 credits/year",
+        "description": "General auto repair, brakes, steering and suspension, electrical systems, engine performance. Students receive hands-on experience in auto shop operations, tool usage, safety procedures, equipment operation and customer service. Introduction to hybrid 'green' technology.",
+        "prereqs": "None",
+        "footnotes": "MVROP class taught at the school site. Chabot College credit awarded.",
+        "courseCode": "74050"
+    },
+    {
+        "title": "Automotive Technology 2",
+        "subject": "Career Technical Education",
+        "schools": ["WHS"],
+        "gradeLevels": [11, 12],
+        "ucCategory": "n/a",
+        "credits": "20 credits/year",
+        "description": "General auto repair, brakes, steering and suspension, electrical systems, engine performance. Students receive hands-on experience in auto shop operations, tool usage, safety procedures, equipment operation and customer service. Introduction to hybrid 'green' technology.",
+        "prereqs": "B- or higher in Auto Tech 1",
+        "footnotes": "MVROP class taught at the school site. Chabot College credit awarded.",
+        "courseCode": "74041"
+    },
+    {
+        "title": "Business & Professional Development",
+        "subject": "Career Technical Education",
+        "schools": ["RHS"],
+        "gradeLevels": [10, 11, 12],
+        "ucCategory": "n/a",
+        "credits": "5 credits/semester",
+        "description": "This course prepares students for the transition from classroom to a demanding work environment, as well as the challenges of independent living while maintaining full-time employment. Students will have the opportunity to set career goals, learn to create presentations, understand the importance of professional dress, practice interviewing skills, and compile a personal portfolio to aid them in their job search.",
+        "prereqs": "None",
+        "footnotes": "MVROP class taught at the school site.",
+        "courseCode": "74100"
+    },
+    {
+        "title": "Business & Professional Development Capstone",
+        "subject": "Career Technical Education",
+        "schools": ["RHS"],
+        "gradeLevels": [11, 12],
+        "ucCategory": "n/a",
+        "credits": "5 credits/semester",
+        "description": "This course prepares students for the transition from classroom to a demanding work environment, as well as the challenges of independent living while maintaining full-time employment. Students will have the opportunity to set career goals, learn to create presentations, understand the importance of professional dress, practice interviewing skills, and compile a personal portfolio to aid them in their job search.",
+        "prereqs": "None",
+        "footnotes": "MVROP class taught at the school site.",
+        "courseCode": "74101"
+    },
+    {
+        "title": "Internet Engineering 1",
+        "subject": "Career Technical Education",
+        "schools": ["IHS"],
+        "gradeLevels": [9, 10, 11, 12],
+        "ucCategory": "g",
+        "credits": "10 credits/year",
+        "description": "This course introduces the architectures, models, protocols, networking devices, applications, and data used in today’s modern computer networks – including IP addressing and Ethernet fundamentals. Students will build and configure simple local area networks (LANs), includes foundational network security.",
+        "prereqs": "None",
+        "footnotes": "MVROP class taught at the school site. Ohlone College credit awarded.",
+        "courseCode": "74370"
+    }
+
+
+
+
+
+
+
 
