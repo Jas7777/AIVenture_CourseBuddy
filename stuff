@@ -1,4 +1,16 @@
 const COURSES = [{
+    "description": "In this interdisciplinary course, students will begin with an examination of identity: exploring their own culture and heritage, and questioning their place in American society and the world. Through this course, students will analyze historic and contemporary systems of oppression focusing on the experiences of historically marginalized groups, while also exploring the resistance efforts and social movements for equity as a response to the aforementioned oppression. Some of these topics include but are not limited to racism, sexism, immigration/migration, climate justice, and current political/global dynamics. The course seeks to create a safe space for students to critically analyze, discuss, reflect, and act with empathy and allyship among and between their communities.",
+    "credits": "5 credits/semester",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "RHS", "Vista", "WHS"],
+    "subject": "Social Science",
+    "gradesAvailable": [9],
+    "ucCategory": "g",
+    "title": "Introduction to Ethnic Studies",
+    "prereqs": "None",
+    "footnotes": "",
+    "courseCode": "41452"
+},
+{
     "description": "The AP World History course is designed to follow the course outline as described by College Board. The purpose is to provide students with a broader understanding of the process and results of greater global contacts and interactions across continents and time periods. Students will acquire factual knowledge as well as further developing the skills of analysis and evaluation of the cultural, institutional and technological changes within and between political borders.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "WHS"],
