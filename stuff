@@ -1,4 +1,16 @@
 const COURSES = [{
+    "description": "The AP World History course is designed to follow the course outline as described by College Board. The purpose is to provide students with a broader understanding of the process and results of greater global contacts and interactions across continents and time periods. Students will acquire factual knowledge as well as further developing the skills of analysis and evaluation of the cultural, institutional and technological changes within and between political borders.",
+    "credits": "10 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "WHS"],
+    "subject": "Social Science",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "a",
+    "title": "AP World History",
+    "prereqs": "None",
+    "footnotes": "Advanced Placement (AP) classes are college level classes.",
+    "courseCode": "41410"
+},
+{
     "description": "In this course students will discover and explore manufacturing processes, product design, robotics, and automation, and then they will apply what they have learned to design solutions for real-world manufacturing problems.",
     "credits": "10 credits/year",
     "schools": ["AHS"],
@@ -354,17 +366,6 @@ const COURSES = [{
     "prereqs": "Successful completion of Living Earth and Chemistry or concurrent enrollment in Chemistry.",
     "footnotes": "Advanced Placement (AP) classes are college level classes.",
     "courseCode": "31210"
-}, {
-    "description": "This is a rigorous course designed for the student with ability and intense interest in the advanced study of European History. Students will work with primary documents and use a college-level text. Sophomores who opt to take this course will also fulfill their World History graduation requirement. Upper classmen may take this course for elective credit. The course begins with a study of the Black Death and continues to the fall of Communism. The course of study will follow the College Board curriculum in order to prepare for the AP test in May. There will also be post-test, standards-based curriculum from the California State Framework focusing on a more global view of today’s cultures.",
-    "credits": "10 credits/year",
-    "schools": ["AHS", "WHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [10],
-    "ucCategory": "a",
-    "title": "AP European History",
-    "prereqs": "",
-    "footnotes": "Advanced Placement (AP) classes are college level classes.",
-    "courseCode": "41050"
 }, {
     "description": "This course builds upon the skills acquired in the Level 3 language course, enhancing the students' abilities to express and defend opinions and to describe or narrate, conversationally or in writing, the events of their lives. A variety of literary selections form the basis for discussion and appreciation of (language) culture and civilization. Students taking AP designated classes will develop skills useful for the Advanced Placement Examination and more homework time will be required. A grade of C or higher is required to proceed to the next level. Some schools offer Level 4 classes as concurrent Ohlone courses.",
     "credits": "10 credits/year",
