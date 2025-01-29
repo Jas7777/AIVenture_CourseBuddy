@@ -1,4 +1,16 @@
 const COURSES = [{
+    "description": "This is a year-long combined course. During the first semester, in Principles of Biomedical Science, students explore concepts in biology and medicine such as genetics, microbiology, epidemiology, and clinical care. During the second semester, in Human Body Systems, students learn the interactions of human body systems and apply them to solve real-world medical cases.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "d",
+    "title": "Principles of BioMedical Science/Human Body Systems-PLTW",
+    "prereqs": "None",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available.",
+    "courseCode": "74217"
+},
+{
     "description": "This is a year-long combined course. First semester, in Honors Medical Interventions, students learn immunology, cancer biology, surgery, genetics, pharmacology, medical devices, and diagnostics. Second semester, in Honors Biomedical Innovation, students learn about public health, biomedical engineering, clinical medicine, and physiology. Work-related experience may be available.",
     "credits": "20 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
