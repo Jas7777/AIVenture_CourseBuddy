@@ -1,4 +1,15 @@
 const COURSES = [{
+    "description": " This course seeks to engage students in the exploration of modern poetry through both the dissection and composition of contemporary poetry. Students will learn about notable historical movements, poets, and genres that have inspired the last two centuries of poetic innovation. Students will analyze and explore the unique nuances of language utilized in poetry and learn to develop and articulate various interpretations of texts being studied. Inspired by this knowledge, students will compose their own original works, provide constructive feedback to one another, and ultimately complete the course with a portfolio of their own writing. ",
+    "credits": "10 credits/year",
+    "schools": ["AHS"],
+    "subject": "English",
+    "gradesAvailable": [10, 11, 12],
+    "ucCategory": "n/a",
+    "title": "Modern Poetry",
+    "prereqs": "None",
+    "footnotes": "",
+    "courseCode": "13030"
+},{
     "description": " Gaming Concepts: Broadcast Journalism Through Streaming & Shoutcasting teaches skills such as public speaking, script and story writing, broadcast hardware and software, revenue analysis, brand development and more all through the gaming and esports lens. Students will learn about and take on the roles of streamers, shoutcasters, broadcast producers, and more in this project-focused broadcast course. Students interested in online broadcast, videography, and many other aspects of the broadcasting and gaming/esports fields will enjoy this fun, collaborative course. Students can take this class whether or not they have completed or are enrolled in Gaming Concepts: Interactive Media. ",
     "credits": "10 credits/year",
     "schools": ["AHS"],
