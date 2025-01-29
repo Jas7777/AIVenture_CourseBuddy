@@ -1,4 +1,16 @@
 const COURSES = [{
+    "description": "In this course students will discover and explore manufacturing processes, product design, robotics, and automation, and then they will apply what they have learned to design solutions for real-world manufacturing problems.",
+    "credits": "10 credits/year",
+    "schools": ["AHS"],
+    "subject": "Science",
+    "gradesAvailable": [10, 11, 12],
+    "ucCategory": "",
+    "title": "PLTW Computer Integrated Manufacturing",
+    "prereqs": "None; Intro to Engineering Design recommended, not mandated",
+    "footnotes": "",
+    "courseCode": "31185"
+},
+{
     "description": "Students who enjoyed creating papier-mâché and ceramic sculpture in Art 1 can further develop their sculpting skills. Clay, plaster, wire, and papier-mâché are some of the materials used. This course includes an introduction to the potter’s wheel and will require both a gallery tour and review.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS"],
