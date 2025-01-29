@@ -11,6 +11,18 @@ const COURSES = [{
     "courseCode": "50440"
 },
 {
+    "description": "This course builds upon the skills acquired in the Level 3 language course, enhancing the students' abilities to express and defend opinions and to describe or narrate, conversationally or in writing, the events of their lives. A variety of literary selections form the basis for discussion and appreciation of (language) culture and civilization. Students taking AP designated classes will develop skills useful for the Advanced Placement Examination and more homework time will be required. A grade of C or higher is required to proceed to the next level. Some schools offer Level 4 classes as concurrent Ohlone courses.",
+    "credits": "10 credits/year",
+    "schools": ["AHS", "IHS", "MSJHS", "WHS"],
+    "subject": "World Language",
+    "gradesAvailable": [10, 11, 12],
+    "ucCategory": "e",
+    "title": "AP Chinese Language and Culture",
+    "prereqs": "C or higher in Chinese 3 or teacher approval. IHS & MSJHS: C or higher in Chinese 4",
+    "footnotes": "Advanced Placement (AP) classes are college level classes.",
+    "courseCode": "50440"
+},
+{
     "description": "In this interdisciplinary course, students will begin with an examination of identity: exploring their own culture and heritage, and questioning their place in American society and the world. Through this course, students will analyze historic and contemporary systems of oppression focusing on the experiences of historically marginalized groups, while also exploring the resistance efforts and social movements for equity as a response to the aforementioned oppression. Some of these topics include but are not limited to racism, sexism, immigration/migration, climate justice, and current political/global dynamics. The course seeks to create a safe space for students to critically analyze, discuss, reflect, and act with empathy and allyship among and between their communities.",
     "credits": "5 credits/semester",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "RHS", "Vista", "WHS"],
