@@ -1,4 +1,16 @@
 const COURSES = [{
+    "description": "This is a year-long combined course. First semester, in Honors Medical Interventions, students learn immunology, cancer biology, surgery, genetics, pharmacology, medical devices, and diagnostics. Second semester, in Honors Biomedical Innovation, students learn about public health, biomedical engineering, clinical medicine, and physiology. Work-related experience may be available.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "d",
+    "title": "Honors Medical Interventions/ Honors Biomedical Innovation-PLTW",
+    "prereqs": "3 years of high school science or completion of Principles of Biomedical Science/Human Body Systems. Priority placement for PBS/HBS completers.",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available. Ohlone College credit awarded.",
+    "courseCode": "74222"
+},
+{
     "description": "This course builds upon the skills acquired in the Level 3 language course, enhancing the students' abilities to express and defend opinions and to describe or narrate, conversationally or in writing, the events of their lives. A variety of literary selections form the basis for discussion and appreciation of (language) culture and civilization. Students taking AP designated classes will develop skills useful for the Advanced Placement Examination and more homework time will be required. A grade of C or higher is required to proceed to the next level. Some schools offer Level 4 classes as concurrent Ohlone courses.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "MSJHS", "WHS"],
