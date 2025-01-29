@@ -1,4 +1,15 @@
 const COURSES = [{
+    "description": " Gaming Concepts: Broadcast Journalism Through Streaming & Shoutcasting teaches skills such as public speaking, script and story writing, broadcast hardware and software, revenue analysis, brand development and more all through the gaming and esports lens. Students will learn about and take on the roles of streamers, shoutcasters, broadcast producers, and more in this project-focused broadcast course. Students interested in online broadcast, videography, and many other aspects of the broadcasting and gaming/esports fields will enjoy this fun, collaborative course. Students can take this class whether or not they have completed or are enrolled in Gaming Concepts: Interactive Media. ",
+    "credits": "10 credits/year",
+    "schools": ["AHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [9, 10, 11, 12],
+    "ucCategory": "n/a",
+    "title": "Gaming Concepts: Broadcast Journalism Through Streaming & Shoutcasting",
+    "prereqs": "None",
+    "footnotes": "G - Elective Credit (pending)",
+    "courseCode": "75032"
+},{
     "description": "This technology-focused career readiness course prepares students for many career paths and teaches about mental health, gaming history, and technological skills. Gaming Concepts provides students an introduction to marketing, graphic design, personal brand development, digital media and other potential fields of interest through a gaming and esports lens. ",
     "credits": "10 credits/year",
     "schools": ["AHS"],
