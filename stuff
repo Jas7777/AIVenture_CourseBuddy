@@ -1,4 +1,28 @@
 const COURSES = [{
+    "description": "Learn to create 2D and 3D interactive games, game art and simulations using 3DS Max, Unreal, and 2D game engines. Students will develop skills in game design documents, level design, 2D sprites, 3D modeling, character design and animation. This course is for students interested in the areas of welding and metalworking.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "f",
+    "title": "Game Design/Interactive Media Arts 2",
+    "prereqs": "Game Design/Interactive Media Arts 1",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available. Ohlone College credit awarded.",
+    "courseCode": "74351"
+},
+{
+    "description": "Learn to create 2D and 3D interactive games, game art and simulations using 3DS Max, Unreal, and 2D game engines. Students will develop skills in game design documents, level design, 2D sprites, 3D modeling, character design and animation. This course is for students interested in the areas of welding and metalworking.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "f",
+    "title": "Game Design/Interactive Media Arts 1",
+    "prereqs": "None",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available. Ohlone College Credit or Chabot College Credit for Year 1 awarded.",
+    "courseCode": "74350"
+},
+{
     "description": "Learn about virtual instruments and making music in Digital Audio Workstations including Pro Tools, and Logic Pro X. Students develop recording, editing, and mixing techniques, as well as learn music theory and introduction to live sound. Students explore career and college pathways in the music and live sound industry.",
     "credits": "20 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
@@ -2388,4 +2412,16 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "41475"
-}]
+},{
+    "description": "This course is for students interested in the areas of athletic training, physical therapy, occupational therapy and strength and conditioning. Areas covered include: anatomy/ physiology, emergency procedures, injury recognition, evaluation and treatment, taping and wrapping. Students will earn CPR certification.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [12],
+    "ucCategory": "n/a",
+    "title": "Sports Therapy 2",
+    "prereqs": "Completion of Sports Therapy 1",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available. Internship required. Students not meeting requirements for internships may not be able to continue in the course for second semester.",
+    "courseCode": "74471"
+}
+]
