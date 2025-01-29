@@ -1563,18 +1563,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "76162"
-},  {
-    "description": "This course is an introductory course, which develop students’ problem skills, with emphasis placed upon the concept of developing 3- D models or solid rendering of an object. Engineering careers and educational preparation will be researched. This course is the first in a sequence of three engineering courses. ",
-    "credits": "10 credits/year",
-    "schools": ["AHS", "IHS", "MSJHS", "WHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "f",
-    "title": "Introduction to Design",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "73007"
-}, {
+},   {
     "description": "This course is an introductory course, which develop students’ problem skills, with emphasis placed upon the concept of developing 3- D models or solid rendering of an object. Engineering careers and educational preparation will be researched. This course is the first in a sequence of three engineering courses. ",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "WHS"],
