@@ -1,4 +1,16 @@
 const COURSES = [{
+    "description": "Play production offers many opportunities for both backstage and auditorium management. Students in this class will assist in all production procedures, including costuming, property management, publicity, business management, and stage crew work. In short, students will “crew” a show. Outside rehearsals are required.",
+    "credits": "10 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "WHS"],
+    "subject": "Arts",
+    "gradesAvailable": [9, 10, 11, 12],
+    "ucCategory": "f",
+    "title": "Production and Stage Craft",
+    "prereqs": "None",
+    "footnotes": "Outside rehearsals are required. May be repeated for credit. Dual enrollment with Ohlone College.",
+    "courseCode": "60416"
+},
+{
     "description": "Each semester students will audition for a part in a school play. Those students selected for parts may enroll in Rehearsal & Performance to earn unit credit for their play participation. Students will study acting techniques through actual performances. Outside rehearsals and performances are required.",
     "credits": "5 credits/semester",
     "schools": ["AHS", "IHS", "KHS"],
