@@ -1,4 +1,16 @@
 const COURSES = [{
+    "description": "Students who enjoyed creating papier-mâché and ceramic sculpture in Art 1 can further develop their sculpting skills. Clay, plaster, wire, and papier-mâché are some of the materials used. This course includes an introduction to the potter’s wheel and will require both a gallery tour and review.",
+    "credits": "10 credits/year",
+    "schools": ["AHS", "IHS", "KHS"],
+    "subject": "Arts",
+    "gradesAvailable": [9, 10, 11, 12],
+    "ucCategory": "f",
+    "title": "Sculpture and Ceramics",
+    "prereqs": "None",
+    "footnotes": "Lab donation may be requested.",
+    "courseCode": "60612"
+},
+{
     "description": "Play production offers many opportunities for both backstage and auditorium management. Students in this class will assist in all production procedures, including costuming, property management, publicity, business management, and stage crew work. In short, students will “crew” a show. Outside rehearsals are required.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "WHS"],
