@@ -1,4 +1,15 @@
 const COURSES = [{
+    "description": "This ensemble, consisting of woodwind, brass, and percussion players, is designed for the most advanced and motivated student musicians on campus. Since these students will have advanced technical skills as a prerequisite for the class, the curricular focus will be on artistic and soloistic expression. In addition to full ensemble playing, a great deal of time will be spent in chamber ensembles.",
+    "credits": "10 credits/year",
+    "schools": ["AHS"],
+    "subject": "Arts",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "f",
+    "title": "Wind Ensemble",
+    "prereqs": "Teacher approval",
+    "footnotes": "May be repeated for credit",
+    "courseCode": "60217"
+},{
     "description": " This course seeks to engage students in the exploration of modern poetry through both the dissection and composition of contemporary poetry. Students will learn about notable historical movements, poets, and genres that have inspired the last two centuries of poetic innovation. Students will analyze and explore the unique nuances of language utilized in poetry and learn to develop and articulate various interpretations of texts being studied. Inspired by this knowledge, students will compose their own original works, provide constructive feedback to one another, and ultimately complete the course with a portfolio of their own writing. ",
     "credits": "10 credits/year",
     "schools": ["AHS"],
