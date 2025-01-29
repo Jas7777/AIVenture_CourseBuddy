@@ -83,7 +83,7 @@ const COURSES = [{
     "gradesAvailable": [11, 12],
     "ucCategory": "g",
     "title": "Advanced Publications ",
-    "prereqs": "B or better in Publications 1 and completion of application process.",
+    "prereqs": "B or better in Publications and completion of application process.",
     "footnotes": "May be repeated for credit. Attendance at numerous extracurricular events is mandatory.",
     "courseCode": "13021"
 },  {
@@ -1996,7 +1996,7 @@ const COURSES = [{
     "subject": "English",
     "gradesAvailable": [9, 10, 11, 12],
     "ucCategory": "g",
-    "title": "Publications 1",
+    "title": "Publications",
     "prereqs": "B or better in English and approval of advisor.",
     "footnotes": "May be repeated for credit. Attendance at numerous extracurricular events is mandatory.",
     "courseCode": "13020"
