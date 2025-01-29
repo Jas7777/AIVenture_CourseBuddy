@@ -1,4 +1,28 @@
 const COURSES = [{
+    "description": "Learn about virtual instruments and making music in Digital Audio Workstations including Pro Tools, and Logic Pro X. Students develop recording, editing, and mixing techniques, as well as learn music theory and introduction to live sound. Students explore career and college pathways in the music and live sound industry.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "f",
+    "title": "Music Production 2",
+    "prereqs": "Music Production 1",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available.",
+    "courseCode": "74286"
+},
+{
+    "description": "Learn about virtual instruments and making music in Digital Audio Workstations including Pro Tools, and Logic Pro X. Students develop recording, editing, and mixing techniques, as well as learn music theory and introduction to live sound. Students explore career and college pathways in the music and live sound industry.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "f",
+    "title": "Music Production 1",
+    "prereqs": "None",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available.",
+    "courseCode": "74284"
+},
+{
     "description": "Students will learn to create sound effects for film and video games using Pro Tools and Logic Pro X. Record and edit sound effects with Foley recording and ADR techniques. Learn to integrate sounds into gaming projects using programs such as Unreal Engine and Wwise. Students develop an online career portfolio that will highlight their creative work.",
     "credits": "20 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
