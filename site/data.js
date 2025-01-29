@@ -1,4 +1,240 @@
 const COURSES = [{
+    "description": "Learn to create 2D and 3D interactive games, game art and simulations using 3DS Max, Unreal, and 2D game engines. Students will develop skills in game design documents, level design, 2D sprites, 3D modeling, character design and animation. This course is for students interested in the areas of welding and metalworking.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "f",
+    "title": "Game Design/Interactive Media Arts 2",
+    "prereqs": "Game Design/Interactive Media Arts 1",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available. Ohlone College credit awarded.",
+    "courseCode": "74351"
+},
+{
+    "description": "Learn to create 2D and 3D interactive games, game art and simulations using 3DS Max, Unreal, and 2D game engines. Students will develop skills in game design documents, level design, 2D sprites, 3D modeling, character design and animation. This course is for students interested in the areas of welding and metalworking.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "f",
+    "title": "Game Design/Interactive Media Arts 1",
+    "prereqs": "None",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available. Ohlone College Credit or Chabot College Credit for Year 1 awarded.",
+    "courseCode": "74350"
+},
+{
+    "description": "Learn about virtual instruments and making music in Digital Audio Workstations including Pro Tools, and Logic Pro X. Students develop recording, editing, and mixing techniques, as well as learn music theory and introduction to live sound. Students explore career and college pathways in the music and live sound industry.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "f",
+    "title": "Music Production 2",
+    "prereqs": "Music Production 1",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available.",
+    "courseCode": "74286"
+},
+{
+    "description": "Learn about virtual instruments and making music in Digital Audio Workstations including Pro Tools, and Logic Pro X. Students develop recording, editing, and mixing techniques, as well as learn music theory and introduction to live sound. Students explore career and college pathways in the music and live sound industry.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "f",
+    "title": "Music Production 1",
+    "prereqs": "None",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available.",
+    "courseCode": "74284"
+},
+{
+    "description": "Students will learn to create sound effects for film and video games using Pro Tools and Logic Pro X. Record and edit sound effects with Foley recording and ADR techniques. Learn to integrate sounds into gaming projects using programs such as Unreal Engine and Wwise. Students develop an online career portfolio that will highlight their creative work.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "f",
+    "title": "Sound Design for Film and Video Games 2",
+    "prereqs": "Sound Design for Film and Video Games 1",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available.",
+    "courseCode": "74285"
+},
+{
+    "description": "Students will learn to create sound effects for film and video games using Pro Tools and Logic Pro X. Record and edit sound effects with Foley recording and ADR techniques. Learn to integrate sounds into gaming projects using programs such as Unreal Engine and Wwise. Students develop an online career portfolio that will highlight their creative work.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "f",
+    "title": "Sound Design for Film and Video Games 1",
+    "prereqs": "None",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available.",
+    "courseCode": "74283"
+},
+{
+    "description": "This is a year-long combined course. During the first semester, in Principles of Biomedical Science, students explore concepts in biology and medicine such as genetics, microbiology, epidemiology, and clinical care. During the second semester, in Human Body Systems, students learn the interactions of human body systems and apply them to solve real-world medical cases.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "d",
+    "title": "Principles of BioMedical Science/Human Body Systems-PLTW",
+    "prereqs": "None",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available.",
+    "courseCode": "74217"
+},
+{
+    "description": "This is a year-long combined course. First semester, in Honors Medical Interventions, students learn immunology, cancer biology, surgery, genetics, pharmacology, medical devices, and diagnostics. Second semester, in Honors Biomedical Innovation, students learn about public health, biomedical engineering, clinical medicine, and physiology. Work-related experience may be available.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "d",
+    "title": "Honors Medical Interventions/ Honors Biomedical Innovation-PLTW",
+    "prereqs": "3 years of high school science or completion of Principles of Biomedical Science/Human Body Systems. Priority placement for PBS/HBS completers.",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available. Ohlone College credit awarded.",
+    "courseCode": "74222"
+},
+{
+    "description": "This course builds upon the skills acquired in the Level 3 language course, enhancing the students' abilities to express and defend opinions and to describe or narrate, conversationally or in writing, the events of their lives. A variety of literary selections form the basis for discussion and appreciation of (language) culture and civilization. Students taking AP designated classes will develop skills useful for the Advanced Placement Examination and more homework time will be required. A grade of C or higher is required to proceed to the next level. Some schools offer Level 4 classes as concurrent Ohlone courses.",
+    "credits": "10 credits/year",
+    "schools": ["AHS", "IHS", "MSJHS", "WHS"],
+    "subject": "World Language",
+    "gradesAvailable": [10, 11, 12],
+    "ucCategory": "e",
+    "title": "AP Chinese Language and Culture",
+    "prereqs": "C or higher in Chinese 3 or teacher approval. IHS & MSJHS: C or higher in Chinese 4",
+    "footnotes": "Advanced Placement (AP) classes are college level classes.",
+    "courseCode": "50440"
+},
+{
+    "description": "This course builds upon the skills acquired in the Level 3 language course, enhancing the students' abilities to express and defend opinions and to describe or narrate, conversationally or in writing, the events of their lives. A variety of literary selections form the basis for discussion and appreciation of (language) culture and civilization. Students taking AP designated classes will develop skills useful for the Advanced Placement Examination and more homework time will be required. A grade of C or higher is required to proceed to the next level. Some schools offer Level 4 classes as concurrent Ohlone courses.",
+    "credits": "10 credits/year",
+    "schools": ["AHS", "IHS", "MSJHS", "WHS"],
+    "subject": "World Language",
+    "gradesAvailable": [10, 11, 12],
+    "ucCategory": "e",
+    "title": "AP Chinese Language and Culture",
+    "prereqs": "C or higher in Chinese 3 or teacher approval. IHS & MSJHS: C or higher in Chinese 4",
+    "footnotes": "Advanced Placement (AP) classes are college level classes.",
+    "courseCode": "50440"
+},
+{
+    "description": "In this interdisciplinary course, students will begin with an examination of identity: exploring their own culture and heritage, and questioning their place in American society and the world. Through this course, students will analyze historic and contemporary systems of oppression focusing on the experiences of historically marginalized groups, while also exploring the resistance efforts and social movements for equity as a response to the aforementioned oppression. Some of these topics include but are not limited to racism, sexism, immigration/migration, climate justice, and current political/global dynamics. The course seeks to create a safe space for students to critically analyze, discuss, reflect, and act with empathy and allyship among and between their communities.",
+    "credits": "5 credits/semester",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "RHS", "Vista", "WHS"],
+    "subject": "Social Science",
+    "gradesAvailable": [9],
+    "ucCategory": "g",
+    "title": "Introduction to Ethnic Studies",
+    "prereqs": "None",
+    "footnotes": "",
+    "courseCode": "41452"
+},
+{
+    "description": "The AP World History course is designed to follow the course outline as described by College Board. The purpose is to provide students with a broader understanding of the process and results of greater global contacts and interactions across continents and time periods. Students will acquire factual knowledge as well as further developing the skills of analysis and evaluation of the cultural, institutional and technological changes within and between political borders.",
+    "credits": "10 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "WHS"],
+    "subject": "Social Science",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "a",
+    "title": "AP World History",
+    "prereqs": "None",
+    "footnotes": "Advanced Placement (AP) classes are college level classes.",
+    "courseCode": "41410"
+},
+{
+    "description": "In this course students will discover and explore manufacturing processes, product design, robotics, and automation, and then they will apply what they have learned to design solutions for real-world manufacturing problems.",
+    "credits": "10 credits/year",
+    "schools": ["AHS"],
+    "subject": "Science",
+    "gradesAvailable": [10, 11, 12],
+    "ucCategory": "",
+    "title": "PLTW Computer Integrated Manufacturing",
+    "prereqs": "None; Intro to Engineering Design recommended, not mandated",
+    "footnotes": "",
+    "courseCode": "31185"
+},
+{
+    "description": "Students who enjoyed creating papier-mâché and ceramic sculpture in Art 1 can further develop their sculpting skills. Clay, plaster, wire, and papier-mâché are some of the materials used. This course includes an introduction to the potter’s wheel and will require both a gallery tour and review.",
+    "credits": "10 credits/year",
+    "schools": ["AHS", "IHS", "KHS"],
+    "subject": "Arts",
+    "gradesAvailable": [9, 10, 11, 12],
+    "ucCategory": "f",
+    "title": "Sculpture and Ceramics",
+    "prereqs": "None",
+    "footnotes": "Lab donation may be requested.",
+    "courseCode": "60612"
+},
+{
+    "description": "Play production offers many opportunities for both backstage and auditorium management. Students in this class will assist in all production procedures, including costuming, property management, publicity, business management, and stage crew work. In short, students will “crew” a show. Outside rehearsals are required.",
+    "credits": "10 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "WHS"],
+    "subject": "Arts",
+    "gradesAvailable": [9, 10, 11, 12],
+    "ucCategory": "f",
+    "title": "Production and Stage Craft",
+    "prereqs": "None",
+    "footnotes": "Outside rehearsals are required. May be repeated for credit. Dual enrollment with Ohlone College.",
+    "courseCode": "60416"
+},
+{
+    "description": "Each semester students will audition for a part in a school play. Those students selected for parts may enroll in Rehearsal & Performance to earn unit credit for their play participation. Students will study acting techniques through actual performances. Outside rehearsals and performances are required.",
+    "credits": "5 credits/semester",
+    "schools": ["AHS", "IHS", "KHS"],
+    "subject": "Arts",
+    "gradesAvailable": [9, 10, 11, 12],
+    "ucCategory": "f",
+    "title": "Rehearsal and Performance",
+    "prereqs": "Teacher’s approval by audition",
+    "footnotes": "May be repeated for credit. Dual enrollment with Ohlone College",
+    "courseCode": "60415"
+},
+{
+    "description": "This ensemble, consisting of woodwind, brass, and percussion players, is designed for the most advanced and motivated student musicians on campus. Since these students will have advanced technical skills as a prerequisite for the class, the curricular focus will be on artistic and soloistic expression. In addition to full ensemble playing, a great deal of time will be spent in chamber ensembles.",
+    "credits": "10 credits/year",
+    "schools": ["AHS"],
+    "subject": "Arts",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "f",
+    "title": "Wind Ensemble",
+    "prereqs": "Teacher approval",
+    "footnotes": "May be repeated for credit",
+    "courseCode": "60217"
+},{
+    "description": " This course seeks to engage students in the exploration of modern poetry through both the dissection and composition of contemporary poetry. Students will learn about notable historical movements, poets, and genres that have inspired the last two centuries of poetic innovation. Students will analyze and explore the unique nuances of language utilized in poetry and learn to develop and articulate various interpretations of texts being studied. Inspired by this knowledge, students will compose their own original works, provide constructive feedback to one another, and ultimately complete the course with a portfolio of their own writing. ",
+    "credits": "10 credits/year",
+    "schools": ["AHS"],
+    "subject": "English",
+    "gradesAvailable": [10, 11, 12],
+    "ucCategory": "n/a",
+    "title": "Modern Poetry",
+    "prereqs": "None",
+    "footnotes": "",
+    "courseCode": "13030"
+},{
+    "description": " Gaming Concepts: Broadcast Journalism Through Streaming & Shoutcasting teaches skills such as public speaking, script and story writing, broadcast hardware and software, revenue analysis, brand development and more all through the gaming and esports lens. Students will learn about and take on the roles of streamers, shoutcasters, broadcast producers, and more in this project-focused broadcast course. Students interested in online broadcast, videography, and many other aspects of the broadcasting and gaming/esports fields will enjoy this fun, collaborative course. Students can take this class whether or not they have completed or are enrolled in Gaming Concepts: Interactive Media. ",
+    "credits": "10 credits/year",
+    "schools": ["AHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [9, 10, 11, 12],
+    "ucCategory": "n/a",
+    "title": "Gaming Concepts: Broadcast Journalism Through Streaming & Shoutcasting",
+    "prereqs": "None",
+    "footnotes": "G - Elective Credit (pending)",
+    "courseCode": "75032"
+},{
+    "description": "This technology-focused career readiness course prepares students for many career paths and teaches about mental health, gaming history, and technological skills. Gaming Concepts provides students an introduction to marketing, graphic design, personal brand development, digital media and other potential fields of interest through a gaming and esports lens. ",
+    "credits": "10 credits/year",
+    "schools": ["AHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [9, 10, 11, 12],
+    "ucCategory": "n/a",
+    "title": "Gaming Concepts",
+    "prereqs": "None",
+    "footnotes": "G - Elective Credit (pending)",
+    "courseCode": "75032"
+},{
     "description": "Students learn the creative process for producing 2-dimensional digital animations. Students write short stories, draw sketches and storyboards; develop original characters, backgrounds and objects on two-dimensional software, to finally produce short animations. ",
     "credits": "10 credits/year",
     "schools": ["AHS"],
@@ -9,17 +245,6 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "MVROP class taught at the school site. Ohlone College credit awarded with grade of A or B",
     "courseCode": "74005"
-}, {
-    "description": "This course focuses on the development of reading strategies that help students negotiate their way through all levels of literary study. Teachers follow the Reading Apprenticeship Framework (WestEd), helping students develop the knowledge, strategies and dispositions they need to become more powerful readers. Teachers model disciplinary ways of reading in different subject areas and genres, support students’ discovery of their own reasons to read, and guide students to explore, strengthen and assess their own reading. Literacy study is extended through writing, discussion, presentations, and public speaking. ",
-    "credits": "10 credits/year",
-    "schools": ["KHS"],
-    "subject": "English",
-    "gradesAvailable": [9],
-    "ucCategory": "n/a",
-    "title": "Academic Literacy",
-    "prereqs": "This is not a self-select course; placement is made by administration based on specific criteria.",
-    "footnotes": "",
-    "courseCode": "10903"
 }, {
     "description": "Common Core Algebra 2/Trigonometry, and PreCalculus. This course will cover 7 critical focus areas: 1) the complex number system, 2) vector and matrix quantities, 3) seeing structure in expressions, 4) reasoning with equations and inequalities, 5) interpreting functions, 6) building functions, and 7) statistics and probability.",
     "credits": "10 credits/year",
@@ -53,40 +278,7 @@ const COURSES = [{
     "prereqs": "C- or higher in both semesters of  Anatomy & Physiology and C- or higher in Living Earth or Living Earth Honors and Chemistry",
     "footnotes": "",
     "courseCode": "31044"
-}, {
-    "description": "This course is designed for students who have played a band instrument and have experience in a range of band and music activities. Skills in tone production, intonation, technique, music reading and musical expression at an advanced level will be studied within the Symphonic Band repertoire. Students must demonstrate skills in precision teamwork, body carriage, musicianship and showmanship, Marching Band techniques and movement are assessed in competitions. Attendance at evening concerts, parades, football games, community events and rehearsals will be required as scheduled. ",
-    "credits": "10 credits/year",
-    "schools": ["MSJHS"],
-    "subject": "Arts",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "f",
-    "title": "Advanced Band 1",
-    "prereqs": "Band 1 or 2; Audition and teacher’s approval.",
-    "footnotes": "",
-    "courseCode": "60202"
-}, {
-    "description": "This course is designed for students who have played a band instrument and have experience in a range of band and music activities. Skills in tone production, intonation, technique, music reading and musical expression at an advanced level will be studied within the Symphonic Band or Wind Ensemble repertoire. Students must demonstrate skills in precision teamwork, body carriage, musicianship and showmanship, Marching Band techniques and movement are assessed in competitions. Attendance at evening concerts, parades, football games, community events and rehearsals will be required as scheduled. ",
-    "credits": "10 credits/year",
-    "schools": ["MSJHS"],
-    "subject": "Arts",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "f",
-    "title": "Advanced Band 2",
-    "prereqs": "Advanced Band 1; Audition and teacher’s approval.",
-    "footnotes": "",
-    "courseCode": "60203"
-}, {
-    "description": "This course is designed for students who have played a band instrument and have experience in a range of band and music activities. Skills in tone production, intonation, technique, music reading and musical expression at an advanced level will be studied within the Symphonic Band or Wind Ensemble repertoire. Students must demonstrate skills in precision teamwork, body carriage, musicianship and showmanship, Marching Band techniques and movement are assessed in competitions. Attendance at evening concerts, parades, football games, community events and rehearsals will be required as scheduled. Significant extra time can be expected. ",
-    "credits": "10 credits/year",
-    "schools": ["MSJHS"],
-    "subject": "Arts",
-    "gradesAvailable": [12],
-    "ucCategory": "f",
-    "title": "Advanced Band 3",
-    "prereqs": "Advanced Band 2; Audition and teacher’s approval.",
-    "footnotes": "",
-    "courseCode": "60204"
-}, {
+},  {
     "description": " This course not only offers advanced study of scholastic yearbook production but also presents opportunities for editorships and staff leadership. This course provides a good foundation for careers in publishing and photography. Significant extra time can be expected ",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS"],
@@ -94,21 +286,10 @@ const COURSES = [{
     "gradesAvailable": [11, 12],
     "ucCategory": "g",
     "title": "Advanced Publications ",
-    "prereqs": "B or better in Publications 1 and completion of application process.",
+    "prereqs": "B or better in Publications and completion of application process.",
     "footnotes": "May be repeated for credit. Attendance at numerous extracurricular events is mandatory.",
     "courseCode": "13021"
-}, {
-    "description": "African American History is an elective course that examines the history and culture of African and the African-American experience in an interdisciplinary format. The course includes an analysis of the unique historical, cultural, and social developments and experiences from the Middle Passage to the present day and addresses the literary and artistic contributions of African-American culture. Critical thinking, reading, writing and oral presentation skills are emphasized. The class is designed to have students see historical events which shaped the history of African Americans and create their own perspectives of these events through individual stories, analysis and cooperative discussions.",
-    "credits": "10 credits/year",
-    "schools": ["KHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [0],
-    "ucCategory": "a",
-    "title": "African American History",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "41471"
-}, {
+},  {
     "description": "Government is a study of the structure of the United States government, the role of the citizen in a democratic republic, the significance of political parties and lobby groups, and the differences between the national government and the state’s and the state and local governments’ powers. Students are required to complete text reading including the Federalist Papers 10, 51 and 78 (as per the California Framework).",
     "credits": "5 credits/semester",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "RHS", "Vista", "WHS"],
@@ -130,18 +311,7 @@ const COURSES = [{
     "prereqs": "Grades 10-12: GPA of 2.75 or higher.",
     "footnotes": "Dual enrollment with Ohlone Course 101A Principles of ASL I",
     "courseCode": "50500"
-}, {
-    "description": "This course covers the beginning fundamental principles of American Sign Language and introduces basic information about the Deaf Community and Deaf Culture. ",
-    "credits": "10 credits/year",
-    "schools": ["KHS"],
-    "subject": "World Language",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "e",
-    "title": "American Sign Language 1",
-    "prereqs": "Grade 9: GPA of 3.0 or higher. Grades 10-12: GPA of 2.75 or higher.",
-    "footnotes": "",
-    "courseCode": "50500"
-}, {
+},  {
     "description": "This course covers the fundamental principles of Level 2 American Sign Language and introduces more advanced information about the Deaf Community and Deaf Culture. Within the Ohlone system, this course is recommended for students majoring in American Sign Language/Deaf Studies and students wishing to enter the Interpreter Preparation Program. Students are expected to attend outside events at their own expense. Students interested in third and four-year programs in American Sign Language can take those courses at Ohlone College and may be required to purchase textbooks. Higher level ASL courses may be taken at Ohlone College.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS"],
@@ -152,40 +322,7 @@ const COURSES = [{
     "prereqs": "C or higher in ASL 1",
     "footnotes": "Dual enrollment with Ohlone Course 102A Principles of ASL 2",
     "courseCode": "50510"
-}, {
-    "description": "This course covers the fundamental principles of Level 2 American Sign Language and introduces more advanced information about the Deaf Community and Deaf Culture. ",
-    "credits": "10 credits/year",
-    "schools": ["KHS"],
-    "subject": "World Language",
-    "gradesAvailable": [0],
-    "ucCategory": "e",
-    "title": "American Sign Language 2",
-    "prereqs": "C or higher in ASL 1",
-    "footnotes": "",
-    "courseCode": "50510"
-}, {
-    "description": "This course combines the curriculum of U.S. History with that of 11th grade American Literature. Students will study and explore American History using specific pieces of literature and primary sources that are tied to key historical events, movements, trends, and individuals. The confluence of numerous cultures, as shown through the California State Framework, will factor into this one year course as will the study of writing, literature, and comprehension skills.",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "WHS"],
-    "subject": "English",
-    "gradesAvailable": [11],
-    "ucCategory": "b",
-    "title": "American Studies English 11",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "11111"
-}, {
-    "description": "This two-hour course combines the curriculum of American History with American Literature. Students will study and explore American History using specific pieces of literature and primary sources tied to key historical events, movements, trends, and individuals. The confluence of numerous cultures, as shown through the California State Framework, will factor into this one-year course as will the study of writing, and literature comprehension. Units of study are often thematic, rather than chronological, and will regularly require cooperative group work outside of class. An honors option is available in this program. Students taking the honors option must accept the challenge for both history and literature as this is an integrated course. ",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "WHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [11],
-    "ucCategory": "a",
-    "title": "American Studies History",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "41101"
-}, {
+},  {
     "description": "Anatomy and Physiology is an upper division college preparatory course for those with an interest in learning more fully about the human body or in exploring a medical career includes: the eleven systems of the body. Presentation modes include lectures, labs, dissection, computer applications, written assignments, and tests. ",
     "credits": "10 credits/year",
     "schools": ["AHS", "KHS", "MSJHS", "WHS"],
@@ -196,29 +333,7 @@ const COURSES = [{
     "prereqs": "C- or higher in Living Earth or Living Earth Honors and Chemistry (or taken concurrently with Chemistry).",
     "footnotes": "",
     "courseCode": "31042"
-}, {
-    "description": "Anatomy and Physiology for Medical Careers is an introductory (not lab based) course with a focus on introducing students with an interest in learning more about the human body or in exploring a medical career includes: the eleven systems of the body. Presentation modes include lectures, computer applications, written assignments, and tests.\n",
-    "credits": "10 credits/year",
-    "schools": ["KHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "g",
-    "title": "Anatomy and Physiology for Medical Careers",
-    "prereqs": "C- or higher in Living Earth or Living Earth Honors and Chemistry (or taken concurrently with Chemistry).",
-    "footnotes": "MVROP class taught at the school site. Ohlone College credit awarded.",
-    "courseCode": "74008"
-}, {
-    "description": "Anatomy and Physiology is a lab based upper division college preparatory course for those with an interest in learning more fully about the human body or in exploring a medical career includes: the eleven systems of the body. Presentation modes include lectures, labs, dissection, computer applications, written assignments, and tests.",
-    "credits": "10 credits/year",
-    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
-    "subject": "Science",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "d",
-    "title": "Anatomy and Physiology for Medical Careers ",
-    "prereqs": "C- or higher in Living Earth or Living Earth Honors and Chemistry (or taken concurrently with Chemistry).",
-    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available. Ohlone College credit awarded.",
-    "courseCode": "74007"
-}, {
+},   {
     "description": "Anatomy and Physiology is a lab based upper division college preparatory course for those with an interest in learning more fully about the human body or in exploring a medical career includes: the eleven systems of the body. Presentation modes include lectures, labs, dissection, computer applications, written assignments, and tests.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
@@ -229,29 +344,7 @@ const COURSES = [{
     "prereqs": "C- or higher in Living Earth or Living Earth Honors and Chemistry (or taken concurrently with Chemistry).",
     "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available. Ohlone College credit awarded.",
     "courseCode": "74007"
-}, {
-    "description": "The Advanced Placement Art courses enable highly motivated students to perform at the college level while still in high school. Students spend the year developing their portfolio in and outside of class. This portfolio is viewed as the culminating experience in a student’s secondary school visual arts training. It serves as a performance-based exam offered by the College Board. They will have the ultimate decision on whether or not college credit is received.",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "KHS", "MSJHS", "WHS"],
-    "subject": "Arts",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "f",
-    "title": "AP 2-D Art and Design",
-    "prereqs": "C or higher in Art 1, Art 2, Sculpture and Ceramics 1 or Sculpture 2 with art teacher’s review/recommendation OR with art teacher’s portfolio review/recommendation and demonstrated ability for self-directed learning and work habits.\n",
-    "footnotes": "Students who seek AP credit will be required to pay an application fee for the test. Advanced Placement (AP) classes are college level classes. ",
-    "courseCode": "60634"
-}, {
-    "description": "The Advanced Placement Art courses enable highly motivated students to perform at the college level while still in high school. Students spend the year developing their portfolio in and outside of class. This portfolio is viewed as the culminating experience in a student’s secondary school visual arts training. It serves as a performance-based exam offered by the College Board. They will have the ultimate decision on whether or not college credit is received. ",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "KHS", "MSJHS", "WHS"],
-    "subject": "Arts",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "f",
-    "title": "AP 3-D Art and Design",
-    "prereqs": "C or higher in Art 1, Art 2, Sculpture and Ceramics 1 or Sculpture 2 with art teacher’s review/recommendation OR with art teacher’s portfolio review/recommendation and demonstrated ability for self-directed learning and work habits.\n",
-    "footnotes": "tudents who seek AP credit will be required to pay an application fee for the test. Advanced Placement (AP) classes are college level classes. ",
-    "courseCode": "60636"
-}, {
+},  {
     "description": "This course is designed for high achieving students seeking preparation for the Advanced Placement Exam. This course will examine in greater depth the curriculum investigated in the college prep American Government course. Primary source documents will be read to increase understanding of the democratic process. Strong writing and discussion skills recommended.",
     "credits": "5 credits/semester",
     "schools": ["AHS", "IHS", "KHS", "WHS"],
@@ -262,17 +355,6 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "Advanced Placement (AP) classes are college level classes.",
     "courseCode": "41220"
-}, {
-    "description": "This course follows the “We the People, the Citizen and the Constitution” curriculum. Students in this course must be able to master public speaking skills and work cooperatively. The class takes part in the National Senate Hearing competition. Extensive research must be completed as well as persuasive thesis papers. ",
-    "credits": "5 credits/semester",
-    "schools": ["IHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [12],
-    "ucCategory": "a",
-    "title": "AP American Government (We the People)",
-    "prereqs": "Recommendation by Interview/Audition before a panel of current students and teacher",
-    "footnotes": "Cooperative groups must commit to meeting a minimum of 90 minutes a week outside of class. Service learning assignments are completed, as are components of QUEST.  Advanced Placement (AP) classes are college level classes",
-    "courseCode": "41230"
 }, {
     "description": "This course is equivalent to a two-semester introductory college course that explores such topics as the nature of art, making of art, and responses to art. Students investigate a specific set of 250 works within ten content areas ranging from Global Prehistory (beginning 30,000 BCE) to Global Contemporary (present). ",
     "credits": "10 credits/year",
@@ -328,18 +410,7 @@ const COURSES = [{
     "prereqs": "B or higher in both semesters of Chemistry in the Earth Systems and Algebra 2/Trig or concurrently enrolled in Algebra 2/Trig.",
     "footnotes": "Advanced Placement (AP) classes are college level classes.",
     "courseCode": "31130"
-}, {
-    "description": "This course builds upon the skills acquired in the Level 3 language course, enhancing the students' abilities to express and defend opinions and to describe or narrate, conversationally or in writing, the events of their lives. A variety of literary selections form the basis for discussion and appreciation of (language) culture and civilization. Students taking AP designated classes will develop skills useful for the Advanced Placement Examination and more homework time will be required. A grade of C or higher is required to proceed to the next level. Some schools offer Level 4 classes as concurrent Ohlone courses.",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "MSJHS", "WHS"],
-    "subject": "World Language",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "e",
-    "title": "AP Chinese Language and Culture",
-    "prereqs": "C or higher in Chinese 3 or teacher approval",
-    "footnotes": "Advanced Placement (AP) classes are college level classes.",
-    "courseCode": "50440"
-}, {
+},{
     "description": "This course emphasizes object oriented programming, algorithm development, and problem solving. The Java programming language will be used to write programs. Students are expected to work at least 2-3 hrs. per week outside of class hours on their computers. They will have access to school PCs. Students can also run and debug their programs on their personal computers. The computers must be able to compile and run Java code. ",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "MSJHS", "Vista", "WHS"],
@@ -417,17 +488,6 @@ const COURSES = [{
     "footnotes": "Advanced Placement (AP) classes are college level classes.",
     "courseCode": "31210"
 }, {
-    "description": "This is a rigorous course designed for the student with ability and intense interest in the advanced study of European History. Students will work with primary documents and use a college-level text. Sophomores who opt to take this course will also fulfill their World History graduation requirement. Upper classmen may take this course for elective credit. The course begins with a study of the Black Death and continues to the fall of Communism. The course of study will follow the College Board curriculum in order to prepare for the AP test in May. There will also be post-test, standards-based curriculum from the California State Framework focusing on a more global view of today’s cultures.",
-    "credits": "10 credits/year",
-    "schools": ["AHS", "WHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [10],
-    "ucCategory": "a",
-    "title": "AP European History",
-    "prereqs": "",
-    "footnotes": "Advanced Placement (AP) classes are college level classes.",
-    "courseCode": "41050"
-}, {
     "description": "This course builds upon the skills acquired in the Level 3 language course, enhancing the students' abilities to express and defend opinions and to describe or narrate, conversationally or in writing, the events of their lives. A variety of literary selections form the basis for discussion and appreciation of (language) culture and civilization. Students taking AP designated classes will develop skills useful for the Advanced Placement Examination and more homework time will be required. A grade of C or higher is required to proceed to the next level. Some schools offer Level 4 classes as concurrent Ohlone courses.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "WHS"],
@@ -438,40 +498,7 @@ const COURSES = [{
     "prereqs": "C or higher in French 3 or teacher approval",
     "footnotes": "Advanced Placement (AP) classes are college level classes.",
     "courseCode": "50240"
-}, {
-    "description": "This course is a two-semester course that examines cultural constructs including politics, religion, language, race, agriculture, region and place. Students will be prepared to take the AP Human Geography test in the spring. ",
-    "credits": "10 credits/year",
-    "schools": ["MSJHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "g",
-    "title": "AP Human Geography",
-    "prereqs": "None",
-    "footnotes": "Advanced Placement (AP) classes are college level classes.",
-    "courseCode": "41430"
-}, {
-    "description": "This course builds upon the skills acquired in the Level 3 language course, enhancing the students' abilities to express and defend opinions and to describe or narrate, conversationally or in writing, the events of their lives. A variety of literary selections form the basis for discussion and appreciation of (language) culture and civilization.  More homework is required in this AP course.",
-    "credits": "10 credits/year",
-    "schools": ["MSJHS"],
-    "subject": "World Language",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "e",
-    "title": "AP Japanese Language and Culture",
-    "prereqs": "C or higher in Japanese 3 or teacher approval",
-    "footnotes": "Advanced Placement (AP) classes are college level classes.",
-    "courseCode": "50340"
-}, {
-    "description": "Musical experience and teacher interview. This class leads to an aural and visual understanding of musical structure including compositional procedures, part writing, basic harmony and chorale structure. It also emphasizes melodic and harmonic dictation and sight singing. It is designed to prepare students to take the AP Music Theory exam. ",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "MSJHS", "WHS"],
-    "subject": "Arts",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "f",
-    "title": "AP Music Theory",
-    "prereqs": "Musical experience and teacher interview.",
-    "footnotes": "Advanced Placement (AP) classes are college level classes and not subject to the Homework Board policy guidelines. A fee is involved to take the AP Exam. ",
-    "courseCode": "60321"
-}, {
+},  {
     "description": "This course is a college-level analytical and lab-centered approach to the study of motion, forces, energy, waves and electricity, and the design and construction of special projects.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "WHS"],
@@ -559,17 +586,6 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "Advanced Placement (AP) classes are college level classes.",
     "courseCode": "41120"
-}, {
-    "description": "The AP World History course is designed to follow the course outline as described by College Board. The purpose is to provide students with a broader understanding of the process and results of greater global contacts and interactions across continents and time periods. Students will acquire factual knowledge as well as further developing the skills of analysis and evaluation of the cultural, institutional and technological changes within and between political borders.",
-    "credits": "10 credits/year",
-    "schools": ["MSJHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "a",
-    "title": "AP World History",
-    "prereqs": "None",
-    "footnotes": "FUSD elective credit only.  Advanced Placement (AP) classes are college level classes. \n\n \n\n",
-    "courseCode": "41410"
 }, {
     "description": "Architecture students learn the essentials of buildings. Units of study include: concept form and function, floor and elevation drawing, model construction, site and landscape plans, and interior design. This is a College Preparation course, designed for the college-bound student. Lab donation may be suggested. ",
     "credits": "10 credits/year",
@@ -681,28 +697,6 @@ const COURSES = [{
     "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available.",
     "courseCode": "74021"
 }, {
-    "description": "This course focuses on general automotive repair, brakes, steering and suspension, electrical systems, engine performance. Students receive hands-on experience in auto shop operations, tool usage, safety procedures, equipment operation and customer service. ",
-    "credits": "10 credits/year",
-    "schools": ["WHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "n/a",
-    "title": "Automotive Technology 1",
-    "prereqs": "None",
-    "footnotes": "MVROP class taught at the school site. Chabot College credit awarded.",
-    "courseCode": "74050"
-}, {
-    "description": "General auto repair, brakes, steering and suspension, electrical systems, engine performance. Students receive hands-on experience in auto shop operations, tool usage, safety procedures, equipment operation and customer service. Introduction to hybrid “green” technology.",
-    "credits": "20 credits/year",
-    "schools": ["WHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "n/a",
-    "title": "Automotive Technology 1",
-    "prereqs": "Completion of Basic Auto",
-    "footnotes": "MVROP class taught at the school site.",
-    "courseCode": "74040"
-}, {
     "description": "General auto repair, brakes, steering and suspension, electrical systems, engine performance. Students receive hands-on experience in auto shop operations, tool usage, safety procedures, equipment operation and customer service. Introduction to hybrid “green” technology.",
     "credits": "20 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista"],
@@ -713,18 +707,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available.Chabot College credit awarded.",
     "courseCode": "74040"
-}, {
-    "description": "General auto repair, brakes, steering and suspension, electrical systems, engine performance. Students receive hands-on experience in auto shop operations, tool usage, safety procedures, equipment operation and customer service. Introduction to hybrid “green” technology.",
-    "credits": "20 credits/year",
-    "schools": ["WHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "n/a",
-    "title": "Automotive Technology 2",
-    "prereqs": "B- or higher in Auto Tech 1",
-    "footnotes": "MVROP class taught at the school site. Chabot College credit awarded",
-    "courseCode": "74041"
-}, {
+},  {
     "description": "General auto repair, brakes, steering and suspension, electrical systems, engine performance. Students receive hands-on experience in auto shop operations, tool usage, safety procedures, equipment operation and customer service. Introduction to hybrid “green” technology.",
     "credits": "20 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista"],
@@ -735,72 +718,6 @@ const COURSES = [{
     "prereqs": "B- or higher in Auto Tech 1",
     "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available. Chabot College credit awarded",
     "courseCode": "74041"
-}, {
-    "description": "AVID (Advancement Via Individual Determination) is offered as an elective course that prepares students for entrance into four-year colleges. There is an emphasis on analytical writing, preparation for college entrance and placement exams, study skills and test taking, note-taking, and research. In AVID, students participate in activities that incorporate strategies focused on writing, inquiry, collaboration, and reading to support their academic growth. AVID students learn skills such as time management, note-taking, textbook reading, library research, and maintaining the AVID binder. Students are expected to maintain an organized binder including an assignment calendar, class and textbook notes, assignments, and homework, which is graded regularly. ",
-    "credits": "10 credits/year",
-    "schools": ["KHS", "WHS"],
-    "subject": "AVID",
-    "gradesAvailable": [10],
-    "ucCategory": "g",
-    "title": "AVID 10",
-    "prereqs": "None",
-    "footnotes": "Students who enroll in the course will be required to commit to the program throughout high school.",
-    "courseCode": "75014"
-}, {
-    "description": "AVID (Advancement Via Individual Determination) is offered as an elective course that prepares students for entrance into four-year colleges. There is an emphasis on analytical writing, preparation for college entrance and placement exams, study skills and test taking, note-taking, and research. In AVID, students participate in activities that incorporate strategies focused on writing, inquiry, collaboration, and reading to support their academic growth. AVID students learn skills such as time management, note-taking, textbook reading, library research, and maintaining the AVID binder. Students are expected to maintain an organized binder including an assignment calendar, class and textbook notes, assignments, and homework, which is graded regularly. ",
-    "credits": "10 credits/year",
-    "schools": ["KHS", "WHS"],
-    "subject": "AVID",
-    "gradesAvailable": [11],
-    "ucCategory": "g",
-    "title": "AVID 11",
-    "prereqs": "None",
-    "footnotes": "Students who enroll in the course will be required to commit to the program throughout high school.",
-    "courseCode": "75015"
-}, {
-    "description": "AVID (Advancement Via Individual Determination) is offered as an elective course that prepares students for entrance into four-year colleges. There is an emphasis on analytical writing, preparation for college entrance and placement exams, study skills and test taking, note-taking, and research. In AVID, students participate in activities that incorporate strategies focused on writing, inquiry, collaboration, and reading to support their academic growth. AVID students learn skills such as time management, note-taking, textbook reading, library research, and maintaining the AVID binder. Students are expected to maintain an organized binder including an assignment calendar, class and textbook notes, assignments, and homework, which is graded regularly.",
-    "credits": "10 credits/year",
-    "schools": ["KHS", "WHS"],
-    "subject": "AVID",
-    "gradesAvailable": [9],
-    "ucCategory": "g",
-    "title": "AVID 9",
-    "prereqs": "None",
-    "footnotes": "Students who enroll in the course will be required to commit to the program for four years.",
-    "courseCode": "75013"
-}, {
-    "description": "AVID (Advancement Via Individual Determination) is offered as an elective course that prepares students for entrance into four-year colleges. There is an emphasis on analytical writing, preparation for college entrance and placement exams, study skills and test taking, note-taking, and research. In AVID, students participate in activities that incorporate strategies focused on writing, inquiry, collaboration, and reading to support their academic growth. AVID students learn skills such as time management, note-taking, textbook reading, library research, and maintaining the AVID binder. Students are expected to maintain an organized binder including an assignment calendar, class and textbook notes, assignments, and homework, which is graded regularly. Students who enroll in the course will be required to commit to the program for four years.",
-    "credits": "10 credits/year",
-    "schools": ["KHS", "WHS"],
-    "subject": "AVID",
-    "gradesAvailable": [12],
-    "ucCategory": "g",
-    "title": "AVID Senior Seminar",
-    "prereqs": "AVID 10 and 11",
-    "footnotes": "",
-    "courseCode": "75017"
-}, {
-    "description": "AVID tutor is a one year elective course for students wishing to be tutors in the AVID elective program. Students will tutor 5-7 AVID students twice a week during the tutorial portion of the AVID elective class, and assist the teacher in providing academic and organizational skills to students. The tutors are expected to be able to help in at least three academic subjects in which they have been successful, either in Honors or Advanced Placement levels. These could include, but are not limited to: World Languages, Language Arts, Mathematics, Sciences, and Social Sciences. Tutors will receive instruction and training using the inquiry method that encourages higher level thinking by students. Repeatable for credit.",
-    "credits": "10 credits/year",
-    "schools": ["KHS", "WHS"],
-    "subject": "AVID",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "n/a",
-    "title": "AVID Tutor",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "75018"
-}, {
-    "description": "This class will give future Food Service Managers, Bakers, and Pastry Chef’s a complete overview of quality baking. The course begins with an introduction to baking and then looks closely at breads, quick breads, basic sauces, pies, cookies, custards, fruit desserts, decoration, and presentation. ",
-    "credits": "10 credits/year",
-    "schools": ["KHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [9],
-    "ucCategory": "n/a",
-    "title": "Baking and Pastry",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "74182"
 }, {
     "description": "This is a performance class where skills in tone production, intonation, technique, music reading and musical expression will be studied. Attendance at evening concerts, parades, football games, community events and rehearsals will be required as scheduled. ",
     "credits": "10 credits/year",
@@ -813,39 +730,6 @@ const COURSES = [{
     "footnotes": "May be repeated for credit",
     "courseCode": "60200"
 }, {
-    "description": "This is a performance class for all students who have had previous experience in high school Concert Band. Skills in tone production, intonation, technique, music reading and musical expression will be studied. Attendance at evening concerts, parades, football games, community events and rehearsals will be required as scheduled. ",
-    "credits": "10 credits/year",
-    "schools": ["KHS", "MSJHS"],
-    "subject": "Arts",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "f",
-    "title": "Band 2",
-    "prereqs": "Band 1 and teacher’s recommendation.",
-    "footnotes": "May be repeated for credit",
-    "courseCode": "60201"
-}, {
-    "description": "This course provides pre-entry level training in automotive service/maintenance and is designed to be the first course for students entering transportation technology career pathways. Instruction covers the following areas: engine systems, electrical systems, tires and brakes, lubrication service, cooling systems, ignition and emission device service.",
-    "credits": "10 credits/year",
-    "schools": ["WHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [9, 10],
-    "ucCategory": "n/a",
-    "title": "Basic Car Care",
-    "prereqs": "None",
-    "footnotes": "MVROP class taught at the school site.",
-    "courseCode": "74010"
-}, {
-    "description": "Big History is an interdisciplinary course that explores the history of the universe from the beginning of time, starting with the Big Bang to current human events. This course uses other disciplines, like Biology, Chemistry, Archaeology, Anthropology, among others, to explore and differentiate our universe’s history.",
-    "credits": "10 credits/year",
-    "schools": ["KHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [9],
-    "ucCategory": "a",
-    "title": "Big History",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "40910"
-}, {
     "description": "This is a one-year application course covering basic math functions. Many formulas used in business including theory, drill, practice and personal finance management are covered. This course applies math to solve personal and business-related math problems. ",
     "credits": "10 credits/year",
     "schools": ["AHS", "KHS", "RHS", "WHS"],
@@ -856,18 +740,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "A calculator will be used.",
     "courseCode": "21241"
-}, {
-    "description": "Basic principles in owning, running, or managing a small business; create a business plan, use business math and accounting principles; understand business systems/functions, advertising, marketing, merchandising and technology. Internships may qualify for up to 20 additional credits. ",
-    "credits": "10 credits/year",
-    "schools": ["WHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "g",
-    "title": "Business Ownership and Management",
-    "prereqs": "None",
-    "footnotes": "This is a DECA approved class. Dual credit with Mission and Chabot College.",
-    "courseCode": "73201"
-}, {
+},  {
     "description": "The objective of this course is to provide a review of functions, including trigonometric, exponential, and logarithmic. The course will include an introduction to limits and continuity, difference quotients, the derivative, and the definite integral. Techniques and applications of differentiation and integration will be included. Students who have successfully completed Pre-Calculus, but are not interested or prepared for the demands of the advanced placement calculus will benefit from this class as it provides continuity of the rigors of advanced math as well as a more solid base from which to enter college level calculus in their post-secondary studies.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "WHS"],
@@ -911,51 +784,7 @@ const COURSES = [{
     "prereqs": "TB test required. Completion of Careers in Education 1.",
     "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available. Ohlone College credit awarded",
     "courseCode": "74112"
-}, {
-    "description": "This ceramics course will cover the basic hand building method, wheel method, and decorative techniques. Creative design and individual expression will be emphasized through functional and nonfunctional projects. Students will gain an appreciation of historical and contemporary ceramics. Ceramics may be repeated for credit. ",
-    "credits": "10 credits/year",
-    "schools": ["KHS", "WHS"],
-    "subject": "Arts",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "f",
-    "title": "Ceramics 1",
-    "prereqs": "None",
-    "footnotes": "Lab donation may be requested.",
-    "courseCode": "60610"
-}, {
-    "description": "This ceramics course will be a continuation of Ceramics 1. Students will further their knowledge and expertise in both hand building and throwing techniques and explore a variety of glazing techniques. Emphasis will be on advanced techniques in construction and glazing. Lab donation may be suggested. ",
-    "credits": "10 credits/year",
-    "schools": ["KHS", "WHS"],
-    "subject": "Arts",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "f",
-    "title": "Ceramics 2",
-    "prereqs": "Successful completion of Ceramics 1 or teacher’s approval.",
-    "footnotes": "",
-    "courseCode": "60611"
-}, {
-    "description": "Chamber Chorale is an advanced vocal ensemble which studies a variety of choral music in great detail. Sight reading and listening (ear training) will be emphasized, as well as good vocal technique. Outside performances and rehearsals are required. Outside performances will be required.",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "KHS", "MSJHS"],
-    "subject": "Arts",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "f",
-    "title": "Chamber Chorale",
-    "prereqs": "Teacher's approval.",
-    "footnotes": "May be repeated for credit",
-    "courseCode": "60312"
-}, {
-    "description": "This course is designed for students who have successfully completed Chamber Charole and who would like to continue singing. Outside performances are required in this class. ",
-    "credits": "10 credits/year",
-    "schools": ["MSJHS"],
-    "subject": "Arts",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "f",
-    "title": "Chamber Chorale 2",
-    "prereqs": "Teacher’s approval.",
-    "footnotes": "May be repeated for credit",
-    "courseCode": "60214"
-}, {
+},  {
     "description": "This course prepares students for careers involving laboratory science in the chemical industry. Students learn procedure and laboratory skills required for chemical technicians performing analytical chemistry and instrumental analysis. Instruction will include both “handson” and traditional classroom experiences. After completing the course, students will be prepared to continue at the university level or a two year applied sciences program.",
     "credits": "10 credits/year",
     "schools": ["AHS", "MSJHS"],
@@ -1121,17 +950,6 @@ const COURSES = [{
     "footnotes": "",
     "courseCode": "21120"
 }, {
-    "description": "In Algebra 2 with Trigonometry, students will extend the concepts of algebra and geometry, with a focus on critical thinking and the interconnections of mathematics. This is a fast-paced and honors-level course which delves deep into advanced algebraic concepts, requiring students to have gained a strong background knowledge in a previous Algebra 1 course. Algebra 2 with Trigonometry provides a comprehensive exploration of functions, polynomials, rational exponents and radicals, logarithms, rational expressions and equations, sequences and series, statistics, and trigonometry. Students will expand their understanding of mathematical concepts and how they are connected as well as improve logical thinking and problem solving skills. Additionally, students will focus on the deeper meaning of mathematical concepts such as the reasons why certain “rules” or theorems exist and how functions behave. Algebra 2 strengthens students’ algebraic abilities and problem solving skills, lending itself to the study of trigonometry which is a true coupling of advanced algebraic concepts and geometric properties. In general, Algebra 2 with Trigonometry is a rigorous mathematics course in which students develop skills such as making connections between various concepts, problem solving using multiple methods and representations, critical thinking, efficiency, and developing a coherent, logical argument.",
-    "credits": "10 credits/year",
-    "schools": ["KHS"],
-    "subject": "Math",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "c",
-    "title": "Common Core Algebra 2/Trigonometry Honors",
-    "prereqs": "A in both semesters of Algebra 1 and Geometry or C- or higher in both semesters of Geometry Honors",
-    "footnotes": "",
-    "courseCode": "21140"
-}, {
     "description": "C- or better in both semesters of Algebra I or CC3/Algebra 1 Geometry will focus on six critical areas: (1) establish criteria for congruence of triangles based on rigid motions; (2) establish criteria for similarity of triangles and apply it to basic trigonometry with right triangles (3) express geometric properties with equations including conic sections; (4) explain volume formulas and use them to solve two-dimensional and three-dimensional problems (5) prove basic geometric theorems about lines, angles, triangles, parallelograms, and polygons; and (6) extend work with independence and conditional probability including compound events.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "Vista", "WHS"],
@@ -1153,29 +971,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "20800"
-}, {
-    "description": "Concurrent enrollment in Common Core Math 3. This course is designed to meet the needs of students who want/need additional Algebra support to be successful in Algebra I or its equivalent. The course will focus on an in depth review of specific skills to support the Algebra I curriculum. Class may include individualized, computerized instruction and assessment. The class does not earn mathematics credit, nor meet a-g requirements. The class may be repeated.",
-    "credits": "5 credits/semester",
-    "schools": ["KHS", "WHS"],
-    "subject": "Math",
-    "gradesAvailable": [9, 10, 11],
-    "ucCategory": "n/a",
-    "title": "Common Core Math 3 Skills Support",
-    "prereqs": "Concurrent enrollment in Common Core Math 3.",
-    "footnotes": "May be repeated for credit",
-    "courseCode": "20915"
-}, {
-    "description": "The Common Core Skills class will prepare students for the skills necessary for success in the Common Core classroom. Students will learn to read with purpose through annotation, how to construct argument, both written and oral, and presentation skills.",
-    "credits": "5 credits/semester",
-    "schools": ["IHS", "WHS"],
-    "subject": "English",
-    "gradesAvailable": [9],
-    "ucCategory": "n/a",
-    "title": "Common Core Skills",
-    "prereqs": "This is not a self-select course; placement is made by administration based on specific criteria.",
-    "footnotes": "",
-    "courseCode": "10905"
-}, {
+},  {
     "description": "This is a college prep course and a follow-up to Algebra 2. Major topic to be covered includes the six trigonometry functions, unit circle, right triangle trigonometry, Radian measure, graphing and inverse functions, identities and formulas, equations, triangles and complex numbers and polar coordinates. Further topics include addition formulas for sine and cosine half-angle and double-angle formulas, law of sine and law of cosines, de Moivre theorem and using trigonometry and a variety of applications.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "WHS"],
@@ -1252,29 +1048,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available.",
     "courseCode": "74214/74212"
-}, {
-    "description": "This course introduces students to the fundamentals of computer hardware and software fundamentals, scripting basics, using remote access technologies, IoT device configuration and communication types, disaster prevention and recovery methods, including virtualization, cloud computing, and security. Students are also prepared for the A+ certification exam. Second-year students are introduced to the Linux operating system and network servers, and network security.",
-    "credits": "10 credits/year",
-    "schools": ["IHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "g",
-    "title": "Computer Support Specialist 1",
-    "prereqs": "None",
-    "footnotes": "MVROP class taught at the school site. Ohlone College credit awarded",
-    "courseCode": "74130"
-}, {
-    "description": "This course introduces students to the fundamentals of computer hardware and software fundamentals, scripting basics, using remote access technologies, IoT device configuration and communication types, disaster prevention and recovery methods, including virtualization, cloud computing, and security. Students are also prepared for the A+ certification exam. Second-year students are introduced to the Linux operating system and network servers, and network security.",
-    "credits": "10 credits/year",
-    "schools": ["IHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "n/a",
-    "title": "Computer Support Specialist 2",
-    "prereqs": "Completion of Computer Suport Specialist 1",
-    "footnotes": "MVROP class taught at the school site. Mission College credit awarded",
-    "courseCode": "74140"
-}, {
+},   {
     "description": "This course prepares students for entry-level employment in residential and commercial construction. Students receive hands-on training in carpentry, electrical, and plumbing, including roofing, kitchen and bath remodeling, and energy-efficient building materials.",
     "credits": "20 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
@@ -1373,29 +1147,7 @@ const COURSES = [{
     "prereqs": "Completion of Culinary Arts 1",
     "footnotes": "MVROP class taught at the school site.Diablo College or Mission College credit awarded. UC/CSU g credti at AHS & KHS",
     "courseCode": "74180"
-}, {
-    "description": "Students: Let your taste buds travel as you prepare and sample dishes from foreign countries and various regions of the United States. Then learn about making and serving party foods and techniques of entertaining",
-    "credits": "10 credits/year",
-    "schools": ["IHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "n/a",
-    "title": "Culinary Arts 2",
-    "prereqs": "Completion of Culinary Arts 1 or teacher approval",
-    "footnotes": "",
-    "courseCode": "73014"
-}, {
-    "description": "Students prepare for a career as an associate-level Security Analyst in a Security Operations Center (SOC) and prepare students for the CCNA CyberOps certification.",
-    "credits": "10 credits/year",
-    "schools": ["IHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [12],
-    "ucCategory": "g",
-    "title": "Cyber Security",
-    "prereqs": "Successful completion of Internet Engineering 1 & 2",
-    "footnotes": "MVROP class taught at the school site.",
-    "courseCode": "74185"
-}, {
+},  {
     "description": "Students will study the basic aspects and qualities of the art of dance. Different styles of dance will be taught: Jazz, ballet, contemporary, ballroom ,modern and culturally responsive dances. Activities will involve principles of improvisations of choreographed routines; researching period dances; and study techniques of different choreographers, dance groups, and musical productions. If class composition permits, a dance recital will be produced in the spring semester. Sections will be divided by experience and ski ll level if there is sufficient enrollment. Dance shoes and costumes may be needed. Outside rehearsals are required. ",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS"],
@@ -1439,51 +1191,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "73013"
-}, {
-    "description": "Digital Imaging is a largely project-based class. Instruction focuses on both the fine arts and the applied arts (mainly graphic design); topics covered include, but are not limited to: the elements and principles of design, basic rules of composition, photo-editing, the design process, art history, basic advertising, typography, and illustration. Students create artwork and design pieces using software programs that are the industry standards for 2D design such as a Photoshop, Illustrator and/or InDesign. ",
-    "credits": "10 credits/year",
-    "schools": ["KHS", "MSJHS", "WHS"],
-    "subject": "Arts",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "f",
-    "title": "Digital Imaging 1",
-    "prereqs": "None",
-    "footnotes": "Lab donation may be requested.",
-    "courseCode": "60626"
-}, {
-    "description": "Students use digital tools and technologies as art and design mediums to visually articulate thoughts, ideas, and experiences. Technologies include digital painting, drawing, illustrating and graphic design.",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "MSJHS"],
-    "subject": "Arts",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "f",
-    "title": "Digital Imaging 1",
-    "prereqs": "None",
-    "footnotes": "MVROP class taught at the school site. Ohlone College credit awarded.",
-    "courseCode": "74240"
-}, {
-    "description": "This class builds on the foundations covered in Digital Imaging 1 with the continued use of Adobe Photoshop and/or Bryce, a threedimensional rendering program. Topics will include: Study of Principles of Design and Elements of Art, Student designed projects and criteria. Emphasis of student work will be on Art History and multicultural influences. Discussion and creation of web page design and exploration of multimedia presentations will be covered. ",
-    "credits": "10 credits/year",
-    "schools": ["KHS", "WHS"],
-    "subject": "Arts",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "f",
-    "title": "Digital Imaging 2",
-    "prereqs": "Digital Imaging 1 or previous instructor’s recommendation.",
-    "footnotes": "Lab donation may be requested.",
-    "courseCode": "60627"
-}, {
-    "description": "The study of digital photography encourages conceptual thinking and creativity. Explore hands-on digital photography fundamentals to include: Adobe Photoshop, lighting, set design, studio configuration, camera operation, software interfaces, color management, photo editing, and compositing.   ",
-    "credits": "10 credits/year",
-    "schools": ["KHS"],
-    "subject": "Arts",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "f",
-    "title": "Digital Photography 1",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "60620"
-}, {
+},  {
     "description": "This course is designed to provide students with a solid grounding in digital photographic essentials focusing on the power of contemporary software tools such as Adobe Photoshop. Students will have hands-on access to the latest photographic equipment. Instruction covers digital photography essentials, lighting, set design, studio configuration, lighting, field issues, camera operation, software interfaces, and color management.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "MSJHS"],
@@ -1516,51 +1224,7 @@ const COURSES = [{
     "prereqs": "Completion of Digital Photography 1",
     "footnotes": "MVROP class taught at the school site.",
     "courseCode": "74201"
-}, {
-    "description": "This course is designed to provide experience in wet lab and digital. Students will critique work and exhibit finished products. Students may visit galleries and museums.",
-    "credits": "10 credits/year",
-    "schools": ["KHS"],
-    "subject": "Arts",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "f",
-    "title": "Digital Photography 3",
-    "prereqs": "C or higher in Digital Photo 1 and 2 better or teacher's approval; and access to 35 mm camera.",
-    "footnotes": "",
-    "courseCode": "60622"
-}, {
-    "description": "This course is designed to provide experience in wet lab and digital. Students will critique work and exhibit finished products. Students may visit galleries and museums.",
-    "credits": "10 credits/year",
-    "schools": ["IHS"],
-    "subject": "Arts",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "f",
-    "title": "Digital Photography 3",
-    "prereqs": "C or higher in Digital Photo 1 and 2 better or teacher's approval; and access to 35 mm camera.",
-    "footnotes": "",
-    "courseCode": "74202"
-}, {
-    "description": "Video production including camera work, editing, audio engineering, and the production process of short fiction, documentary, commercial and “live TV”; analyze film and television scenes and sequences, develop production management skills. ",
-    "credits": "10 credits/year",
-    "schools": ["WHS"],
-    "subject": "Arts",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "f",
-    "title": "Digital Video Arts Production 1",
-    "prereqs": "Recommend prior class in fine arts, computer applications or digital graphics.",
-    "footnotes": "",
-    "courseCode": "73033"
-}, {
-    "description": "Advanced video production including leading production teams, teaching and assisting with camera work, editing, and the production process of short fiction, documentary, commercial and “live TV”; analyze film scenes and sequences, develop production management skills, serve as Executive Producer for episodes of WHTV ",
-    "credits": "10 credits/year",
-    "schools": ["WHS"],
-    "subject": "Arts",
-    "gradesAvailable": [12],
-    "ucCategory": "f",
-    "title": "Digital Video Arts Production 2",
-    "prereqs": "Sucessful completion of DVAP 1",
-    "footnotes": "",
-    "courseCode": "73034"
-}, {
+},  {
     "description": "Video production including camera work, editing and the production process of short fiction, documentary, commercial and “live TV”; analyze film scenes and sequences, develop production management skills. Produce videos from script writing to final edit.",
     "credits": "20 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
@@ -1615,18 +1279,7 @@ const COURSES = [{
     "prereqs": "Algebra 1 with grade below C-",
     "footnotes": "",
     "courseCode": "21001"
-}, {
-    "description": "An Ohlone College course offered on site. This course is an introduction to discrete mathematics and its applications. Topics covered include logic and sets, relations and functions, combinatorics, probabilities, graph and tree theory, recurrence relations, Boolean algebra, proofs, algorithms, and finite-state machines.",
-    "credits": "5 credits/semester",
-    "schools": ["MSJHS"],
-    "subject": "Math",
-    "gradesAvailable": [12],
-    "ucCategory": "n/a",
-    "title": "Discrete Math",
-    "prereqs": "B or higher in both semesters of PreCalculus or PreCalculus Honors. Co-requisite: (a) the student must be currently enrolled in AP Calculus AB or AP Calculus BC or (b) the student must have taken AP Calculus AB or AP Calculus BC and earned a grade of B or higher in both semesters. Ohlone prerequisite is successful completion of CS102 ",
-    "footnotes": "Dual enrollment: Ohlone College Course –CS113– Discrete Mathematics for Computers",
-    "courseCode": "75105"
-}, {
+},  {
     "description": "Drama 1 provides the student with a basic background in theatrical principles, with emphasis on stage voice and movement, scene and monologue work, pantomime, improvisation, acting technique, and stage terminology.Students must be prepared to perform in a major project in both the fall and spring semesters. Significant extra time can be expected",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "WHS"],
@@ -1681,28 +1334,6 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "41300"
-}, {
-    "description": "This course is designed for honors students as an in-depth study of macroeconomics, microeconomics, consumerism and comparative economic systems. Primary source documents will be read to increase the understanding of the democratic process and of the workings of the economic system. Strong writing and discussion skills are needed as are the ability to read charts and statistical information; students will be engaged in group projects and service learning. ",
-    "credits": "5 credits/semester",
-    "schools": ["IHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [12],
-    "ucCategory": "a",
-    "title": "Economics Honors  ",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "41310"
-}, {
-    "description": "The course completes several hands-on projects based on the major themes of the California Framework; individual writing assignments are also required. Comparative economic systems are debated and Socratic dialogues are expected to be led by students.",
-    "credits": "5 credits/semester",
-    "schools": ["IHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [12],
-    "ucCategory": "g",
-    "title": "Economics Honors (We the People)",
-    "prereqs": "Recommendation by Interview/Audition before a panel of current students and teacher.",
-    "footnotes": "Service learning assignments are completed, as are components of QUEST.  Advanced Placement (AP) classes are college level classes",
-    "courseCode": "41330"
 }, {
     "description": "English Language Development is for English Learners with minimally developed oral (listening and speaking) and written (reading and writing) skills. This is a beginning course for acquiring language skills in reading, writing, listening, and speaking. This course provides linguistic support using the CA ELD Standards as a foundation for instruction. This is a two-period a day class. *Placement in these classes dependents on ELPAC scores.",
     "credits": "10 credits/year",
@@ -1824,18 +1455,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "11100"
-}, {
-    "description": "This English course will emphasize an in-depth study of classic works of American Literature. Students will focus on style analysis, analytical writing and critical thinking. Composition skills will be refined as students develop an awareness of style and rhetoric. Students are expected to have mastered basic oral and written communication skills so that they can focus on extended reading assignments, research, and group presentations. Students will study college preparatory vocabulary.",
-    "credits": "10 credits/year",
-    "schools": ["MSJHS", "WHS"],
-    "subject": "English",
-    "gradesAvailable": [11],
-    "ucCategory": "b",
-    "title": "English 11 Honors",
-    "prereqs": "GATE identified or District Honors policy",
-    "footnotes": "",
-    "courseCode": "11110"
-}, {
+},  {
     "description": "In English 12, students will study influential world writers of various literary genres. Extensive expository writing will include the literature-based essay and a critical analysis, which utilizes primary and secondary sources.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "MSJHS", "Vista"],
@@ -2022,18 +1642,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available. Ohlone College credit awarded",
     "courseCode": "74350/74351"
-}, {
-    "description": "Ganas (Gaining Attitude and Accountability Necessary for Academic Success) is a course designed to help a willing student learn how to implement 7 highly effective habits into their daily life in order to become a successful individual. This is achieved through a variety of classroom methods including: meditation, growth mindset, affirmations, the 7 habits of highly effective teens, grade checks, physical workouts, and team building activities. The course motto is: \"Together We Rise\" which is symbolized by the Phoenix!",
-    "credits": "10 credits/year",
-    "schools": ["KHS"],
-    "subject": "Elective",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "n/a",
-    "title": "Ganas",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "75045"
-}, {
+},  {
     "description": "Geography/Reference Skills will emphasize the physical and cultural geographies of various parts of the world to better understand current environmental and political issues. The class emphasizes students’ use of critical thinking skills, examining regional histories and their impact on modern societal challenges, and evaluating the effectiveness of various solutions to those problems. Hands-on computer experience encompasses in their projects will include word processing, spreadsheet construction, computer graphics, Internet searching skills, and PowerPoint. This course is strongly recommended for students planning AP studies in Social Science. This class meets the computer literacy graduation requirement.",
     "credits": "5 credits/semester",
     "schools": ["AHS", "WHS"],
@@ -2078,105 +1687,6 @@ const COURSES = [{
     "footnotes": "Questions about these program choices may be directed to the high school guidance staff, Health Department chairperson or school administration.",
     "courseCode": "71000"
 }, {
-    "description": "This elective course will allow students to broaden their understanding of film and video production in relationship to significant social movements from the early 20th century to the present. Film will be watched, studied, discussed, and created through an international, historical lens. During these activities, students will consider questions such as: Why do we watch movies? How, when, where, and why did cinema develop? How have moving images been used as propaganda for or against war and revolution? Students will analyze history in film by studying techniques and philosophies of directors, genres, and creative movements in the United States and around the world. Students will read about movies and consider significant cinematic and historical issues through class discussions and written reflections. Students will have an opportunity to create their own films each semester of this year-long course to demonstrate their understanding of cinematic techniques as well as to spotlight their personal connections to film through this unique medium of historical documentation.",
-    "credits": "10 credits/year",
-    "schools": ["MSJHS", "RHS", "Vista"],
-    "subject": "Social Science",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "g",
-    "title": "History in Film",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "75046"
-}, {
-    "description": "This course combines the required elements of Government, Economics, and English 12 in a format that uses literature and primary source readings from the social sciences and the arts to examine major themes of civilization. Components of philosophy and art history are included. An interest in writing, reading, discussion, and creative thinking are essential qualities for students who choose this program. ",
-    "credits": "5 credits/semester",
-    "schools": ["IHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [12],
-    "ucCategory": "a",
-    "title": "Humanities Economics",
-    "prereqs": "C or higher in American Studies, U.S. History/English 11 or AP US History/Honors/AP English 11 is strongly recommended, and an interview with the Humanities teachers.",
-    "footnotes": "",
-    "courseCode": "41227"
-}, {
-    "description": "This course which combines the required elements of American Government, Economics, and English 12 in a format that uses literature, the arts, and primary source readings from the social sciences to examine major themes of civilization. An interest in writing, reading, discussing ideas, and being creative is necessary for students in this class.",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "OCC"],
-    "subject": "English",
-    "gradesAvailable": [12],
-    "ucCategory": "b",
-    "title": "Humanities English 12",
-    "prereqs": "None",
-    "footnotes": "This class is taken in combination wth Humanities American Government/Economics",
-    "courseCode": "11203"
-}, {
-    "description": "This course combines the required elements of Government, Economics, and English 12 in a format that uses literature and primary source readings from the social sciences and the arts to examine major themes of civilization. Components of philosophy and art history are included. An interest in writing, reading, discussion, and creative thinking are essential qualities for students who choose this program. ",
-    "credits": "5 credits/semester",
-    "schools": ["IHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [12],
-    "ucCategory": "a",
-    "title": "Humanities Government",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "41226"
-}, {
-    "description": "This course introduces the architectures, models, protocols, networking devices, applications, and data used in today’s modern computer networks – including IP addressing and Ethernet fundamentals. Students will build and configure simple local area networks (LANs), includes foundational network security.",
-    "credits": "10 credits/year",
-    "schools": ["IHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "g",
-    "title": "Internet Engineering 1",
-    "prereqs": "None",
-    "footnotes": "MVROP class taught at the school site. Chabot, Las Positas, Mission or Ohlone College credit awarded",
-    "courseCode": "74370"
-}, {
-    "description": "This course focuses on switching technologies and router operations that support small-to-medium business networks, wireless local area networks (WLANs), and security concepts. Students learn key switching and routing concepts, network configuration and troubleshooting, and identify and mitigate LAN/WLAN security threats.",
-    "credits": "10 credits/year",
-    "schools": ["IHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "g",
-    "title": "Internet Engineering 2",
-    "prereqs": "Successful completion of Internet Engineering 1",
-    "footnotes": "MVROP class taught at the school site. Chabot, Las Positas, Mission or Ohlone College credit awarded",
-    "courseCode": "74380"
-}, {
-    "description": "This survey course in business provides a multidisciplinary examination of how culture, society, economic systems, legal, international, political, financial institutions, and human behavior interact to affect a business organization's policy and practices within the United States and within a global society. This course demonstrates how these influences impact the primary areas of business, including organizational structure and design; leadership, human resource management, organized labor practices; marketing; organizational communication; technology; entrepreneurship; legal, accounting, financial practices; the stock and securities market; and therefore affect a business's ability to achieve its organizational goals.",
-    "credits": "10 credits/year",
-    "schools": ["KHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "g",
-    "title": "Introduction to Business",
-    "prereqs": "None",
-    "footnotes": "JFKHS: Dual enrollment with Ohlone College",
-    "courseCode": "76163"
-}, {
-    "description": "An Ohlone College course offered on site. This course is an introduction to computer programming. Its primary objective is to teach problem solving using the C++ programming language. Emphasis will be placed on structured procedural programming with an introduction to object oriented programming.",
-    "credits": "5 credits/semester",
-    "schools": ["MSJHS"],
-    "subject": "Math",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "n/a",
-    "title": "Introduction to Computer Programming Using C++",
-    "prereqs": "B or higher in both semesters of PreCalculus or PreCalculus Honors. Co-requisite: (a) the student must be currently enrolled in AP Calculus AB or AP Calculus BC or (b) the student must have taken AP Calculus AB or AP Calculus BC and earned a grade of B or higher in both semesters",
-    "footnotes": "Dual enrollment: Ohlone College Course CS-102 – Introduction to Computer Programming Using C++",
-    "courseCode": "73031"
-}, {
-    "description": "This dual credit semester course introduces students to computer systems hardware and software in the field of computer science. The goal is to focus on the Internet of Things and how it enables the Digital Transformation and emerging technologies such as data analytics, artificial intelligence, and cyber security. This course will also introduce the importance of the Internet-Based Networking that uses a software-driven approach and machine learning to secure tens of billions of new devices.",
-    "credits": "10 credits/year",
-    "schools": ["IHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [9],
-    "ucCategory": "g",
-    "title": "Introduction to Computer Science",
-    "prereqs": "None",
-    "footnotes": "MVROP class taught at the school site.",
-    "courseCode": "73031"
-}, {
     "description": "Students will spend one semester developing their computer literacy through three units: -How We Communicate: Computers as facilitators of human interactions. -Making Computers Work: An introduction to programming and physical computing -The Internet of Things: An exploration of the future impact of computers in our lives",
     "credits": "5 credits/semester",
     "schools": ["AHS"],
@@ -2187,29 +1697,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "76162"
-}, {
-    "description": "Exploration of careers in several related industries including hospitality, culinary arts, travel, tourism, recreation and leisure industries. Students are also introduced to some basic cooking skills, safety, and sanitation. It is an introductory semester course for Culinary Arts. This course is part of the JFKHS Green Ventures Academy of the Calfiornia Partnership Academy.",
-    "credits": "5 credits/semester",
-    "schools": ["KHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [10],
-    "ucCategory": "n/a",
-    "title": "Introduction to Culinary/Hospitality",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "74390"
-}, {
-    "description": "This course is an introductory course, which develop students’ problem skills, with emphasis placed upon the concept of developing 3- D models or solid rendering of an object. Engineering careers and educational preparation will be researched. This course is the first in a sequence of three engineering courses. ",
-    "credits": "10 credits/year",
-    "schools": ["AHS", "IHS", "MSJHS", "WHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "f",
-    "title": "Introduction to Design",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "73007"
-}, {
+},   {
     "description": "This course is an introductory course, which develop students’ problem skills, with emphasis placed upon the concept of developing 3- D models or solid rendering of an object. Engineering careers and educational preparation will be researched. This course is the first in a sequence of three engineering courses. ",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "WHS"],
@@ -2220,18 +1708,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "73007"
-}, {
-    "description": "This Project Lead the Way (PLTW) course will expose students to the design process, research and analysis, teamwork, communication methods, global and human impacts, engineering standards and technical documentation. Students will make models and use 3D solid modeling design software to help them design solutions to solve proposed problems and will learn how to document their work and communicate solutions to peers and members of the professional community.",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "KHS"],
-    "subject": "Science",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "d",
-    "title": "Introduction to Engineering and Design (PLTW)",
-    "prereqs": "None",
-    "footnotes": "MVROP class taught at the school site.",
-    "courseCode": "74209"
-}, {
+},  {
     "description": "This class will examine the basic elements of probability, binomial and normal distributions, measures of center and spread, linear correlation, statistical tables, and use of technology for developing statistical theory and applications.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "Vista", "WHS"],
@@ -2320,17 +1797,6 @@ const COURSES = [{
     "footnotes": "Significant extra time can be expected. ",
     "courseCode": "13003"
 }, {
-    "description": "This course is designed to introduce principles of exercise prescription and strength and conditioning. Topics will include exercise physiology, exercise prescription for special and general populations, free weight and machine exercise techniques, nutrition and weight management, biomechanical concepts, and emergency and legal issues related to fitness and strength training.",
-    "credits": "10 credits/year",
-    "schools": ["IHS"],
-    "subject": "Physical Education",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "n/a",
-    "title": "Kinesiology",
-    "prereqs": "None",
-    "footnotes": "Does not award PE credit. Dual enrollment with Ohlone College (Kinesiology 258)",
-    "courseCode": "72112"
-}, {
     "description": "Students will learn legal vocabulary, general knowledge of the law, search and seizure procedures, laws of arrest, judicial systems, specialized police practices, and improvement in written and oral communication. Students engage in physical activity, including running and Kajukenbo. Explore careers within the criminal justice system and job search procedures",
     "credits": "20 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
@@ -2385,18 +1851,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "11237"
-}, {
-    "description": "An Ohlone College course offered on site. This course includes an introduction to linear algebra including vector spaces, matrices, determinants, linear transformations, eigenvectors, techniques of solving systems of equations, and applications.",
-    "credits": "5 credits/semester",
-    "schools": ["KHS", "MSJHS"],
-    "subject": "Math",
-    "gradesAvailable": [12],
-    "ucCategory": "n/a",
-    "title": "Linear Algebra",
-    "prereqs": "C or higher in  both semesters of Calculus BC; AP Calculus BC test with a score of 3 or higher and AB subscore of 3 or better.",
-    "footnotes": "Preference is given to seniors. If the course is impacted, then preference is based on performance in AP Calculus BC and on the AP Calculus BC Test Score. Dual enrollment: Ohlone Course Math 103 – Linear Algebra",
-    "courseCode": "21250"
-}, {
+},  {
     "description": "This course is about analyzing film as a piece of literature. The focus is on film analysis from cinematic, literary, and theatrical views. Students also progress through the film creation process from storyboarding to screenwriting and finally into filming and production. The course requires writing (creative, critique, and analysis) and analysis (but not in reading). ",
     "credits": "5 credits/semester",
     "schools": ["AHS"],
@@ -2418,18 +1873,7 @@ const COURSES = [{
     "prereqs": "Concurrent enrollment in Algebra strongly recommended. Successful completion of 8th grade English with a B or higher at each semester or successful completion of Physics in the Universe with a C- or higher strongly recommended ",
     "footnotes": "",
     "courseCode": "31080"
-}, {
-    "description": "This class is the second in a proposed sequence of Three Next Generation Science Standards courses aligned to the new California Science Framework which will prepare students to successfully pass the CAST science assessment. This course will cover Ecosystems, Photosynthesis/Respiration, Evolution, Genetics, Climate Change, and Structure/Function/Growth of biological organisms. Students will engage at the Honors Level in the Science and Engineering Practices.",
-    "credits": "10 credits/year",
-    "schools": ["AHS", "IHS", "KHS", "MSJHS"],
-    "subject": "Science",
-    "gradesAvailable": [0],
-    "ucCategory": "d",
-    "title": "Living Earth Honors",
-    "prereqs": "B or higher in both semesters of  Algebra 1, English 9 and Physics in the Universe.  ",
-    "footnotes": "",
-    "courseCode": "31081"
-}, {
+},  {
     "description": "This course is designed for students who play a band instrument and are interested in the total range of band music and activities. Students will improve instrumental skills as well as acquire skills in precision teamwork, body carriage, musicianship, and showmanship. This course counts as P.E. credit, and may be repeated each fall semester. Students who are flag team members, majorettes or other band auxiliary must enroll. If using this course for P.E. credit, the “f” credit for CSU/UC does not apply.",
     "credits": "5 credits/semester",
     "schools": ["AHS", "IHS", "MSJHS", "WHS"],
@@ -2451,29 +1895,7 @@ const COURSES = [{
     "prereqs": "C- or higher in 2 years of lab science.",
     "footnotes": "",
     "courseCode": "31220"
-}, {
-    "description": "Students will learn the basics of advertising, marketing, merchandising, and technology in preparation for entry-level marketing positions and college-level study. They will understand elementary business systems, functions; and practices, and business math.",
-    "credits": "10 credits/year",
-    "schools": ["WHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "g",
-    "title": "Marketing 1",
-    "prereqs": "None",
-    "footnotes": "This is a DECA approved class.",
-    "courseCode": "73202"
-}, {
-    "description": "Media Arts/IT is a semester course divided into two quarters-Media Arts and IT Technology. In this course students will learn to use Microsoft software to create Word documents, spreadsheets, and power point presentations. They will learn how to import/download digital photographs and videos and convert them into animated clips using Adobe and Microsoft software. The basic skills of reading, writing, and math will be reinforced throughout the course. This course meets the computer literacy requirement.",
-    "credits": "5 credits/semester",
-    "schools": ["AHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [9],
-    "ucCategory": "n/a",
-    "title": "Media Arts/Information Technology Wheel",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "73003"
-}, {
+},  {
     "description": "This course provides career preparation for Medical Assistant positions in the healthcare industry. Students will receive heavy academic instruction in human anatomy. This course will provide students with a fundamental understanding of the MA and their role in healthrelated fields, thus aiding them in career decisions.",
     "credits": "20 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
@@ -2485,17 +1907,6 @@ const COURSES = [{
     "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available. Internship required. Students not meeting requirements for internships may not be able to continue in the course for second semester.",
     "courseCode": "74410"
 }, {
-    "description": "An Ohlone College  course offered on site. This course includes vector analysis, functions of several variables, partial derivatives, multiple integration, integration of vector valued functions, and applications.",
-    "credits": "5 credits/semester",
-    "schools": ["KHS", "MSJHS"],
-    "subject": "Math",
-    "gradesAvailable": [12],
-    "ucCategory": "n/a",
-    "title": "Multivariable Calculus",
-    "prereqs": "C or higher in  both semesters of AP Calculus BC; AP Calculus BC test with a score of 3 or higher and AB subscore of 3 or better.",
-    "footnotes": "Preference is given to seniors. If the course is impacted, then preference is based on performance in AP Calculus BC and on the AP Calculus BC Test Score. Dual enrollment: Ohlone Course Math 101C – Calculus III",
-    "courseCode": "21260"
-}, {
     "description": "Learn about synthesizers and making music with MIDI in Digital Audio Workstations including Pro Tools, Cubase, and Adobe Audition. Recording, editing and mixing techniques are developed, as well as an introduction to acoustics. Students explore career and college pathways in the music industry.",
     "credits": "20 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
@@ -2517,18 +1928,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available.",
     "courseCode": "74284"
-}, {
-    "description": "This course encourages students to develop their vocal skills utilizing the materials of musical theatre. They will be required to sing solos and in small and large ensembles. Students will research and present the work of major musical theatre composers. Students will also rehearse and prepare for upcoming productions.",
-    "credits": "10 credits/year",
-    "schools": ["MSJHS"],
-    "subject": "Arts",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "n/a",
-    "title": "Musical Theatre Vocal Workshop",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "60320"
-}, {
+},  {
     "description": "This course provides career preparation for Nursing/Health Care with personal patient care, systems review, safety principles, infection control, HIPAA, restorative care, body mechanics, nutrition, vital signs, Home and Acute Care. Internship at skilled nursing, Assisted Living, Home Care (medical/non-medical), dementia and Acute Care facilities.",
     "credits": "20 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
@@ -2550,40 +1950,7 @@ const COURSES = [{
     "prereqs": "Previous string experience.",
     "footnotes": "",
     "courseCode": "60212"
-}, {
-    "description": "Students with experience in playing the violin, viola, cello and string bass will improve instrumental, musical, listening skills, and music theory studies. Skills in tone production, intonation, technique, music reading and musical expression will be studied within the string and symphonic repertoire. Activities include concerts, contests, small ensemble works and the spring musical. Attendance at evening concerts, community events, musicals and rehearsals will be required as scheduled.",
-    "credits": "10 credits/year",
-    "schools": ["MSJHS"],
-    "subject": "Arts",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "f",
-    "title": "Orchestra 2",
-    "prereqs": "Orchestra 1, audition, director’s approval.",
-    "footnotes": "May be repeated for credit",
-    "courseCode": "60213"
-}, {
-    "description": "Students with experience in playing the violin, viola, cello and string bass will improve instrumental, musical, listening skills, and music theory studies. Skills in tone production, intonation, technique, music reading and musical expression at an advanced level will be studied within the string and symphonic repertoire. Activities include concerts, contests, small ensemble works and the spring musical. Attendance at evening concerts, community events, musicals and rehearsals will be required as scheduled.",
-    "credits": "10 credits/year",
-    "schools": ["MSJHS"],
-    "subject": "Arts",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "f",
-    "title": "Orchestra 3",
-    "prereqs": "Orchestra 2, audition, director’s approval.",
-    "footnotes": "May be repeated for credit",
-    "courseCode": "60214"
-}, {
-    "description": "Students with experience in playing the violin, viola, cello and string bass will improve instrumental, musical, listening skills, and music theory studies. Skills in tone production, intonation, technique, music reading and musical expression will be studied within the string and symphonic repertoire. Activities include concerts, contests, small ensemble works and the spring musical. Attendance at evening concerts, community events, musicals and rehearsals will be required as scheduled.",
-    "credits": "10 credits/year",
-    "schools": ["MSJHS"],
-    "subject": "Arts",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "f",
-    "title": "Orchestra 4",
-    "prereqs": "Orchestra 3, audition, director’s approval.",
-    "footnotes": "May be repeated for credit",
-    "courseCode": "60215"
-}, {
+},  {
     "description": "The Peer Resource course is a peer assistance program offering students the opportunity to work as trained peer facilitators with other students. Participants will be trained in a variety of helping skills which will enable them to assist other students in having a more positive and productive school experience. Positive peer influence will be utilized as a strategy for addressing such issues as low achievement, dropout prevention, substance abuse prevention, suicide, absenteeism, negative attitudes about school, behavior problems, and other issues of concern in the school.",
     "credits": "10 credits/year",
     "schools": ["AHS", "KHS", "MSJHS", "RHS", "WHS"],
@@ -2594,17 +1961,6 @@ const COURSES = [{
     "prereqs": "Approval Process",
     "footnotes": "",
     "courseCode": "75027"
-}, {
-    "description": "In this Advanced Peer Resource Class, students will obtain advanced skills in communication, facilitation and leadership. Students will gain skills regarding such issues as: substance abuse, violence prevention, suicide prevention and other topics as needed. All students will be responsible in planning, organizing, and implementing programs that will provide a service to the school and/or community. Students in this course will also take an active role in assisting with the training and project implementation for Peer Resources 1.",
-    "credits": "10 credits/year",
-    "schools": ["KHS", "MSJHS", "WHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "n/a",
-    "title": "Peer Resources 2",
-    "prereqs": "Satisfactory completion of Peer Resources 1, approval process",
-    "footnotes": "",
-    "courseCode": "75028"
 }, {
     "description": "This course prepares students to be financially literate. Students will experience the “financial game of life”. Course includes understanding gross versus net pay, standard deductions, taxation, account balancing, purchasing items using loans (house, car), renting, leasing, credit (revolving and installment), tax preparation, budgeting and retirement planning.",
     "credits": "10 credits/year",
@@ -2748,51 +2104,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "73004"
-}, {
-    "description": "This survey course of engineering exposes students to major concepts they’ll encounter in a postsecondary engineering courses of study. Students will employ engineering and scientific concept in the solution of engineering design problems.",
-    "credits": "10 credits/year",
-    "schools": ["AHS", "WHS", "IHS"],
-    "subject": "Science",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "d",
-    "title": "Principles of Engineering",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "73004"
-}, {
-    "description": "This survey course of engineering exposes students to major concepts they’ll encounter in a postsecondary engineering course of study. Students employ engineering and scientific concepts in the solution of engineering design problems. They develop problem-solving skills and apply their knowledge of research and design to create solutions to various challenges, documenting their work and communicating solutions to peers and members of the professional community.",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "KHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "d",
-    "title": "Principles of Engineering (PLTW)",
-    "prereqs": "None",
-    "footnotes": "MVROP class taught at the school site. Las Positas College credit awarded.",
-    "courseCode": "74213"
-}, {
-    "description": "This survey course of engineering exposes students to major concepts they’ll encounter in a postsecondary engineering course of study. Students employ engineering and scientific concepts in the solution of engineering design problems. They develop problem-solving skills and apply their knowledge of research and design to create solutions to various challenges, documenting their work and communicating solutions to peers and members of the professional community.",
-    "credits": "10 credits/year",
-    "schools": ["KHS"],
-    "subject": "Science",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "d",
-    "title": "Principles of Engineering (PLTW)",
-    "prereqs": "None",
-    "footnotes": "MVROP class taught at the school site. Las Positas College credit awarded.",
-    "courseCode": "74213"
-}, {
-    "description": "This survey course of engineering exposes students to major concepts they’ll encounter in a postsecondary engineering courses of study. Students will employ engineering and scientific concept in the solution of engineering design problems.  The honors curriculum will stress the math components that correspond with the curriculum and has increased performance expectations regarding communication of findings. ",
-    "credits": "10 credits/year",
-    "schools": ["AHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "d",
-    "title": "Principles of Engineering Honors",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "73000"
-}, {
+},   {
     "description": "This survey course of engineering exposes students to major concepts they’ll encounter in a postsecondary engineering courses of study. Students will employ engineering and scientific concept in the solution of engineering design problems.",
     "credits": "10 credits/year",
     "schools": ["AHS"],
@@ -2803,18 +2115,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "73000"
-}, {
-    "description": "Play production offers many opportunities for both backstage and auditorium management. Students in this class will assist in all production procedures, including costuming, property management, publicity, business management, and stage crew work. In short, students will “crew” a show. Outside rehearsals are required.",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "KHS"],
-    "subject": "Arts",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "f",
-    "title": "Production and Stage Craft",
-    "prereqs": "None",
-    "footnotes": "Outside rehearsals are required. May be repeated for credit. Dual enrollemnt with Ohlone College.",
-    "courseCode": "60416"
-}, {
+},  {
     "description": "The American Psychological Association defines Psychology as “the study of the mind and behavior. Thee discipline embraces all aspects of the human experience-from the functions of the brain to the actions of nations, from child development to care for the aged…In every conceivable setting…’the understanding of behavior’ is the enterprise of psychologists.” This course is a general introduction of Psychology and should be rigorous and relevant with instruction that integrates thinking skills, historical processes, and content so that students are able to apply their learning to their own lives.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "MSJHS", "Vista", "WHS"],
@@ -2843,55 +2144,11 @@ const COURSES = [{
     "subject": "English",
     "gradesAvailable": [9, 10, 11, 12],
     "ucCategory": "g",
-    "title": "Publications 1",
+    "title": "Publications",
     "prereqs": "B or better in English and approval of advisor.",
     "footnotes": "May be repeated for credit. Attendance at numerous extracurricular events is mandatory.",
     "courseCode": "13020"
-}, {
-    "description": " This course not only offers advanced study of scholastic yearbook production but also presents opportunities for editorships and staff leadership. This course provides a good foundation for careers in publishing and photography. Significant extra time can be expected ",
-    "credits": "10 credits/year",
-    "schools": ["WHS"],
-    "subject": "Arts",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "f",
-    "title": "Publications 2",
-    "prereqs": "B or better in Publications 1 and completion of application process.",
-    "footnotes": "",
-    "courseCode": "13022"
-}, {
-    "description": "Each semester students will audition for a part in a school play. Those students selected for parts may enroll in Rehearsal & Performance to earn unit credit for their play participation. Students will study acting techniques through actual performances. Outside rehearsals and performances are required.",
-    "credits": "5 credits/semester",
-    "schools": ["IHS"],
-    "subject": "Arts",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "f",
-    "title": "Rehearsal and Performance",
-    "prereqs": "Teacher’s approval by audition",
-    "footnotes": "May be repeated for credit. Dual enrollment with Ohlone College",
-    "courseCode": "60415"
-}, {
-    "description": "Sculpture 2 is designed for the second year sculpture student. Students will further their knowledge of three-dimensional art through a rich study in both observational and conceptual projects. Students will participate in a wide range of experiences including research, field studies and critiques. Students will study plaster, clay, wire, papier-mâché and found objects as sculptural materials.  ",
-    "credits": "10 credits/year",
-    "schools": ["IHS"],
-    "subject": "Arts",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "f",
-    "title": "Sculpture 2",
-    "prereqs": "Sculpture and Ceramics",
-    "footnotes": "Lab donation may be requested.",
-    "courseCode": "60614"
-}, {
-    "description": "Students who enjoyed creating papier-mâché and ceramic sculpture in Art 1 can further develop their sculpting skills. Clay, plaster, wire, and papier-mâché are some of the materials used. This course includes an introduction to the potter’s wheel and will require both a gallery tour and review.",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "KHS", "MSJHS"],
-    "subject": "Arts",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "f",
-    "title": "Sculpture and Ceramics",
-    "prereqs": "None",
-    "footnotes": "Lab donation may be requested.",
-    "courseCode": "60612"
-}, {
+},   {
     "description": "This is an elective course that introduces the field and its methodology. It is a survey class that involves learning about relationships between individuals and the society in which one lives. Students will be introduced to the tools and vocabulary of sociology as well as learning about structure, function and patterns of behavior in various societies, cultural traits, adaptation, socialization, values and norms, problems of adolescence, adulthood and work, social stratification, family problems, population and ecology.",
     "credits": "10 credits/year",
     "schools": ["AHS", "Vista", "WHS"],
@@ -2946,29 +2203,7 @@ const COURSES = [{
     "prereqs": "From Grade 8: B- or higher in Spanish 2, from Grade 9, 10, 11 or 12, C or higher in Spanish  2.",
     "footnotes": "Dual enrollment with Ohlone College",
     "courseCode": "50120"
-}, {
-    "description": "This course will build upon the foundation in listening, speaking, reading, and writing acquired in the Level 1 & 2 language course. Students will acquire additional skills in expressing personal and biographical information and in giving detailed information about activities, hobbies, family, and friends. Students will acquire sufficient cultural awareness to be comfortable in typical exchanges with native speakers. This is a literature based class.",
-    "credits": "10 credits/year",
-    "schools": ["AHS", "KHS", "WHS"],
-    "subject": "World Language",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "e",
-    "title": "Spanish 3 for Spanish Speakers",
-    "prereqs": "C or higher in Spanish 2, native Spanish speaker, placement exam or teacher approval",
-    "footnotes": "",
-    "courseCode": "50170"
-}, {
-    "description": "This course builds upon the skills acquired in the Level 3 language course, enhancing the students' abilities to express and defend opinions and to describe or narrate, conversationally or in writing, the events of their lives. A variety of literary selections form the basis for discussion and appreciation of (language) culture and civilization. s.",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "MSJHS"],
-    "subject": "World Language",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "e",
-    "title": "Spanish 4",
-    "prereqs": "From Grade 8: B- or higher in Spanish 3, from Grade 9, 10, 11 or 12, C or higher in Spanish  3.",
-    "footnotes": "Some schools offer Level 4 classes as concurrent Ohlone course",
-    "courseCode": "50130"
-}, {
+},   {
     "description": "This course is for students interested in the areas of athletic training, physical therapy, occupational therapy and strength and conditioning. Areas covered include: anatomy/ physiology, emergency procedures, injury recognition, evaluation and treatment, taping and wrapping. Students will earn CPR certification.",
     "credits": "20 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
@@ -3045,18 +2280,7 @@ const COURSES = [{
     "prereqs": "Completion of PE 9 and PE 10 required. ",
     "footnotes": "",
     "courseCode": "72121"
-}, {
-    "description": "This course is an advanced vocal ensemble which focuses on choral music for treble voices. Sight reading and listening (ear training) will be emphasized as well as good vocal technique. Outside performances and rehearsals are required.",
-    "credits": "10 credits/year",
-    "schools": ["IHS"],
-    "subject": "Arts",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "f",
-    "title": "Treble Ensemble",
-    "prereqs": "Teacher’s approval by audition",
-    "footnotes": "May be repeated for credit",
-    "courseCode": "60215"
-}, {
+},  {
     "description": "This course will examine the chronological growth and change of the United States regarding social eras, political developments, economic policies, and foreign relations. The California Framework units include a review of US History in the 19thCentury after the Civil War, The Progressive Era, World War I, Roaring 20’s, the Depression years, New Deal, World War II, The Cold War, Civil Rights Movement, Vietnam, the 80’s and post-Cold War. Students will continue to develop research skills, data analysis, written and oral communication, and service learning related to citizenship. Individual and cooperative group work will be assigned.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "RHS", "Vista", "WHS"],
@@ -3067,29 +2291,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "41100"
-}, {
-    "description": "Explore web design as you incorporate graphics, sound, movies, and animation into HTML/CSS built websites. Students will learn all phases of the design process from the idea state, through planning, production and testing while creating original web sites",
-    "credits": "10 credits/year",
-    "schools": ["WHS"],
-    "subject": "Arts",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "f",
-    "title": "Web Design",
-    "prereqs": "None",
-    "footnotes": "This is a DECA approved class. Dual credit with Ohlone College.",
-    "courseCode": "73205"
-}, {
-    "description": "Students will learn design principles to create Web sites of their choice using the latest software applications. Students will also learn to analyze Web sites created in a wide range of fields and various cultures. Topics include CSS, typography, color, copyright issues, accessibility, contracts, digital imaging optimization, and techniques to display sound, animation and video.",
-    "credits": "10 credits/year",
-    "schools": ["WHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "f",
-    "title": "Web Design ",
-    "prereqs": "None",
-    "footnotes": "This is a DECA approved class.",
-    "courseCode": "73205"
-}, {
+},  {
     "description": "Explore web design as you incorporate graphics, sound, movies, and animation into HTML/ CSS built websites. Students will learn all phases of the design process from the idea state, through planning, production and testing while creating original web sites. Students may  be eligible for Ohlone 2+2 articulation receiving an annual grade of a \"B\" or above.\n",
     "credits": "10 credits/year",
     "schools": ["AHS"],
@@ -3122,18 +2324,7 @@ const COURSES = [{
     "prereqs": "Completion of PE 9 and PE 10 required. ",
     "footnotes": "",
     "courseCode": "72113"
-}, {
-    "description": "This ensemble, consisting of woodwind, brass, and percussion players, is designed for the most advanced and motivated student musicians on campus. Since these students will have advanced technical skills as a prerequisite for the class, the curricular focus will be on artistic and soloistic expression. In addition to full ensemble playing, a great deal of time will be spent in chamber ensembles.",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "MSJHS", "WHS"],
-    "subject": "Arts",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "f",
-    "title": "Wind Ensemble",
-    "prereqs": "Teacher approval  ",
-    "footnotes": "May be repeated for credit",
-    "courseCode": "60217"
-}, {
+},{
     "description": "The class will help students see women’s past and current role in the country and in the world with a deeper understanding of their significance. Units include an overview of women’s coalitions, violence against women, international women’s issues, women and the media, body image, and a research project on a subject of personal choice. Through these topics students will be empowered with tools of political activism and self-advocacy as they question existing social and political structures. All students will have the opportunity to enhance their understanding of themselves and the world by studying inspirational examples of powerful women.",
     "credits": "10 credits/year",
     "schools": ["AHS", "MSJHS", "Vista"],
@@ -3145,17 +2336,6 @@ const COURSES = [{
     "footnotes": "",
     "courseCode": "41425"
 }, {
-    "description": "This is a program in which a student may receive elective credit and may be released from school for one period per day for employment. It is designed to assist students in developing positive work attitudes and experiences in on-the-job situations. ",
-    "credits": "10 credits/year",
-    "schools": ["KHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [11, 12],
-    "ucCategory": "n/a",
-    "title": "Work Experience",
-    "prereqs": "Must be 16 years old, be employed, and have the Work Experience Coordinator's approval.",
-    "footnotes": "This course awards variable credit dependent on the number of hours worked, up to a maximum of 10 credits per semester.",
-    "courseCode": "73060"
-}, {
     "description": "The focus of this course is the chronological progression of events in world history. Students will develop a global view of the relationship between today’s cultures and those of the past, as well as an awareness of cultural similarities, differences, and achievements. Content will also include the geographical location and influence of classical civilizations, Europe, Asia, Africa, and the Americas.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "RHS", "Vista", "WHS"],
@@ -3166,18 +2346,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "41000"
-}, {
-    "description": "World History is the study of social, cultural, political and technological change. The units of study presented in this course are: The Rise of Democracy, Industrial Revolution, Imperialism, World War I, Totalitarianism, Holocaust, World War II, and Unresolved Problems of the Modern World. Students will write a research paper, and read novels such as “All Quiet on the Western Front.” Writing skills will be developed through essay writing and short reports. Group projects and presentations will be done throughout the year. Geography skills and interpretations of graphs and charts will be emphasized throughout the year.",
-    "credits": "10 credits/year",
-    "schools": ["IHS", "KHS"],
-    "subject": "Social Science",
-    "gradesAvailable": [10],
-    "ucCategory": "a",
-    "title": "World History Honors",
-    "prereqs": "Honors class prerequisites.",
-    "footnotes": "",
-    "courseCode": "41010"
-}, {
+},  {
     "description": "This course is an introduction to myths from around the world. Students will study the similarities and differences between various mythologies, analyze how past cultures have used mythology to explain the world and human nature, and explore why myths are relevant to humans today. This class requires frequent reading of assigned myths, regular writing assignments, and occasional essays, presentations, and projects. ",
     "credits": "5 credits/semester",
     "schools": ["AHS"],
@@ -3210,4 +2379,16 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "41475"
-}]
+},{
+    "description": "This course is for students interested in the areas of athletic training, physical therapy, occupational therapy and strength and conditioning. Areas covered include: anatomy/ physiology, emergency procedures, injury recognition, evaluation and treatment, taping and wrapping. Students will earn CPR certification.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [12],
+    "ucCategory": "n/a",
+    "title": "Sports Therapy 2",
+    "prereqs": "Completion of Sports Therapy 1",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available. Internship required. Students not meeting requirements for internships may not be able to continue in the course for second semester.",
+    "courseCode": "74471"
+}
+]
