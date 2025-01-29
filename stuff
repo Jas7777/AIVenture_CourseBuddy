@@ -1,4 +1,15 @@
 const COURSES = [{
+    "description": "This technology-focused career readiness course prepares students for many career paths and teaches about mental health, gaming history, and technological skills. Gaming Concepts provides students an introduction to marketing, graphic design, personal brand development, digital media and other potential fields of interest through a gaming and esports lens. ",
+    "credits": "10 credits/year",
+    "schools": ["AHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [9, 10, 11, 12],
+    "ucCategory": "n/a",
+    "title": "Gaming Concepts",
+    "prereqs": "None",
+    "footnotes": "G - Elective Credit (pending)",
+    "courseCode": "75032"
+},{
     "description": "Students learn the creative process for producing 2-dimensional digital animations. Students write short stories, draw sketches and storyboards; develop original characters, backgrounds and objects on two-dimensional software, to finally produce short animations. ",
     "credits": "10 credits/year",
     "schools": ["AHS"],
