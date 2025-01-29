@@ -225,18 +225,7 @@ const COURSES = [{
     "prereqs": "C- or higher in Living Earth or Living Earth Honors and Chemistry (or taken concurrently with Chemistry).",
     "footnotes": "",
     "courseCode": "31042"
-},  {
-    "description": "Anatomy and Physiology is a lab based upper division college preparatory course for those with an interest in learning more fully about the human body or in exploring a medical career includes: the eleven systems of the body. Presentation modes include lectures, labs, dissection, computer applications, written assignments, and tests.",
-    "credits": "10 credits/year",
-    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
-    "subject": "Science",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "d",
-    "title": "Anatomy and Physiology for Medical Careers ",
-    "prereqs": "C- or higher in Living Earth or Living Earth Honors and Chemistry (or taken concurrently with Chemistry).",
-    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available. Ohlone College credit awarded.",
-    "courseCode": "74007"
-}, {
+},   {
     "description": "Anatomy and Physiology is a lab based upper division college preparatory course for those with an interest in learning more fully about the human body or in exploring a medical career includes: the eleven systems of the body. Presentation modes include lectures, labs, dissection, computer applications, written assignments, and tests.",
     "credits": "10 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
