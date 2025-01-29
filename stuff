@@ -1873,18 +1873,7 @@ const COURSES = [{
     "prereqs": "Concurrent enrollment in Algebra strongly recommended. Successful completion of 8th grade English with a B or higher at each semester or successful completion of Physics in the Universe with a C- or higher strongly recommended ",
     "footnotes": "",
     "courseCode": "31080"
-}, {
-    "description": "This class is the second in a proposed sequence of Three Next Generation Science Standards courses aligned to the new California Science Framework which will prepare students to successfully pass the CAST science assessment. This course will cover Ecosystems, Photosynthesis/Respiration, Evolution, Genetics, Climate Change, and Structure/Function/Growth of biological organisms. Students will engage at the Honors Level in the Science and Engineering Practices.",
-    "credits": "10 credits/year",
-    "schools": ["AHS", "IHS", "KHS", "MSJHS"],
-    "subject": "Science",
-    "gradesAvailable": [0],
-    "ucCategory": "d",
-    "title": "Living Earth Honors",
-    "prereqs": "B or higher in both semesters of  Algebra 1, English 9 and Physics in the Universe.  ",
-    "footnotes": "",
-    "courseCode": "31081"
-}, {
+},  {
     "description": "This course is designed for students who play a band instrument and are interested in the total range of band music and activities. Students will improve instrumental skills as well as acquire skills in precision teamwork, body carriage, musicianship, and showmanship. This course counts as P.E. credit, and may be repeated each fall semester. Students who are flag team members, majorettes or other band auxiliary must enroll. If using this course for P.E. credit, the “f” credit for CSU/UC does not apply.",
     "credits": "5 credits/semester",
     "schools": ["AHS", "IHS", "MSJHS", "WHS"],
@@ -1907,17 +1896,6 @@ const COURSES = [{
     "footnotes": "",
     "courseCode": "31220"
 },  {
-    "description": "Media Arts/IT is a semester course divided into two quarters-Media Arts and IT Technology. In this course students will learn to use Microsoft software to create Word documents, spreadsheets, and power point presentations. They will learn how to import/download digital photographs and videos and convert them into animated clips using Adobe and Microsoft software. The basic skills of reading, writing, and math will be reinforced throughout the course. This course meets the computer literacy requirement.",
-    "credits": "5 credits/semester",
-    "schools": ["AHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [9],
-    "ucCategory": "n/a",
-    "title": "Media Arts/Information Technology Wheel",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "73003"
-}, {
     "description": "This course provides career preparation for Medical Assistant positions in the healthcare industry. Students will receive heavy academic instruction in human anatomy. This course will provide students with a fundamental understanding of the MA and their role in healthrelated fields, thus aiding them in career decisions.",
     "credits": "20 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
@@ -2225,18 +2203,7 @@ const COURSES = [{
     "prereqs": "From Grade 8: B- or higher in Spanish 2, from Grade 9, 10, 11 or 12, C or higher in Spanish  2.",
     "footnotes": "Dual enrollment with Ohlone College",
     "courseCode": "50120"
-}, {
-    "description": "This course will build upon the foundation in listening, speaking, reading, and writing acquired in the Level 1 & 2 language course. Students will acquire additional skills in expressing personal and biographical information and in giving detailed information about activities, hobbies, family, and friends. Students will acquire sufficient cultural awareness to be comfortable in typical exchanges with native speakers. This is a literature based class.",
-    "credits": "10 credits/year",
-    "schools": ["AHS", "KHS", "WHS"],
-    "subject": "World Language",
-    "gradesAvailable": [9, 10, 11, 12],
-    "ucCategory": "e",
-    "title": "Spanish 3 for Spanish Speakers",
-    "prereqs": "C or higher in Spanish 2, native Spanish speaker, placement exam or teacher approval",
-    "footnotes": "",
-    "courseCode": "50170"
-},  {
+},   {
     "description": "This course is for students interested in the areas of athletic training, physical therapy, occupational therapy and strength and conditioning. Areas covered include: anatomy/ physiology, emergency procedures, injury recognition, evaluation and treatment, taping and wrapping. Students will earn CPR certification.",
     "credits": "20 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
