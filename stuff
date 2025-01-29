@@ -1,4 +1,28 @@
 const COURSES = [{
+    "description": "Students will learn to create sound effects for film and video games using Pro Tools and Logic Pro X. Record and edit sound effects with Foley recording and ADR techniques. Learn to integrate sounds into gaming projects using programs such as Unreal Engine and Wwise. Students develop an online career portfolio that will highlight their creative work.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "f",
+    "title": "Sound Design for Film and Video Games 2",
+    "prereqs": "Sound Design for Film and Video Games 1",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available.",
+    "courseCode": "74285"
+},
+{
+    "description": "Students will learn to create sound effects for film and video games using Pro Tools and Logic Pro X. Record and edit sound effects with Foley recording and ADR techniques. Learn to integrate sounds into gaming projects using programs such as Unreal Engine and Wwise. Students develop an online career portfolio that will highlight their creative work.",
+    "credits": "20 credits/year",
+    "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
+    "subject": "Career Technical Education",
+    "gradesAvailable": [11, 12],
+    "ucCategory": "f",
+    "title": "Sound Design for Film and Video Games 1",
+    "prereqs": "None",
+    "footnotes": "This course is offered at the MVROP site and is 2 periods in length. Transportation from the high schools to MVROP is available.",
+    "courseCode": "74283"
+},
+{
     "description": "This is a year-long combined course. During the first semester, in Principles of Biomedical Science, students explore concepts in biology and medicine such as genetics, microbiology, epidemiology, and clinical care. During the second semester, in Human Body Systems, students learn the interactions of human body systems and apply them to solve real-world medical cases.",
     "credits": "20 credits/year",
     "schools": ["AHS", "IHS", "KHS", "MSJHS", "MVROP", "RHS", "Vista", "WHS"],
