@@ -1,4 +1,16 @@
 const COURSES = [{
+    "description": "Each semester students will audition for a part in a school play. Those students selected for parts may enroll in Rehearsal & Performance to earn unit credit for their play participation. Students will study acting techniques through actual performances. Outside rehearsals and performances are required.",
+    "credits": "5 credits/semester",
+    "schools": ["AHS", "IHS", "KHS"],
+    "subject": "Arts",
+    "gradesAvailable": [9, 10, 11, 12],
+    "ucCategory": "f",
+    "title": "Rehearsal and Performance",
+    "prereqs": "Teacher’s approval by audition",
+    "footnotes": "May be repeated for credit. Dual enrollment with Ohlone College",
+    "courseCode": "60415"
+},
+{
     "description": "This ensemble, consisting of woodwind, brass, and percussion players, is designed for the most advanced and motivated student musicians on campus. Since these students will have advanced technical skills as a prerequisite for the class, the curricular focus will be on artistic and soloistic expression. In addition to full ensemble playing, a great deal of time will be spent in chamber ensembles.",
     "credits": "10 credits/year",
     "schools": ["AHS"],
