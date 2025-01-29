@@ -1923,29 +1923,7 @@ const COURSES = [{
     "prereqs": "None",
     "footnotes": "",
     "courseCode": "73004"
-}, {
-    "description": "This survey course of engineering exposes students to major concepts they’ll encounter in a postsecondary engineering courses of study. Students will employ engineering and scientific concept in the solution of engineering design problems.",
-    "credits": "10 credits/year",
-    "schools": ["AHS", "WHS", "IHS"],
-    "subject": "Science",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "d",
-    "title": "Principles of Engineering",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "73004"
-},  {
-    "description": "This survey course of engineering exposes students to major concepts they’ll encounter in a postsecondary engineering courses of study. Students will employ engineering and scientific concept in the solution of engineering design problems.  The honors curriculum will stress the math components that correspond with the curriculum and has increased performance expectations regarding communication of findings. ",
-    "credits": "10 credits/year",
-    "schools": ["AHS"],
-    "subject": "Career Technical Education",
-    "gradesAvailable": [10, 11, 12],
-    "ucCategory": "d",
-    "title": "Principles of Engineering Honors",
-    "prereqs": "None",
-    "footnotes": "",
-    "courseCode": "73000"
-}, {
+},   {
     "description": "This survey course of engineering exposes students to major concepts they’ll encounter in a postsecondary engineering courses of study. Students will employ engineering and scientific concept in the solution of engineering design problems.",
     "credits": "10 credits/year",
     "schools": ["AHS"],
