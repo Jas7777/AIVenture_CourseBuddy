@@ -1,1 +1,1 @@
-# CourseBuddy
+coursebud.netlify.app
